@@ -1,4 +1,4 @@
-# ☁️ Microsoft Azure Services and Concepts
+# ☁️ Microsoft Azure Services & Concepts
 
 
 ### Azure Data Centres
