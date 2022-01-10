@@ -1,9 +1,6 @@
 # ☁️ Microsoft Azure Services & Concepts
 
-
-### Azure Data Centres
-
-## Regions & Availability Zones
+## Azure Data Centre Regions & Availability Zones
 - Physical Deployment
 - High Availability & Disaster Recovery
 You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created.
@@ -18,7 +15,10 @@ A resource is just a managable item in the cloud:
 + VNETs
 + etc.
 
-A **Resource Group** is a container that hold related resources. Resources share the same lifecycle i.e. deploy, update, delete together.
+> A **Resource Group** is a container that hold related resources.
+
++ Resources share the same lifecycle i.e. deploy, update, delete together
++ Resources can only exist in one Resource Group
 
 ## Azure Resource Manager (ARM)
 - Azure Portal
