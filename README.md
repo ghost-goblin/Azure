@@ -82,7 +82,7 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Azure Container Registry
 + Azure Monitor
 
-## Azure App Service
+## Azure App Services
 + Web Apps
 + API Apps
 + Mobile Apps
