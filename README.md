@@ -52,3 +52,16 @@ These are files written in JavaScript Object Notation (JSON) and defines infrast
 
 ## Azure Advisor
 For optimising your costs
+
+## Azure Compute
+Set of Services
++ On-demand computing power
+1. Virtual Machines
+2. Containers
+3. Azure App Service
+4. Serverless Computing
+
+## Azure Virtual Machines
++ IAAS
++ Full control over the OS
++ Must maintain and patch VM
