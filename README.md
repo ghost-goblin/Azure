@@ -88,3 +88,5 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Mobile Apps
 + Containers
 + WebJobs
+
+## Check out [Secure Azure solutions with Active Directory](activedirectory.md)
