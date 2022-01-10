@@ -75,3 +75,6 @@ Set of Services for on-demand computing power
 4. Azure Container Instances (ACI) [Small scale]
 5. Azure Kubernetes Service (AKS) [Large scale]
 6. Azure App Service
+
+## Azure Kubernetes Service
+A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications. **Pods** are groups of containers with shared storage and network resources.
