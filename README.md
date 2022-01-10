@@ -36,7 +36,7 @@ ARM is used by __ALL__ the tools to manage resources.
 
 ## Resource Manager Templates
 These are files written in JavaScript Object Notation (JSON) and defines infrastructure and configuration for Azure resources.
-+ Declaractive sysntax
++ Declaractive syntax
 + Deployment
 + - Using Azure Pipelines (CI/CD)
 + - From GitHub
