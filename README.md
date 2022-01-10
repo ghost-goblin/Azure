@@ -78,3 +78,6 @@ Set of Services for on-demand computing power
 
 ## Azure Kubernetes Service
 A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications. **Pods** are groups of containers with shared storage and network resources.
++ Nodes are virtual machines in AKS and can leverage VM scale sets
++ Azure Container Registry
++ Azure Monitor
