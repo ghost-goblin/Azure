@@ -51,3 +51,4 @@ These are files written in JavaScript Object Notation (JSON) and defines infrast
 + Included in CI/CD pipelines
 
 ## Azure Advisor
+For optimising your costs
