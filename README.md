@@ -65,3 +65,5 @@ Set of Services
 + IAAS
 + Full control over the OS
 + Must maintain and patch VM
+
+> Virtual Machines virtualise the hardware and Containers virtualise the operating system on a runtime instead of a hypervisor
