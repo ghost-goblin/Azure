@@ -72,8 +72,8 @@ Set of Services for on-demand computing power
 1. Local Workstation
 2. On-premises Servers
 3. VMs in Azure
-4. Azure Container Instances (ACI) [Small scale]
-5. Azure Kubernetes Service (AKS) [Large scale]
+4. Azure Container Instances (ACI) [__Small scale__]
+5. Azure Kubernetes Service (AKS) [__Large scale__]
 6. Azure App Service
 
 ## Azure Kubernetes Service
@@ -86,3 +86,5 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Web Apps
 + API Apps
 + Mobile Apps
++ Containers
++ WebJobs
