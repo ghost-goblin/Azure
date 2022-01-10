@@ -72,3 +72,6 @@ Set of Services for on-demand computing power
 1. Local Workstation
 2. On-premises Servers
 3. VMs in Azure
+4. Azure Container Instances (ACI) [Small scale]
+5. Azure Kubernetes Service (AKS) [Large scale]
+6. Azure App Service
