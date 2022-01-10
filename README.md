@@ -18,7 +18,7 @@ A resource is just a managable item in the cloud:
 + VNETs
 + etc.
 
-A **Resourse Group** is a container that hold related resources. Resources share the same lifecycle i.e. deploy, update, delete together.
+A **Resource Group** is a container that hold related resources. Resources share the same lifecycle i.e. deploy, update, delete together.
 
 ## Azure Resource Manager (ARM)
 - Azure Portal
