@@ -19,6 +19,10 @@ A resource is just a managable item in the cloud:
 
 + Resources share the same lifecycle i.e. deploy, update, delete together
 + Resources can only exist in one Resource Group
++ Resource can communicate across Resource Groups
++ Container for security boundaries
++ Can export IAAS using __Resource Manager Templates__
++ Resources can be in different regions
 
 ## Azure Resource Manager (ARM)
 - Azure Portal
