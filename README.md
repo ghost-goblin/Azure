@@ -81,3 +81,8 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Nodes are virtual machines in AKS and can leverage VM scale sets
 + Azure Container Registry
 + Azure Monitor
+
+## Azure App Service
++ Web Apps
++ API Apps
++ Mobile Apps
