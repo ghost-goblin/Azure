@@ -15,7 +15,7 @@ A resource is just a managable item in the cloud:
 + VNETs
 + etc.
 
-> A **Resource Group** is a container that hold related resources.
+### A **Resource Group** is a container that hold related resources.
 
 + Resources share the same lifecycle i.e. deploy, update, delete together
 + Resources can only exist in one Resource Group
