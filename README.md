@@ -54,8 +54,7 @@ These are files written in JavaScript Object Notation (JSON) and defines infrast
 For optimising your costs
 
 ## Azure Compute
-Set of Services
-+ On-demand computing power
+Set of Services for on-demand computing power
 1. Virtual Machines
 2. Containers
 3. Azure App Service
