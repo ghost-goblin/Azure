@@ -66,4 +66,10 @@ Set of Services
 + Full control over the OS
 + Must maintain and patch VM
 
+## Containers
 > Virtual Machines virtualise the hardware while containers virtualise the operating system on a runtime instead of a hypervisor
+
+### Hosting options for Containers:
+1. Local Workstation
+2. On-premises Servers
+3. VMs in Azure
