@@ -65,7 +65,7 @@ Set of Services for on-demand computing power
 + Full control over the OS
 + Must maintain and patch VM
 
-## Containers
+## 🐋 Containers
 > Virtual Machines virtualise the hardware while containers virtualise the operating system on a runtime instead of a hypervisor
 
 ### Hosting options for Containers:
