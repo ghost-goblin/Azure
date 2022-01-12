@@ -89,4 +89,10 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Containers
 + WebJobs
 
-## Check out [Secure Azure solutions with Active Directory](activedirectory.md)
+> Check out [Secure Azure solutions with Active Directory](activedirectory.md)
+
+## Serverless Compute
+Focus on the code and business logic
++ **Azure Functions** allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
++ **Azure Logic Apps** design workflows in the Azure Portal and you can call Azure Functions if needed
++ **Azure Event Grid** connects data sources and event handlers
