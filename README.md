@@ -1,7 +1,6 @@
 # ☁️ Microsoft Azure Services & Concepts
 
-1. [Microsoft AZ-500: Microsoft Azure Security Technologies](az-500.md)
-2. [Secure Azure solutions with Active Directory](activedirectory.md)
+[Microsoft AZ-500: Microsoft Azure Security Technologies](az-500.md)
 
 ## Azure Data Centre Regions & Availability Zones
 - Physical Deployment
