@@ -1,5 +1,8 @@
 # ☁️ Microsoft Azure Services & Concepts
 
+1. [Microsoft AZ-500: Microsoft Azure Security Technologies](az-500.md)
+2. [Secure Azure solutions with Active Directory](activedirectory.md)
+
 ## Azure Data Centre Regions & Availability Zones
 - Physical Deployment
 - High Availability & Disaster Recovery
@@ -89,14 +92,8 @@ A container management system that runs in the cloud, can scale, monitor and dep
 + Containers
 + WebJobs
 
-> Check out [Secure Azure solutions with Active Directory](activedirectory.md)
-
 ## Serverless Compute
 Focus on the code and business logic
 + **Azure Functions** allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
 + **Azure Logic Apps** design workflows in the Azure Portal and you can call Azure Functions if needed
 + **Azure Event Grid** connects data sources and event handlers
-
-
-
-> [Microsoft AZ-500: Microsoft Azure Security Technologies](az-500.md)
