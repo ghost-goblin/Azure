@@ -96,3 +96,7 @@ Focus on the code and business logic
 + **Azure Functions** allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
 + **Azure Logic Apps** design workflows in the Azure Portal and you can call Azure Functions if needed
 + **Azure Event Grid** connects data sources and event handlers
+
+
+
+> [Microsoft AZ-500: Microsoft Azure Security Technologies](az-500.md)
