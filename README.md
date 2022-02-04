@@ -96,3 +96,24 @@ Focus on the code and business logic
 + **Azure Functions** allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
 + **Azure Logic Apps** design workflows in the Azure Portal and you can call Azure Functions if needed
 + **Azure Event Grid** connects data sources and event handlers
+
+# Data Storage in Azure
+- Automated backup & recovery
+- Replication across the world
+- Encryption options
+- Security & platform integration
+- Development features & support (APIs)
+
+# Types of Data
+1. Structured/Relational Data
++ Azure SQL Database
++ Azure Database for MySQL
++ Azure Database for PostgreSQL
+
+2. Unstructured Data 
++ Azure Blob Storage
++ Azure File Storage
++ Azure Disk Storage
+
+3. Semi-structured Data (Non-Relational/NoSQL)
++ Cosmos DB
