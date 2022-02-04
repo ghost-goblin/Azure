@@ -112,7 +112,7 @@ Focus on the code and business logic
 
 2. Unstructured Data 
 + Azure Blob Storage
-+ Azure File Storage
++ Azure File Storage (supports SMB protocol)
 + Azure Disk Storage
 
 3. Semi-structured Data (Non-Relational/NoSQL)
