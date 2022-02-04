@@ -134,3 +134,9 @@ Focus on the code and business logic
 + Single database or Elastic Pool
 + Automatic scaling
 + Service tiers for different workloads
+
+3. Azure SQL Managed Instance 
++ Broadset of SQL Server capabilities
++ Benefits of managed platform
++ Deploy VM onto your own VNET
++ Lift-and-shift with minimal changes
