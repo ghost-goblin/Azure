@@ -117,6 +117,14 @@ Focus on the code and business logic
 
 3. Semi-structured Data (Non-Relational/NoSQL)
 + Cosmos DB
+  - Retail Applications
+    + Attributes can vary & change over time
+    + Flexible schema
+  - Gaming Applications
+    + Millions of simiultaneous updates
+    + Millisecond reads
+  - Social Media Applications
+    + Flexible data schemas needed for user generated content
 
 # SQL Server
 1. Host SQL Server on Virtual Machines
