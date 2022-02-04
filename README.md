@@ -158,3 +158,8 @@ Focus on the code and business logic
 + Benefits of managed platform
 + Deploy VM onto your own VNET
 + Lift-and-shift with minimal changes
+
+# Authorization to Data
++ RBAC in Azure AD
++ Srorage Account Keys
++ Shared Access Signatures
