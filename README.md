@@ -166,10 +166,22 @@ Focus on the code and business logic
 
 ```ps1
 ### Working with roles
+Connect-AzureAD
 Get-AzureADDirectoryRole
 $CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
 Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 
 ### Get a list of all Roles
 Get-AzureADDirectoryRoleTemplate
+```
+# Managing Users with PowerShell
+```ps1
+Connect-AzureAD #sign in
+$domain = "domain.onmicrosoft.com"
+$passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password = "p@ssword1"
+
+### Get the existing user
+Get-AzureADUser -SearchString "PA"
+Get-AzureADUser -Filter "State eq 'PA'"
 ```
