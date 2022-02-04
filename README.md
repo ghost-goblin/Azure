@@ -169,4 +169,7 @@ Focus on the code and business logic
 Get-AzureADDirectoryRole
 $CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
 Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
+
+### Get a list of all Roles
+Get-AzureADDirectoryRoleTemplate
 ```
