@@ -182,6 +182,26 @@ $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordPro
 $PasswordProfile.Password = "p@ssword1"
 
 ### Get the existing user
-Get-AzureADUser -SearchString "PA"
-Get-AzureADUser -Filter "State eq 'PA'"
+Get-AzureADUser -SearchString "PE"
+Get-AzureADUser -Filter "State eq 'PE'"
+
+### Create a new user storing all the parameters in a hash table
+$user = @{
+  City = "Pennsylvania"
+  Country = "United States"
+  DisplayName = "Michael Scott"
+  JobTitle = "Regional Manager"
+  UserPrincipalName = mscott@domain
+  PasswordProfile = $PasswordProfile
+  PostalCode = "19001"
+  State = "PE"
+  Street Address = "Dunder Mifflin Paper Company, Inc."
+  Surname = "Scott"
+  TelephoneNumber = "215-867-5309"
+  AccountEnabled = $true
+  UsageLocation = "US"
+}
+
+### pass the hash table of parameters
+$newUser = New-AzureADUser @user
 ```
