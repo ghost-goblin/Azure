@@ -125,6 +125,16 @@ Focus on the code and business logic
     + Millisecond reads
   - Social Media Applications
     + Flexible data schemas needed for user generated content
++ Elastically scale throughput and storage across any number of Azure regions
++ Add/remove regions easily
++ Backed by SSD storage
++ Consistency options to ensure distributed data is updated
+#### Cosmos DB APIs
+- SQL API
+- Cassandra
+- Mongo DB
+- Gremlin
+- Azure Table Storage
 
 # SQL Server
 1. Host SQL Server on Virtual Machines
