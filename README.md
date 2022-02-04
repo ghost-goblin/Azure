@@ -116,7 +116,7 @@ Focus on the code and business logic
 + Azure Disk Storage
 
 3. Semi-structured Data (Non-Relational/NoSQL)
-+ Cosmos DB
+### Cosmos DB
   - Retail Applications
     + Attributes can vary & change over time
     + Flexible schema
