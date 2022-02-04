@@ -205,3 +205,21 @@ $user = @{
 ### pass the hash table of parameters
 $newUser = New-AzureADUser @user
 ```
+# Creating & Managing Groups with PowerShell 
+```ps1
+$group = Get-AzureADGroup -SearchString "Information Technology"
+### Get all the members &  the owner
+Get-AzureADGroupOwner -ObjectId $group.ObjectId
+
+### Create a new group hash table
+$group = @{
+  DisplayName = "Marketing Group"
+  MailEnabled = $false
+  MailNickName = "MarketingGroup"
+  SecurityEnabled = $true
+}
+$newGroup = New-AzureADGroup @group
+
+### Update the group description
+Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
+```
