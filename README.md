@@ -117,3 +117,20 @@ Focus on the code and business logic
 
 3. Semi-structured Data (Non-Relational/NoSQL)
 + Cosmos DB
+
+# SQL Server
+1. Host SQL Server on Virtual Machines
++ Full control over the SQL Server
++ Can provision from the Azure Marketplace
++ Flexible pricing oprions
++ Automated updated scheduling
++ Managed Backup to Azure
+
+2. Azure SQL Databade (fully managed PAAS in the cloud)
++ Always running the latest version of SQL Server
++ Flexible pricing model
+  - Vcores
+  - DTU's
++ Single database or Elastic Pool
++ Automatic scaling
++ Service tiers for different workloads
