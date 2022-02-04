@@ -163,3 +163,10 @@ Focus on the code and business logic
 + RBAC in Azure AD
 + Srorage Account Keys
 + Shared Access Signatures
+
+```ps1
+### Working with roles
+Get-AzureADDirectoryRole
+$CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
+Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
+```
