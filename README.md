@@ -144,7 +144,7 @@ Focus on the code and business logic
 + Automated updated scheduling
 + Managed Backup to Azure
 
-2. Azure SQL Databade (fully managed PAAS in the cloud)
+2. Azure SQL Database (fully managed PAAS in the cloud)
 + Always running the latest version of SQL Server
 + Flexible pricing model
   - Vcores
