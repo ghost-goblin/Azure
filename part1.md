@@ -1,8 +1,7 @@
-# Microsoft AZ-500: Microsoft Azure Security Technologies
-## Manage identity and access (30-35%)
-### Manage Identity and Access
+# Manage identity and access (30-35%)
+## Manage Identity and Access
 
-#### 🧑‍🤝‍🧑 Azure Active Directory
+### 🧑‍🤝‍🧑 Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -20,7 +19,7 @@ Connect-AzureAD -Credential $AzureADCredentials
 
 Get-Command -Module AzureAD
 ```
-#### Authorization to Data
+### Authorization to Data
 + RBAC in Azure AD
 + Srorage Account Keys
 + Shared Access Signatures
@@ -35,7 +34,7 @@ Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 ### Get a list of all Roles
 Get-AzureADDirectoryRoleTemplate
 ```
-#### Managing Users with PowerShell
+### Managing Users with PowerShell
 ```ps1
 Connect-AzureAD #sign in
 $domain = "domain.onmicrosoft.com"
@@ -66,7 +65,7 @@ $user = @{
 ### pass the hash table of parameters
 $newUser = New-AzureADUser @user
 ```
-#### Creating & Managing Groups with PowerShell 
+### Creating & Managing Groups with PowerShell 
 ```ps1
 $group = Get-AzureADGroup -SearchString "Information Technology"
 ### Get all the members &  the owner
@@ -84,7 +83,7 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
-#### Configure Azure Active Directoty Identities
+### Configure Azure Active Directoty Identities
 + The **synchronized identity** model is the most common (SSO)
 + Azure AD Connect and **password writeback** facilitate this model
 + Password writeback is required for **AAD self-service password reset**
@@ -92,7 +91,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Two types of auth for service pricipals: **secret** or **certificate**
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 
-#### Configure Secure Access using Azure AD
+### Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
 + Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
