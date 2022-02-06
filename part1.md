@@ -7,6 +7,14 @@
 + Uses HTTPS queries instead of LDAP
 + Has a flat structure i.e. no GPOs / OUs
 
+### Configure Azure Active Directoty Identities
++ The **synchronized identity** model is the most common (SSO)
++ Azure AD Connect and **password writeback** facilitate this model
++ Password writeback is required for **AAD self-service password reset**
++ **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
++ Two types of auth for service pricipals: **secret** or **certificate**
++ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
+
 ```ps1
 Find-Module AzureAD
 Install-Module AzureAD
@@ -83,13 +91,6 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
-### Configure Azure Active Directoty Identities
-+ The **synchronized identity** model is the most common (SSO)
-+ Azure AD Connect and **password writeback** facilitate this model
-+ Password writeback is required for **AAD self-service password reset**
-+ **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
-+ Two types of auth for service pricipals: **secret** or **certificate**
-+ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 
 ### Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
