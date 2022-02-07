@@ -109,7 +109,14 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Know what Identity Protection brings to Conditional Access (_sign-in risk_)
 + Know licencing required for AD Identity Protection
 
+#### Azure AD Hybrid Join
++ Azure AD Connect
++ Access to external URLs
++ Configure SCP (Service Connection Point) internally
++ Configure Active Directory Federation Service (ADFS) if required
+
 ### Manage Applicaion Access
+
 ### Manage Access Control
 
 ## Implement Platform Protection
