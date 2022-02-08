@@ -125,8 +125,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - Available on select SaaS apps
 
 ### Manage Access Control
-+ Conditional Access Policies
-If [something] => Do [something]
++ Conditional Access Policies - if [something] => Do [something]
 
 ## Implement Platform Protection
 
