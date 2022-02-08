@@ -198,7 +198,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 
 #### STEP 1
 ##### Create Identity
-Cretae system-assigned or user-assigned identity for your client service
+Create system-assigned or user-assigned identity for your client service
 
 #### STEP 2
 ##### Give Permission
@@ -211,3 +211,11 @@ In the target Azure service, assign permissions to the client identity
 + Azure Blueprints
 + Azure Container Instances
 + Azure API Management
+
+### Azure Services that support Azure AD Authentication
++ Azure Key Vault
++ Azure AQL
++ Azure Service Bus
++ Azure Storage (Blobs & Queues)
++ Azure Event Hubs
++ Azure Analysis Services
