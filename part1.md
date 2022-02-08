@@ -145,3 +145,4 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 ## Manage Security Operations
 
 ## Secure Data & Applications
+### Configuring TLS/SSL Certificates
