@@ -195,3 +195,19 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Might be in preview for some resources
 
 ### Configure Managed Service Identities (MSI) for Microsoft Azure Resources
+
+#### STEP 1
+##### Create Identity
+Cretae system-assigned or user-assigned identity for your client service
+
+#### STEP 2
+##### Give Permission
+In the target Azure service, assign permissions to the client identity
+
+### Azure Services that support Managed Identities for Azure Resources
++ Azure Virtual Machines
++ Azure VM Scale Sets
++ Azure App Service, Functions, Logic Apps
++ Azure Blueprints
++ Azure Container Instances
++ Azure API Management
