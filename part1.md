@@ -166,14 +166,30 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - **IP Based SSL** _(A single certificate for an ip)_
   - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
 
-### Configurig Managed Service Identities (MSI) for Microsoft Azure Resources
+### Configure Managed Service Identities (MSI) for Microsoft Azure Resources
 #### Credentials in Code
 + Keeping service credentials in application configuartion is not secure
 + Credentials can get checked into source control or the configuration file can get compromised
-+ **Azure Key Vault** is more secure but the code still needs to use AAD credentials to login to KV
++ **Azure Key Vault** is more secure but the code still needs to use Azure Active Directory credentials to login to Key Vault
 + Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
 
 > Our goal is to remove Azure service credentials from code without breaking the functionality
 
 #### Managed Service Identities for Azure Services
-Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code.
++ A service of AAD (Azure Active Directory)
++ Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
++ Provides **authentication** NOT authorizaton
++ The new name for the service formerly known as **Managed Service Identity** (MSI)
+
+### Types of Managed Identities
+1. System-Assigned
++ Enable directly on an Azure service instance
++ One per each Azure service instanc
++ Gets cleaned up if Azure services instance is deleted
++ Widely supported by Azure resources
+
+2. User-Assigned
++ Created as standalone Azure resource
++ Can be assigned to one or more Azure service instances
++ Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
++ Might be in preview for some resources
