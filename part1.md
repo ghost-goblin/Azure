@@ -116,6 +116,13 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Configure Active Directory Federation Service (ADFS) if required
 
 ### Manage Applicaion Access
++ Azure AD IDaaS (Identity as a Service)
++ Application types
+  - Trhird-party or internal
+  - Pre-integrated or proxied
++ Automated user provisioning and access
+  - SCIM 2.0 (provides a way for an application to talk to Azure AD)
+  - Available on select SaaS apps
 
 ### Manage Access Control
 
