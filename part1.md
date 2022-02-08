@@ -158,3 +158,4 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 > SSL/TLS certificates can vbe purchased from trusted authorities. They establish the authenticity of the certificates.
 
 + In HTTPS, the communication is encrypted using TLS (formerly SSL)
++ To use SSL with custom domains, you need to buy and configure a SSL certificate
