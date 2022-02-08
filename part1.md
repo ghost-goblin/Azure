@@ -130,15 +130,15 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - Users & Groups
   - Cloud Apps
   - Sign-in Risk
-  - Devvice Platform & State
+  - Device Platform & State
   - Location
   - Client Apps
 #### Controls
   - MFA
-  - Compliant Dveice
+  - Compliant Device
   - Approved Client App
-  - Terms of USe
-  - Custom & Sesseion Controls
+  - Terms of Use
+  - Custom & Session Controls
 
 ## Implement Platform Protection
 
