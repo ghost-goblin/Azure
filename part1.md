@@ -159,3 +159,6 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 
 + In HTTPS, the communication is encrypted using TLS (formerly SSL)
 + To use SSL with custom domains, you need to buy and configure a SSL certificate
++ The SSL certificate will be stotred in Azure Key Vault
++ To bind a custom SSL certifictae, your App Service plan must be in Basic, Standard, Premium, or Isolated Tier
++ You need to prove the ownership of the custom domain
