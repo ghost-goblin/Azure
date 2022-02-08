@@ -1,7 +1,7 @@
 # Manage identity and access (30-35%)
-## Manage Identity and Access
+## 🧑‍🤝‍🧑 Manage Identity and Access
 
-### 🧑‍🤝‍🧑 Azure Active Directory
+### Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -125,7 +125,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - Available on select SaaS apps
 
 ### Manage Access Control
-+ Conditional Access Policies (if [something] => do [something])
+#### Conditional Access Policies (if [something] => do [something])
 #### Conditions
   - Users & Groups
   - Cloud Apps
@@ -140,9 +140,9 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - Terms of Use
   - Custom & Session Controls
 
-## Implement Platform Protection
+## 🛡️ Implement Platform Protection
 
-## Manage Security Operations
+## 🗡️ Manage Security Operations
 
-## Secure Data & Applications
+## 🔒 Secure Data & Applications
 ### Configuring TLS/SSL Certificates
