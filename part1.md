@@ -167,3 +167,10 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
 
 ### Configurig Managed Service Identities (MSI) for Microsoft Azure Resources
+#### Credentials in Code
++ Keeping service credentials in application configuartion is not secure
++ Credentials can get checked into source control or the configuration file can get compromised
++ **Azure Key Vault** is more secure but the code still needs to use AAD credentials to login to KV
++ Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
+
+> Our goal is to remove Azure service credentials from code without breaking the functionality
