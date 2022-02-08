@@ -147,3 +147,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 ## 🔒 Secure Data & Applications
 ### Configuring TLS/SSL Certificates
 + Protocols that are used to secure communication between different machines
++ If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
++ The private key never leaves the server and will always stay on the certificate owner's machine
++ If any client wishes to communuicate withe the server, the client will use their public key to encrypt their request
++ The server processes the request and generates a response, encrypts the respinse using the private key and sends it back to the client
