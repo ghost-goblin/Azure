@@ -154,3 +154,5 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + TLS provides privacy and data integrity between communicating applications by encrypting the payload
 + The public key is packaged into the SSL certificate and shared with clients (i.e. web browsers)
   - SSL protocol is depreciated, **TLS** (Transport Layer Security) has replaced it
+
+> SSL/TLS certificates can vbe purchased from trusted authorities. They establish the authenticity of the certificates.
