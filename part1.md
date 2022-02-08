@@ -164,4 +164,4 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + You need to prove the ownership of the custom domain and add a CNAME record
 + Bind the hostname and the certificate in SSL Bindings
   - **IP Based SSL** _(A single certificate for an ip)_
-  - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then resurn the corresponding certificate)_
+  - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
