@@ -174,3 +174,6 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
 
 > Our goal is to remove Azure service credentials from code without breaking the functionality
+
+#### Managed Service Identities for Azure Services
+Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code.
