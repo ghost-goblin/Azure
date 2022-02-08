@@ -118,7 +118,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 ### Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
 + Application types
-  - Trhird-party or internal
+  - Third-party or internal
   - Pre-integrated or proxied
 + Automated user provisioning and access
   - SCIM 2.0 (provides a way for an application to talk to Azure AD)
