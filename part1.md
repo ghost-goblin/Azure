@@ -214,7 +214,7 @@ In the target Azure service, assign permissions to the client identity
 
 ### Azure Services that support Azure AD Authentication
 + Azure Key Vault
-+ Azure AQL
++ Azure SQL
 + Azure Service Bus
 + Azure Storage (Blobs & Queues)
 + Azure Event Hubs
