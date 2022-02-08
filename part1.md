@@ -146,3 +146,4 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 
 ## 🔒 Secure Data & Applications
 ### Configuring TLS/SSL Certificates
++ Protocols that are used to secure communication between different machines
