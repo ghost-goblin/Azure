@@ -7,6 +7,16 @@
 + Uses HTTPS queries instead of LDAP
 + Has a flat structure i.e. no GPOs / OUs
 
+### Azure AD User Types
++ Cloud Identities
+  - Local Azure AD
+  - External Azure AD
++ Hybrid Identities
+  - Directory-synchronized
++ Guest Identities
+  - Azure AD B2B Collaboration
+  - External Identities
+
 ### Configure Azure Active Directoty Identities
 + The **synchronized identity** model is the most common (SSO)
 + Azure AD Connect and **password writeback** facilitate this model
