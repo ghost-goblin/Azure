@@ -204,7 +204,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   - **IP Based SSL** _(A single certificate for an ip)_
   - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
 
-### Managed Identities
+### 👷 Managed Identities
 #### Credentials in Code
 + Keeping service credentials in application configuartion is not secure
 + Credentials can get checked into source control or the configuration file can get compromised
