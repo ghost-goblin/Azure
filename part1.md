@@ -42,9 +42,9 @@
 + Security
 + Microsoft 365
 + Owners
-+ Assigned membership
-+ Dynamic membership
-+ Group-assigned roles and licenses
++ Assigned Membership
++ Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
++ Group-Assigned Roles & Licenses
 
 ```ps1
 Find-Module AzureAD
