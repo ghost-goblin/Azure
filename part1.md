@@ -38,6 +38,14 @@
 + Two types of auth for service pricipals: **secret** or **certificate**
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 
+### Azure AD Groups
++ Security
++ Microsoft 365
++ Owners
++ Assigned membership
++ Dynamic membership
++ Group-assigned roles and licenses
+
 ```ps1
 Find-Module AzureAD
 Install-Module AzureAD
@@ -132,6 +140,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Know what Identity Protection brings to Conditional Access (_sign-in risk_)
 + Know licencing required for AD Identity Protection
 
+### Azure AD Domain Services Intergration
 #### Azure AD Hybrid Join
 + Azure AD Connect
 + Access to external URLs
