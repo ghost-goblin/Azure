@@ -205,6 +205,14 @@ In the target Azure service, assign permissions to the client identity
 + Access to external URLs
 + Configure SCP (Service Connection Point) internally
 + Configure Active Directory Federation Service (ADFS) if required
+1. **Password Hash Synchronization** (PHS)
+  - TCP 443 traffic (no VPN)
+  - Hash of a hash passwords in the cloud
+  - If channel fails, sign-in works
+2. **Pass-through Authentication** (PTA)
+  - Does not store any password hashes
+  - Authenticating the user account locally
+  - If channel fails, sign-in fails
 
 ### Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
