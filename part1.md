@@ -220,13 +220,13 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + The new name for the service formerly known as **Managed Service Identity** (MSI)
 
 ### Types of Managed Identities
-1. System-Assigned
+1. **System-Assigned**
 + Enable directly on an Azure service instance
-+ One per each Azure service instanc
++ One per each Azure service instance
 + Gets cleaned up if Azure services instance is deleted
 + Widely supported by Azure resources
 
-2. User-Assigned
+2. **User-Assigned**
 + Created as standalone Azure resource
 + Can be assigned to one or more Azure service instances
 + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
