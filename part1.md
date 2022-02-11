@@ -199,8 +199,8 @@ In the target Azure service, assign permissions to the client identity
 + Know what Identity Protection brings to Conditional Access (_sign-in risk_)
 + Know licencing required for AD Identity Protection
 
-### Azure AD Domain Services Intergration
-#### Azure AD Hybrid Join
+## ✔️ Azure AD Domain Services Intergration
+### Azure AD Hybrid Join
 + Azure AD Connect
 + Access to external URLs
 + Configure SCP (Service Connection Point) internally
