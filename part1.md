@@ -17,6 +17,14 @@
   - Azure AD B2B Collaboration
   - External Identities
 
+### Azure AD Security Options
+1. Self-Service Password Reset (SSPR)
++ Reduces support desk password change issues
++ Azure AD Premium P1 license required
++ Direct users to Registration URL: [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)
+
+2. Multi-Factor Authentication
+
 ### Configure Azure Active Directoty Identities
 + The **synchronized identity** model is the most common (SSO)
 + Azure AD Connect and **password writeback** facilitate this model
