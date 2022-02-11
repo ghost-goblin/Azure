@@ -128,7 +128,7 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
-### 👷 Managed Identities
+## 👷 Managed Identities
 #### Credentials in Code
 + Keeping service credentials in application configuartion is not secure
 + Credentials can get checked into source control or the configuration file can get compromised
