@@ -38,7 +38,7 @@
 + Two types of auth for service pricipals: **secret** or **certificate**
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 
-### Azure AD Groups
+## 👪 Azure AD Groups
 + Security
 + Microsoft 365
 + Owners
@@ -58,6 +58,12 @@ Connect-AzureAD -Credential $AzureADCredentials
 
 Get-Command -Module AzureAD
 ```
+
+### Administrative Units
++ Azure AD user and group container analogous to organizational units (OU) in local Active Directory
++ Locally organise your Azure AD users
++ Delegate administrative permissions
+
 ### Authorization to Data
 + RBAC in Azure AD
 + Srorage Account Keys
