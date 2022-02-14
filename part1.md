@@ -1,4 +1,35 @@
 # Manage identity and access (30-35%)
+
+## Manage Azure Active Directory (Azure AD) identities
++ create and manage a managed identity for Azure resources
++ manage Azure AD groups
++ manage Azure AD users
++ manage external identities by using Azure AD
++ manage administrative units
+
+## Manage secure access by using Azure AD
++ configure Azure AD Privileged Identity Management (PIM)
++ implement Conditional Access policies, including multifactor authentication
++ implement Azure AD Identity Protection
++ implement passwordless authentication
++ configure access reviews
+
+## Manage application access
++ integrate single sign-on (SSO) and identity providers for authentication
++ create an app registration
++ configure app registration permission scopes
++ manage app registration permission consent
++ manage API permissions to Azure subscriptions and resources
++ configure an authentication method for a service principal
+
+## Manage access control
++ configure Azure role permissions for management groups, subscriptions, resource groups, and resources
++ interpret role and resource permissions
++ assign built-in Azure AD roles
++ create and assign custom roles, including Azure roles and Azure AD roles
+
+- - -
+
 ## 🧑‍🤝‍🧑 Manage Identity and Access
 
 ### Azure Active Directory
