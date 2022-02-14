@@ -1,4 +1,4 @@
-# Manage identity and access (30-35%)
+# Manage Identity & Access (30-35%)
 
 ## Manage Azure Active Directory (Azure AD) identities
 + create and manage a managed identity for Azure resources
