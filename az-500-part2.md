@@ -1,4 +1,5 @@
-# Implement platform protection (15-20%)
+# 🛡️ Implement platform protection (15-20%)
+
 ## Implement advanced network security
 + secure the connectivity of hybrid networks
 + secure the connectivity of virtual networks
