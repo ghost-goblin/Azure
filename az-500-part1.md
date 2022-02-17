@@ -10,10 +10,31 @@
     + **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
     + Two types of auth for service pricipals: **secret** or **certificate**
     + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
+        #### Managed Service Identities for Azure Services
+        + A service of AAD (Azure Active Directory)
+        + Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
+        + Provides **authentication** NOT authorizaton
+        + The new name for the service formerly known as **Managed Service Identity** (MSI)
+
+        ### Types of Managed Identities
+        1. **System-Assigned**
+        + Enable directly on an Azure service instance
+        + One per each Azure service instance
+        + Gets cleaned up if Azure services instance is deleted
+        + Widely supported by Azure resources
+
+        2. **User-Assigned**
+        + Created as standalone Azure resource
+        + Can be assigned to one or more Azure service instances
+        + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
+        + Might be in preview for some resources
 + manage Azure AD groups
 + manage Azure AD users
 + manage external identities by using Azure AD
 + manage administrative units
+    + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
+    + Locally organise your Azure AD users
+    + Delegate administrative permissions
 
 ## Manage secure access by using Azure AD
 + configure Azure AD Privileged Identity Management (PIM)
@@ -88,11 +109,6 @@ Connect-AzureAD -Credential $AzureADCredentials
 Get-Command -Module AzureAD
 ```
 
-### Administrative Units
-+ Azure AD user and group container analogous to organizational units (OU) in local Active Directory
-+ Locally organise your Azure AD users
-+ Delegate administrative permissions
-
 ### Authorization to Data
 + RBAC in Azure AD
 + Srorage Account Keys
@@ -165,25 +181,6 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 + Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
 
 > Our goal is to remove Azure service credentials from code without breaking the functionality
-
-#### Managed Service Identities for Azure Services
-+ A service of AAD (Azure Active Directory)
-+ Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
-+ Provides **authentication** NOT authorizaton
-+ The new name for the service formerly known as **Managed Service Identity** (MSI)
-
-### Types of Managed Identities
-1. **System-Assigned**
-+ Enable directly on an Azure service instance
-+ One per each Azure service instance
-+ Gets cleaned up if Azure services instance is deleted
-+ Widely supported by Azure resources
-
-2. **User-Assigned**
-+ Created as standalone Azure resource
-+ Can be assigned to one or more Azure service instances
-+ Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
-+ Might be in preview for some resources
 
 ### Configure Managed Service Identities (MSI) for Microsoft Azure Resources
 
