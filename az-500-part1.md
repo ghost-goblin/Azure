@@ -28,6 +28,9 @@
 + Can be assigned to one or more Azure service instances
 + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
 + Might be in preview for some resources
+
+- - -
+
 ### manage Azure AD groups
 + Security
 + Microsoft 365
@@ -78,6 +81,9 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
+
+- - -
+
 ### manage Azure AD users
 #### 🧑‍🤝‍🧑 Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
@@ -131,6 +137,8 @@ $newUser = New-AzureADUser @user
 + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
 + Locally organise your Azure AD users
 + Delegate administrative permissions
+
+- - -
 
 ### configure Azure AD Privileged Identity Management (PIM)
 #### 🔐 Configure Secure Access using Azure AD
