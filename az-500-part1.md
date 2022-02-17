@@ -162,8 +162,7 @@ $newUser = New-AzureADUser @user
 
 - - -
 
-## 🔧 Implement Conditional Access policies, including multifactor authentication
-#### Manage Access Control
+## Implement Conditional Access policies, including multifactor authentication
 ##### Conditional Access Policies (if [something] => do [something])
 ##### Conditions
   - Users & Groups
