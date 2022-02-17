@@ -8,7 +8,10 @@
     - High Availability
     - Unrescrticted scalability
 + create and configure Azure Firewall Manager
-+ create and configure Azure Application Gateway
++ create and configure **Azure Application Gateway**
+    - Web traffic load balancer
+    - Routes traffic at **OSI Layer 7**
+    - Can route traffic based on the URL
 + create and configure Azure Front Door
 + create and configure Web Application Firewall (WAF)
 + configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
