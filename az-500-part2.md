@@ -3,10 +3,10 @@
 + secure the connectivity of hybrid networks
 + secure the connectivity of virtual networks
 + create and configure **Azure Firewall**
- - Managed network security service that protects your Azure network resources
- - Full stateful
- - High Availability
- - Unrescrticted scalability
+    - Managed network security service that protects your Azure network resources
+    - Full stateful
+    - High Availability
+    - Unrescrticted scalability
 + create and configure Azure Firewall Manager
 + create and configure Azure Application Gateway
 + create and configure Azure Front Door
