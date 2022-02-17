@@ -4,170 +4,170 @@
 
 ## Manage Azure Active Directory (Azure AD) identities
 ### create and manage a managed identity for Azure resources
-    + The **synchronized identity** model is the most common (SSO)
-    + Azure AD Connect and **password writeback** facilitate this model
-    + Password writeback is required for **AAD self-service password reset**
-    + **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
-    + Two types of auth for service pricipals: **secret** or **certificate**
-    + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
-    #### Managed Service Identities for Azure Services
-    + A service of AAD (Azure Active Directory)
-    + Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
-    + Provides **authentication** NOT authorizaton
-    + The new name for the service formerly known as **Managed Service Identity** (MSI)
++ The **synchronized identity** model is the most common (SSO)
++ Azure AD Connect and **password writeback** facilitate this model
++ Password writeback is required for **AAD self-service password reset**
++ **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
++ Two types of auth for service pricipals: **secret** or **certificate**
++ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
+#### Managed Service Identities for Azure Services
++ A service of AAD (Azure Active Directory)
++ Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
++ Provides **authentication** NOT authorizaton
++ The new name for the service formerly known as **Managed Service Identity** (MSI)
 
-    #### Types of Managed Identities
-    1. **System-Assigned**
-    + Enable directly on an Azure service instance
-    + One per each Azure service instance
-    + Gets cleaned up if Azure services instance is deleted
-    + Widely supported by Azure resources
+#### Types of Managed Identities
+1. **System-Assigned**
++ Enable directly on an Azure service instance
++ One per each Azure service instance
++ Gets cleaned up if Azure services instance is deleted
++ Widely supported by Azure resources
 
-    2. **User-Assigned**
-    + Created as standalone Azure resource
-    + Can be assigned to one or more Azure service instances
-    + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
-    + Might be in preview for some resources
+2. **User-Assigned**
++ Created as standalone Azure resource
++ Can be assigned to one or more Azure service instances
++ Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
++ Might be in preview for some resources
 ### manage Azure AD groups
-    + Security
-    + Microsoft 365
-    + Owners
-    + Assigned Membership
-    + Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
-    + Group-Assigned Roles & Licenses
++ Security
++ Microsoft 365
++ Owners
++ Assigned Membership
++ Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
++ Group-Assigned Roles & Licenses
 
-    ```ps1
-    Find-Module AzureAD
-    Install-Module AzureAD
-    Import-Module -Name AzureAD
+```ps1
+Find-Module AzureAD
+Install-Module AzureAD
+Import-Module -Name AzureAD
 
-    ### Get credentials to connect
-    $AzureADCredentials = Get-Credential -Message "Login to Azure AD"
-    ### Connect to tenant
-    Connect-AzureAD -Credential $AzureADCredentials
+### Get credentials to connect
+$AzureADCredentials = Get-Credential -Message "Login to Azure AD"
+### Connect to tenant
+Connect-AzureAD -Credential $AzureADCredentials
 
-    Get-Command -Module AzureAD
-    ```
+Get-Command -Module AzureAD
+```
 
-    ```ps1
-    ### Working with roles
-    Connect-AzureAD
-    Get-AzureADDirectoryRole
-    $CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
-    Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
+```ps1
+### Working with roles
+Connect-AzureAD
+Get-AzureADDirectoryRole
+$CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
+Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 
-    ### Get a list of all Roles
-    Get-AzureADDirectoryRoleTemplate
-    ```
-    ### Creating & Managing Groups with PowerShell 
+### Get a list of all Roles
+Get-AzureADDirectoryRoleTemplate
+```
+### Creating & Managing Groups with PowerShell 
 
-    ```ps1
-    $group = Get-AzureADGroup -SearchString "Information Technology"
-    ### Get all the members &  the owner
-    Get-AzureADGroupOwner -ObjectId $group.ObjectId
+```ps1
+$group = Get-AzureADGroup -SearchString "Information Technology"
+### Get all the members &  the owner
+Get-AzureADGroupOwner -ObjectId $group.ObjectId
 
-    ### Create a new group hash table
-    $group = @{
-      DisplayName = "Marketing Group"
-      MailEnabled = $false
-      MailNickName = "MarketingGroup"
-      SecurityEnabled = $true
-    }
-    $newGroup = New-AzureADGroup @group
+### Create a new group hash table
+$group = @{
+  DisplayName = "Marketing Group"
+  MailEnabled = $false
+  MailNickName = "MarketingGroup"
+  SecurityEnabled = $true
+}
+$newGroup = New-AzureADGroup @group
 
-    ### Update the group description
-    Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
-    ```
+### Update the group description
+Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
+```
 ### manage Azure AD users
-    #### 🧑‍🤝‍🧑 Azure Active Directory
-    + Microsoft's multi-tenant cloud-based directory and identity management service
-    + Can be intergrated with an existing Windows Server Active Directory
-    + Uses HTTPS queries instead of LDAP
-    + Has a flat structure i.e. no GPOs / OUs
-    #### Azure AD User Types:
-    + Cloud Identities
-      - Local Azure AD
-      - External Azure AD
-    + Hybrid Identities
-      - Directory-synchronized
-    + Guest Identities
-      - Azure AD B2B Collaboration
-      - External Identities
-    #### Managing Users with PowerShell
+#### 🧑‍🤝‍🧑 Azure Active Directory
++ Microsoft's multi-tenant cloud-based directory and identity management service
++ Can be intergrated with an existing Windows Server Active Directory
++ Uses HTTPS queries instead of LDAP
++ Has a flat structure i.e. no GPOs / OUs
+#### Azure AD User Types:
++ Cloud Identities
+  - Local Azure AD
+  - External Azure AD
++ Hybrid Identities
+  - Directory-synchronized
++ Guest Identities
+  - Azure AD B2B Collaboration
+  - External Identities
+#### Managing Users with PowerShell
 
-    ```ps1
-    Connect-AzureAD #sign in
-    $domain = "domain.onmicrosoft.com"
-    $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-    $PasswordProfile.Password = "p@ssword1"
+```ps1
+Connect-AzureAD #sign in
+$domain = "domain.onmicrosoft.com"
+$passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password = "p@ssword1"
 
-    ### Get the existing user
-    Get-AzureADUser -SearchString "PE"
-    Get-AzureADUser -Filter "State eq 'PE'"
+### Get the existing user
+Get-AzureADUser -SearchString "PE"
+Get-AzureADUser -Filter "State eq 'PE'"
 
-    ### Create a new user storing all the parameters in a hash table
-    $user = @{
-      City = "Pennsylvania"
-      Country = "United States"
-      DisplayName = "Michael Scott"
-      JobTitle = "Regional Manager"
-      UserPrincipalName = mscott@domain
-      PasswordProfile = $PasswordProfile
-      PostalCode = "19001"
-      State = "PE"
-      Street Address = "Dunder Mifflin Paper Company, Inc."
-      Surname = "Scott"
-      TelephoneNumber = "215-867-5309"
-      AccountEnabled = $true
-      UsageLocation = "US"
-    }
+### Create a new user storing all the parameters in a hash table
+$user = @{
+  City = "Pennsylvania"
+  Country = "United States"
+  DisplayName = "Michael Scott"
+  JobTitle = "Regional Manager"
+  UserPrincipalName = mscott@domain
+  PasswordProfile = $PasswordProfile
+  PostalCode = "19001"
+  State = "PE"
+  Street Address = "Dunder Mifflin Paper Company, Inc."
+  Surname = "Scott"
+  TelephoneNumber = "215-867-5309"
+  AccountEnabled = $true
+  UsageLocation = "US"
+}
 
-    ### pass the hash table of parameters
-    $newUser = New-AzureADUser @user
-    ```
+### pass the hash table of parameters
+$newUser = New-AzureADUser @user
+```
 
 ### manage external identities by using Azure AD
 ### manage administrative units
-    + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
-    + Locally organise your Azure AD users
-    + Delegate administrative permissions
++ Azure AD user and group container analogous to organizational units (OU) in local Active Directory
++ Locally organise your Azure AD users
++ Delegate administrative permissions
 
 ### configure Azure AD Privileged Identity Management (PIM)
-    ### 🔐 Configure Secure Access using Azure AD
-    + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
-    + Configure access reviews
-    + Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
-    + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
-    + Configure Azure AD Identity Protection
-    + Microsoft recommends ZERO permanently active assignments
-    + Know who can manage assignments for other admins in PIM: 
-        + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
-        + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
+#### 🔐 Configure Secure Access using Azure AD
++ Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
++ Configure access reviews
++ Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
++ Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
++ Configure Azure AD Identity Protection
++ Microsoft recommends ZERO permanently active assignments
++ Know who can manage assignments for other admins in PIM: 
+    + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
+    + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
 ### implement Conditional Access policies, including multifactor authentication
-    #### Manage Access Control
-    ##### Conditional Access Policies (if [something] => do [something])
-    ##### Conditions
-      - Users & Groups
-      - Cloud Apps
-      - Sign-in Risk
-      - Device Platform & State
-      - Location
-      - Client Apps
-    ##### Controls
-      - MFA
-      - Compliant Device
-      - Approved Client App
-      - Terms of Use
-      - Custom & Session Controls
+#### Manage Access Control
+##### Conditional Access Policies (if [something] => do [something])
+##### Conditions
+  - Users & Groups
+  - Cloud Apps
+  - Sign-in Risk
+  - Device Platform & State
+  - Location
+  - Client Apps
+##### Controls
+  - MFA
+  - Compliant Device
+  - Approved Client App
+  - Terms of Use
+  - Custom & Session Controls
 
-    #### Authorization to Data
-    + RBAC in Azure AD
-    + Srorage Account Keys
-    + Shared Access Signatures
-    + implement Azure AD Identity Protection
-    + implement passwordless authentication
-    + configure access reviews
-    + configure an authentication method for a service principal
+#### Authorization to Data
++ RBAC in Azure AD
++ Srorage Account Keys
++ Shared Access Signatures
++ implement Azure AD Identity Protection
++ implement passwordless authentication
++ configure access reviews
++ configure an authentication method for a service principal
 
 #### Manage access control
 + configure Azure role permissions for management groups, subscriptions, resource groups, and resources
