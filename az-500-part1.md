@@ -2,9 +2,9 @@
 
 ## 👪 Manage Identity & Access (30-35%)
 
-# Manage Azure Active Directory (Azure AD) identities
+# 🧑‍🔧 Manage Azure Active Directory (Azure AD) identities
 
-## 🧑‍🔧 Create and manage a managed identity for Azure resources
+## Create and manage a managed identity for Azure resources
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 #### Managed Service Identities for Azure Services
 + A service of AAD (Azure Active Directory)
@@ -23,7 +23,7 @@
 + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
 + Might be in preview for some resources
 
-## 👪🔧 Manage Azure AD groups
+## Manage Azure AD groups
 
 + Security
 + Microsoft 365
@@ -73,7 +73,7 @@ $newGroup = New-AzureADGroup @group
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
 
-## 🧑‍🤝‍🧑🔧 Manage Azure AD users
+## Manage Azure AD users
 #### Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
@@ -122,8 +122,8 @@ $newUser = New-AzureADUser @user
 ```
 - - -
 
-### 🧑‍🚀🔧 Manage external identities by using Azure AD
-#### ✔️ Azure AD Domain Services Intergration
+### Manage external identities by using Azure AD
+#### Azure AD Domain Services Intergration
 ##### Azure AD Hybrid Join
 + Azure AD Connect
 + Access to external URLs
@@ -140,16 +140,16 @@ $newUser = New-AzureADUser @user
 
 - - -
 
-## 👷🔧 Manage Administrative Units
+## Manage Administrative Units
 
 + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
 + Locally organise your Azure AD users
 + Delegate administrative permissions
 
-- - -
-# Manage secure access by using Azure AD
-## 🔧 Configure Azure AD Privileged Identity Management (PIM)
-#### 🔐 Configure Secure Access using Azure AD
+# 🔐 Manage secure access by using Azure AD
+
+## Configure Azure AD Privileged Identity Management (PIM)
+#### Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
 + Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
@@ -178,7 +178,7 @@ $newUser = New-AzureADUser @user
   - Approved Client App
   - Terms of Use
   - Custom & Session Controls
-#### 👷 Managed Identities
+#### Managed Identities
 ##### Credentials in Code
 + Keeping service credentials in application configuartion is not secure
 + Credentials can get checked into source control or the configuration file can get compromised
@@ -214,7 +214,7 @@ In the target Azure service, assign permissions to the client identity
 - - -
 
 ## Implement Azure AD Identity Protection
-#### 🔑 Azure AD Security Options
+####  Azure AD Security Options
 1. Self-Service Password Reset (SSPR)
 + Reduces support desk password change issues
 + Azure AD Premium P1 license required
@@ -237,7 +237,7 @@ In the target Azure service, assign permissions to the client identity
 
 - - -
 
-# Manage Applicaion Access
+# 🛠️ Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
 + Application types
   - Third-party or internal
@@ -268,7 +268,6 @@ In the target Azure service, assign permissions to the client identity
 
 ## Manage API permissions to Azure subscriptions and resources
 
-- - -
 
 
 # 🔑 Manage Access Control
