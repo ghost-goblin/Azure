@@ -1,17 +1,17 @@
 # [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
 
-# 🛡️ Implement platform protection (15-20%)
+## 🛡️ Implement platform protection (15-20%)
 
-## Implement advanced network security
-+ secure the connectivity of hybrid networks
-+ secure the connectivity of virtual networks
-+ create and configure **Azure Firewall**
+# Implement advanced network security
+## secure the connectivity of hybrid networks
+## secure the connectivity of virtual networks
+## create and configure **Azure Firewall**
     - Managed network security service that protects your Azure network resources
     - Full stateful
     - High Availability
     - Unrescrticted scalability
-+ create and configure Azure Firewall Manager
-+ create and configure **Azure Application Gateway**
+## create and configure Azure Firewall Manager
+## create and configure **Azure Application Gateway**
     - Web traffic load balancer
     - Routes traffic at **OSI Layer 7**
     - Can route traffic based on the URL
@@ -20,14 +20,14 @@
         - Connection Draining
         - Web Application Firewall
         - URL-based routing
-+ create and configure Azure Front Door
-+ create and configure Web Application Firewall (WAF)
-+ configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
-+ configure network isolation for Web Apps and Azure Functions
-+ implement Azure Service Endpoints
-+ implement Azure Private Endpoints, including integrating with other services
-+ implement Azure Private Links
-+ implement **Azure DDoS Protection**
+## create and configure Azure Front Door
+## create and configure Web Application Firewall (WAF)
+## configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
+## configure network isolation for Web Apps and Azure Functions
+## implement Azure Service Endpoints
+## implement Azure Private Endpoints, including integrating with other services
+## implement Azure Private Links
+## implement **Azure DDoS Protection**
     - Two Servicwe Tiers
         1. Basic
         2. Standard _(Additional mitigation capabilities)_
@@ -36,15 +36,15 @@
     - Adaptive tuning
     - Attack analytics, metrics and alerting
 
-## Configure advanced security for compute
-+ configure Azure Endpoint Protection for virtual machines (VMs)
-+ Implement and manage security updates for VMs
-+ configure security for container services
-+ manage access to Azure Container Registry
-+ configure security for serverless compute
-+ configure security for an Azure App Service
-+ configure encryption at rest
-+ configure encryption in transit
+# Configure advanced security for compute
+## configure Azure Endpoint Protection for virtual machines (VMs)
+## Implement and manage security updates for VMs
+## configure security for container services
+## manage access to Azure Container Registry
+## configure security for serverless compute
+## configure security for an Azure App Service
+## configure encryption at rest
+## configure encryption in transit
 
 - - -
 
