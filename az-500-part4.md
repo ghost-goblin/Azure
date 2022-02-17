@@ -1,3 +1,5 @@
+# [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
+
 # 🔒 Secure data and applications (25–30%)
 ## Configure security for storage
 + configure access control for storage accounts
