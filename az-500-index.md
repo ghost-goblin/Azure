@@ -1,5 +1,3 @@
-# ☁️ [Microsoft Azure Services & Concepts](README.md)
-
 # Microsoft AZ-500: Microsoft Azure Security Technologies
 
 1. [Manage Identity and Access](az-500-part1.md) (30-35%)
