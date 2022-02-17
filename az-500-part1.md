@@ -29,7 +29,6 @@
         + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
         + Might be in preview for some resources
 + manage Azure AD groups
-## 👪 Azure AD Groups
         + Security
         + Microsoft 365
         + Owners
