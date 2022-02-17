@@ -23,3 +23,15 @@
 + configure security for an Azure App Service
 + configure encryption at rest
 + configure encryption in transit
+
+- - -
+
+## 🕸️👨‍👨‍👧‍👦 Network Security Group (NSG)
++ Filter traffic to and from Azure resources
++ Contains security rules to allow or deny inbound/outbound traffic
++ Evaluated by priority using 5-tuple information
+  1. Source Address
+  2. Source Port
+  3. Destination Address
+  4. Destination Port
+  5. Protocol
