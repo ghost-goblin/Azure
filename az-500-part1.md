@@ -188,7 +188,7 @@ $newUser = New-AzureADUser @user
 
 
 ## 🔑 Manage access control
-### configure Azure role permissions for management groups, subscriptions, resource groups, and resources
+### Configure Azure role permissions for management groups, subscriptions, resource groups, and resources
 #### Authorization to Data
 + RBAC in Azure AD
 + Srorage Account Keys
@@ -199,7 +199,7 @@ $newUser = New-AzureADUser @user
 
 - - -
 
-### 🔑 Azure AD Security Options
+#### 🔑 Azure AD Security Options
 1. Self-Service Password Reset (SSPR)
 + Reduces support desk password change issues
 + Azure AD Premium P1 license required
@@ -213,8 +213,8 @@ $newUser = New-AzureADUser @user
 + Registration URL Endpoint: [https://aka.ms/mfasetup](https://aka.ms/mfasetup)
 
 
-## 👷 Managed Identities
-#### Credentials in Code
+#### 👷 Managed Identities
+##### Credentials in Code
 + Keeping service credentials in application configuartion is not secure
 + Credentials can get checked into source control or the configuration file can get compromised
 + **Azure Key Vault** is more secure but the code still needs to use Azure Active Directory credentials to login to Key Vault
@@ -248,8 +248,8 @@ In the target Azure service, assign permissions to the client identity
 + Azure Event Hubs
 + Azure Analysis Services
 
-## ✔️ Azure AD Domain Services Intergration
-### Azure AD Hybrid Join
+#### ✔️ Azure AD Domain Services Intergration
+##### Azure AD Hybrid Join
 + Azure AD Connect
 + Access to external URLs
 + Configure SCP (Service Connection Point) internally
@@ -263,7 +263,7 @@ In the target Azure service, assign permissions to the client identity
   - Authenticating the user account locally
   - If channel fails, sign-in fails
 
-### Manage Applicaion Access
+##### Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
 + Application types
   - Third-party or internal
