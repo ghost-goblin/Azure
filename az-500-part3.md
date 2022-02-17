@@ -1,3 +1,5 @@
+# [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
+
 # 🗡️ Manage security operations (25-30%)
 
 ## Configure centralized policy management
