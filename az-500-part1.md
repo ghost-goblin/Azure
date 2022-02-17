@@ -23,8 +23,6 @@
 + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
 + Might be in preview for some resources
 
-- - -
-
 ## 👪🔧 Manage Azure AD groups
 
 + Security
@@ -55,7 +53,7 @@ Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 ### Get a list of all Roles
 Get-AzureADDirectoryRoleTemplate
 ```
-## Creating & Managing Groups with PowerShell 
+### Creating & Managing Groups with PowerShell 
 
 ```ps1
 $group = Get-AzureADGroup -SearchString "Information Technology"
@@ -74,8 +72,6 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
-
-- - -
 
 ## 🧑‍🤝‍🧑🔧 Manage Azure AD users
 #### Azure Active Directory
