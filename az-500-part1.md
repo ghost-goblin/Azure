@@ -29,108 +29,108 @@
         + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
         + Might be in preview for some resources
 + manage Azure AD groups
-        + Security
-        + Microsoft 365
-        + Owners
-        + Assigned Membership
-        + Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
-        + Group-Assigned Roles & Licenses
+    + Security
+    + Microsoft 365
+    + Owners
+    + Assigned Membership
+    + Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
+    + Group-Assigned Roles & Licenses
 
-        ```ps1
-        Find-Module AzureAD
-        Install-Module AzureAD
-        Import-Module -Name AzureAD
+    ```ps1
+    Find-Module AzureAD
+    Install-Module AzureAD
+    Import-Module -Name AzureAD
 
-        ### Get credentials to connect
-        $AzureADCredentials = Get-Credential -Message "Login to Azure AD"
-        ### Connect to tenant
-        Connect-AzureAD -Credential $AzureADCredentials
+    ### Get credentials to connect
+    $AzureADCredentials = Get-Credential -Message "Login to Azure AD"
+    ### Connect to tenant
+    Connect-AzureAD -Credential $AzureADCredentials
 
-        Get-Command -Module AzureAD
-        ```
+    Get-Command -Module AzureAD
+    ```
 
-        ### Authorization to Data
-        + RBAC in Azure AD
-        + Srorage Account Keys
-        + Shared Access Signatures
+    ### Authorization to Data
+    + RBAC in Azure AD
+    + Srorage Account Keys
+    + Shared Access Signatures
 
-        ```ps1
-        ### Working with roles
-        Connect-AzureAD
-        Get-AzureADDirectoryRole
-        $CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
-        Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
+    ```ps1
+    ### Working with roles
+    Connect-AzureAD
+    Get-AzureADDirectoryRole
+    $CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
+    Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 
-        ### Get a list of all Roles
-        Get-AzureADDirectoryRoleTemplate
-        ```
-        ### Creating & Managing Groups with PowerShell 
-        
-        ```ps1
-        $group = Get-AzureADGroup -SearchString "Information Technology"
-        ### Get all the members &  the owner
-        Get-AzureADGroupOwner -ObjectId $group.ObjectId
+    ### Get a list of all Roles
+    Get-AzureADDirectoryRoleTemplate
+    ```
+    ### Creating & Managing Groups with PowerShell 
 
-        ### Create a new group hash table
-        $group = @{
-          DisplayName = "Marketing Group"
-          MailEnabled = $false
-          MailNickName = "MarketingGroup"
-          SecurityEnabled = $true
-        }
-        $newGroup = New-AzureADGroup @group
+    ```ps1
+    $group = Get-AzureADGroup -SearchString "Information Technology"
+    ### Get all the members &  the owner
+    Get-AzureADGroupOwner -ObjectId $group.ObjectId
 
-        ### Update the group description
-        Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
-        ```
+    ### Create a new group hash table
+    $group = @{
+      DisplayName = "Marketing Group"
+      MailEnabled = $false
+      MailNickName = "MarketingGroup"
+      SecurityEnabled = $true
+    }
+    $newGroup = New-AzureADGroup @group
+
+    ### Update the group description
+    Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
+    ```
 + manage Azure AD users
-        ### 🧑‍🤝‍🧑 Azure Active Directory
-        + Microsoft's multi-tenant cloud-based directory and identity management service
-        + Can be intergrated with an existing Windows Server Active Directory
-        + Uses HTTPS queries instead of LDAP
-        + Has a flat structure i.e. no GPOs / OUs
-        ### Azure AD User Types:
-        + Cloud Identities
-          - Local Azure AD
-          - External Azure AD
-        + Hybrid Identities
-          - Directory-synchronized
-        + Guest Identities
-          - Azure AD B2B Collaboration
-          - External Identities
-  
-            ### Managing Users with PowerShell
-            
-            ```ps1
-            Connect-AzureAD #sign in
-            $domain = "domain.onmicrosoft.com"
-            $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-            $PasswordProfile.Password = "p@ssword1"
+    ### 🧑‍🤝‍🧑 Azure Active Directory
+    + Microsoft's multi-tenant cloud-based directory and identity management service
+    + Can be intergrated with an existing Windows Server Active Directory
+    + Uses HTTPS queries instead of LDAP
+    + Has a flat structure i.e. no GPOs / OUs
+    ### Azure AD User Types:
+    + Cloud Identities
+      - Local Azure AD
+      - External Azure AD
+    + Hybrid Identities
+      - Directory-synchronized
+    + Guest Identities
+      - Azure AD B2B Collaboration
+      - External Identities
 
-            ### Get the existing user
-            Get-AzureADUser -SearchString "PE"
-            Get-AzureADUser -Filter "State eq 'PE'"
+        ### Managing Users with PowerShell
 
-            ### Create a new user storing all the parameters in a hash table
-            $user = @{
-              City = "Pennsylvania"
-              Country = "United States"
-              DisplayName = "Michael Scott"
-              JobTitle = "Regional Manager"
-              UserPrincipalName = mscott@domain
-              PasswordProfile = $PasswordProfile
-              PostalCode = "19001"
-              State = "PE"
-              Street Address = "Dunder Mifflin Paper Company, Inc."
-              Surname = "Scott"
-              TelephoneNumber = "215-867-5309"
-              AccountEnabled = $true
-              UsageLocation = "US"
-            }
+        ```ps1
+        Connect-AzureAD #sign in
+        $domain = "domain.onmicrosoft.com"
+        $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+        $PasswordProfile.Password = "p@ssword1"
 
-            ### pass the hash table of parameters
-            $newUser = New-AzureADUser @user
-            ```
+        ### Get the existing user
+        Get-AzureADUser -SearchString "PE"
+        Get-AzureADUser -Filter "State eq 'PE'"
+
+        ### Create a new user storing all the parameters in a hash table
+        $user = @{
+          City = "Pennsylvania"
+          Country = "United States"
+          DisplayName = "Michael Scott"
+          JobTitle = "Regional Manager"
+          UserPrincipalName = mscott@domain
+          PasswordProfile = $PasswordProfile
+          PostalCode = "19001"
+          State = "PE"
+          Street Address = "Dunder Mifflin Paper Company, Inc."
+          Surname = "Scott"
+          TelephoneNumber = "215-867-5309"
+          AccountEnabled = $true
+          UsageLocation = "US"
+        }
+
+        ### pass the hash table of parameters
+        $newUser = New-AzureADUser @user
+        ```
 
 + manage external identities by using Azure AD
 + manage administrative units
