@@ -2,7 +2,7 @@
 
 ## 🛡️ Implement platform protection (15-20%)
 
-# Implement advanced network security
+# 🕸️👨‍👨‍👧‍👦 Implement advanced network security
 ## secure the connectivity of hybrid networks
 ## secure the connectivity of virtual networks
 ## create and configure **Azure Firewall**
@@ -36,7 +36,7 @@
 - Adaptive tuning
 - Attack analytics, metrics and alerting
 
-# Configure advanced security for compute
+# 🕸️🖥️ Configure advanced security for compute
 ## configure Azure Endpoint Protection for virtual machines (VMs)
 ## Implement and manage security updates for VMs
 ## configure security for container services
@@ -48,7 +48,7 @@
 
 - - -
 
-## 🕸️👨‍👨‍👧‍👦 Network Security Group (NSG)
+## Network Security Group (NSG)
 + Filter traffic to and from Azure resources
 + Contains security rules to allow or deny inbound/outbound traffic
 + Evaluated by priority using 5-tuple information
