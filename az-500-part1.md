@@ -3,7 +3,9 @@
 # 👪 Manage Identity & Access (30-35%)
 
 ## Manage Azure Active Directory (Azure AD) identities
-### create and manage a managed identity for Azure resources
+
+### 🧑‍🔧 Create and manage a managed identity for Azure resources
+
 + The **synchronized identity** model is the most common (SSO)
 + Azure AD Connect and **password writeback** facilitate this model
 + Password writeback is required for **AAD self-service password reset**
@@ -15,14 +17,12 @@
 + Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
 + Provides **authentication** NOT authorizaton
 + The new name for the service formerly known as **Managed Service Identity** (MSI)
-
 #### Types of Managed Identities
 1. **System-Assigned**
 + Enable directly on an Azure service instance
 + One per each Azure service instance
 + Gets cleaned up if Azure services instance is deleted
 + Widely supported by Azure resources
-
 2. **User-Assigned**
 + Created as standalone Azure resource
 + Can be assigned to one or more Azure service instances
@@ -31,7 +31,8 @@
 
 - - -
 
-### manage Azure AD groups
+### 👪🔧 Manage Azure AD groups
+
 + Security
 + Microsoft 365
 + Owners
@@ -50,9 +51,7 @@ $AzureADCredentials = Get-Credential -Message "Login to Azure AD"
 Connect-AzureAD -Credential $AzureADCredentials
 
 Get-Command -Module AzureAD
-```
 
-```ps1
 ### Working with roles
 Connect-AzureAD
 Get-AzureADDirectoryRole
@@ -84,8 +83,8 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 
 - - -
 
-### manage Azure AD users
-#### 🧑‍🤝‍🧑 Azure Active Directory
+### 🧑‍🤝‍🧑🔧 Manage Azure AD users
+#### Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -131,16 +130,21 @@ $user = @{
 ### pass the hash table of parameters
 $newUser = New-AzureADUser @user
 ```
+- - -
 
-### manage external identities by using Azure AD
-### manage administrative units
+### 🧑‍🚀🔧 Manage external identities by using Azure AD
+
+- - -
+
+### 👷🔧 Manage Administrative Units
+
 + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
 + Locally organise your Azure AD users
 + Delegate administrative permissions
 
 - - -
-
-### configure Azure AD Privileged Identity Management (PIM)
+## Manage secure access by using Azure AD
+### 🔧 Configure Azure AD Privileged Identity Management (PIM)
 #### 🔐 Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
@@ -151,7 +155,10 @@ $newUser = New-AzureADUser @user
 + Know who can manage assignments for other admins in PIM: 
     + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
     + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
-### implement Conditional Access policies, including multifactor authentication
+
+- - -
+
+### 🔧 Implement Conditional Access policies, including multifactor authentication
 #### Manage Access Control
 ##### Conditional Access Policies (if [something] => do [something])
 ##### Conditions
