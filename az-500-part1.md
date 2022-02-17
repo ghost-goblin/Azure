@@ -49,11 +49,6 @@
     Get-Command -Module AzureAD
     ```
 
-    ### Authorization to Data
-    + RBAC in Azure AD
-    + Srorage Account Keys
-    + Shared Access Signatures
-
     ```ps1
     ### Working with roles
     Connect-AzureAD
@@ -266,3 +261,8 @@ In the target Azure service, assign permissions to the client identity
   - Approved Client App
   - Terms of Use
   - Custom & Session Controls
+
+### Authorization to Data
++ RBAC in Azure AD
++ Srorage Account Keys
++ Shared Access Signatures
