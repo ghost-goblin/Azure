@@ -160,8 +160,6 @@ $newUser = New-AzureADUser @user
     + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
     + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
 
-- - -
-
 ## Implement Conditional Access policies, including multifactor authentication
 ##### Conditional Access Policies (if [something] => do [something])
 ##### Conditions
@@ -210,7 +208,6 @@ In the target Azure service, assign permissions to the client identity
 + Azure Event Hubs
 + Azure Analysis Services
 
-- - -
 
 ## Implement Azure AD Identity Protection
 ####  Azure AD Security Options
@@ -234,7 +231,6 @@ In the target Azure service, assign permissions to the client identity
 
 ## Configure access reviews
 
-- - -
 
 # 🛠️ Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
