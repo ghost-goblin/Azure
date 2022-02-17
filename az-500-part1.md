@@ -4,6 +4,12 @@
 
 ## Manage Azure Active Directory (Azure AD) identities
 + create and manage a managed identity for Azure resources
+    + The **synchronized identity** model is the most common (SSO)
+    + Azure AD Connect and **password writeback** facilitate this model
+    + Password writeback is required for **AAD self-service password reset**
+    + **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
+    + Two types of auth for service pricipals: **secret** or **certificate**
+    + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 + manage Azure AD groups
 + manage Azure AD users
 + manage external identities by using Azure AD
@@ -60,14 +66,6 @@
 + Azure hosted MFA Service
 + Global Administrators get Azure MFA for free
 + Registration URL Endpoint: [https://aka.ms/mfasetup](https://aka.ms/mfasetup)
-
-### Configure Azure Active Directoty Identities
-+ The **synchronized identity** model is the most common (SSO)
-+ Azure AD Connect and **password writeback** facilitate this model
-+ Password writeback is required for **AAD self-service password reset**
-+ **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
-+ Two types of auth for service pricipals: **secret** or **certificate**
-+ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 
 ## 👪 Azure AD Groups
 + Security
