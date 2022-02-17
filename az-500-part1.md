@@ -174,21 +174,28 @@ $newUser = New-AzureADUser @user
   - Approved Client App
   - Terms of Use
   - Custom & Session Controls
+### Implement Azure AD Identity Protection
+### Implement passwordless authentication
+### Configure access reviews
 
+## Manage application access
+
+### integrate single sign-on (SSO) and identity providers for authentication
+### create an app registration
+### configure app registration permission scopes
+### manage app registration permission consent
+### manage API permissions to Azure subscriptions and resources
+
+
+## 🔑 Manage access control
+### configure Azure role permissions for management groups, subscriptions, resource groups, and resources
 #### Authorization to Data
 + RBAC in Azure AD
 + Srorage Account Keys
 + Shared Access Signatures
-+ implement Azure AD Identity Protection
-+ implement passwordless authentication
-+ configure access reviews
-+ configure an authentication method for a service principal
-
-#### Manage access control
-+ configure Azure role permissions for management groups, subscriptions, resource groups, and resources
-+ interpret role and resource permissions
-+ assign built-in Azure AD roles
-+ create and assign custom roles, including Azure roles and Azure AD roles
+### interpret role and resource permissions
+### assign built-in Azure AD roles
+### create and assign custom roles, including Azure roles and Azure AD roles
 
 - - -
 
