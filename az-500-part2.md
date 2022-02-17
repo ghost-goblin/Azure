@@ -1,3 +1,5 @@
+# [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
+
 # 🛡️ Implement platform protection (15-20%)
 
 ## Implement advanced network security
