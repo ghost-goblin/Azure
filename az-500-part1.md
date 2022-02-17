@@ -1,7 +1,5 @@
 # [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
 
-- - -
-
 # 👪 Manage Identity & Access (30-35%)
 
 ## Manage Azure Active Directory (Azure AD) identities
