@@ -2,7 +2,7 @@
 
 # 👪 Manage Identity & Access (30-35%)
 
-## Manage Azure Active Directory (Azure AD) identities
+# Manage Azure Active Directory (Azure AD) identities
 
 ### 🧑‍🔧 Create and manage a managed identity for Azure resources
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
@@ -151,7 +151,7 @@ $newUser = New-AzureADUser @user
 + Delegate administrative permissions
 
 - - -
-## Manage secure access by using Azure AD
+# Manage secure access by using Azure AD
 ### 🔧 Configure Azure AD Privileged Identity Management (PIM)
 #### 🔐 Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
@@ -241,7 +241,7 @@ In the target Azure service, assign permissions to the client identity
 
 - - -
 
-## Manage Applicaion Access
+# Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
 + Application types
   - Third-party or internal
@@ -275,7 +275,7 @@ In the target Azure service, assign permissions to the client identity
 - - -
 
 
-## 🔑 Manage Access Control
+# 🔑 Manage Access Control
 ### Configure Azure role permissions for management groups, subscriptions, resource groups, and resources
 
 #### Authorization to Data
