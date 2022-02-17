@@ -3,7 +3,7 @@
 # 👪 Manage Identity & Access (30-35%)
 
 ## Manage Azure Active Directory (Azure AD) identities
-+ create and manage a managed identity for Azure resources
+### create and manage a managed identity for Azure resources
     + The **synchronized identity** model is the most common (SSO)
     + Azure AD Connect and **password writeback** facilitate this model
     + Password writeback is required for **AAD self-service password reset**
@@ -28,7 +28,7 @@
     + Can be assigned to one or more Azure service instances
     + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
     + Might be in preview for some resources
-+ manage Azure AD groups
+### manage Azure AD groups
     + Security
     + Microsoft 365
     + Owners
@@ -78,13 +78,13 @@
     ### Update the group description
     Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
     ```
-+ manage Azure AD users
-    ### 🧑‍🤝‍🧑 Azure Active Directory
+### manage Azure AD users
+    #### 🧑‍🤝‍🧑 Azure Active Directory
     + Microsoft's multi-tenant cloud-based directory and identity management service
     + Can be intergrated with an existing Windows Server Active Directory
     + Uses HTTPS queries instead of LDAP
     + Has a flat structure i.e. no GPOs / OUs
-    ### Azure AD User Types:
+    #### Azure AD User Types:
     + Cloud Identities
       - Local Azure AD
       - External Azure AD
@@ -93,48 +93,46 @@
     + Guest Identities
       - Azure AD B2B Collaboration
       - External Identities
+    #### Managing Users with PowerShell
 
-        ### Managing Users with PowerShell
+    ```ps1
+    Connect-AzureAD #sign in
+    $domain = "domain.onmicrosoft.com"
+    $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+    $PasswordProfile.Password = "p@ssword1"
 
-        ```ps1
-        Connect-AzureAD #sign in
-        $domain = "domain.onmicrosoft.com"
-        $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-        $PasswordProfile.Password = "p@ssword1"
+    ### Get the existing user
+    Get-AzureADUser -SearchString "PE"
+    Get-AzureADUser -Filter "State eq 'PE'"
 
-        ### Get the existing user
-        Get-AzureADUser -SearchString "PE"
-        Get-AzureADUser -Filter "State eq 'PE'"
+    ### Create a new user storing all the parameters in a hash table
+    $user = @{
+      City = "Pennsylvania"
+      Country = "United States"
+      DisplayName = "Michael Scott"
+      JobTitle = "Regional Manager"
+      UserPrincipalName = mscott@domain
+      PasswordProfile = $PasswordProfile
+      PostalCode = "19001"
+      State = "PE"
+      Street Address = "Dunder Mifflin Paper Company, Inc."
+      Surname = "Scott"
+      TelephoneNumber = "215-867-5309"
+      AccountEnabled = $true
+      UsageLocation = "US"
+    }
 
-        ### Create a new user storing all the parameters in a hash table
-        $user = @{
-          City = "Pennsylvania"
-          Country = "United States"
-          DisplayName = "Michael Scott"
-          JobTitle = "Regional Manager"
-          UserPrincipalName = mscott@domain
-          PasswordProfile = $PasswordProfile
-          PostalCode = "19001"
-          State = "PE"
-          Street Address = "Dunder Mifflin Paper Company, Inc."
-          Surname = "Scott"
-          TelephoneNumber = "215-867-5309"
-          AccountEnabled = $true
-          UsageLocation = "US"
-        }
+    ### pass the hash table of parameters
+    $newUser = New-AzureADUser @user
+    ```
 
-        ### pass the hash table of parameters
-        $newUser = New-AzureADUser @user
-        ```
-
-+ manage external identities by using Azure AD
-+ manage administrative units
+### manage external identities by using Azure AD
+### manage administrative units
     + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
     + Locally organise your Azure AD users
     + Delegate administrative permissions
 
-## Manage secure access by using Azure AD
-+ configure Azure AD Privileged Identity Management (PIM)
+### configure Azure AD Privileged Identity Management (PIM)
     ### 🔐 Configure Secure Access using Azure AD
     + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
     + Configure access reviews
@@ -145,33 +143,33 @@
     + Know who can manage assignments for other admins in PIM: 
         + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
         + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
-+ implement Conditional Access policies, including multifactor authentication
-    ### Manage Access Control
-    #### Conditional Access Policies (if [something] => do [something])
-    #### Conditions
+### implement Conditional Access policies, including multifactor authentication
+    #### Manage Access Control
+    ##### Conditional Access Policies (if [something] => do [something])
+    ##### Conditions
       - Users & Groups
       - Cloud Apps
       - Sign-in Risk
       - Device Platform & State
       - Location
       - Client Apps
-    #### Controls
+    ##### Controls
       - MFA
       - Compliant Device
       - Approved Client App
       - Terms of Use
       - Custom & Session Controls
 
-    ### Authorization to Data
+    #### Authorization to Data
     + RBAC in Azure AD
     + Srorage Account Keys
     + Shared Access Signatures
     + implement Azure AD Identity Protection
     + implement passwordless authentication
     + configure access reviews
-+ configure an authentication method for a service principal
+    + configure an authentication method for a service principal
 
-## Manage access control
+#### Manage access control
 + configure Azure role permissions for management groups, subscriptions, resource groups, and resources
 + interpret role and resource permissions
 + assign built-in Azure AD roles
