@@ -1,4 +1,4 @@
-# Manage security operations (25-30%)
+# 🗡️ Manage security operations (25-30%)
 
 ## Configure centralized policy management
 + configure a custom security policy
