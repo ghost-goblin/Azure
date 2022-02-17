@@ -149,7 +149,6 @@ $newUser = New-AzureADUser @user
 # 🔐 Manage secure access by using Azure AD
 
 ## Configure Azure AD Privileged Identity Management (PIM)
-#### Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
 + Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
