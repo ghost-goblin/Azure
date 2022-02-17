@@ -1,4 +1,4 @@
-# Secure data and applications (25–30%)
+# 🔒 Secure data and applications (25–30%)
 ## Configure security for storage
 + configure access control for storage accounts
 + configure storage account access keys
