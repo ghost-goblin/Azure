@@ -12,11 +12,11 @@
     - Web traffic load balancer
     - Routes traffic at **OSI Layer 7**
     - Can route traffic based on the URL
-            - Autoscaling
-            - SSL Termination
-            - Connection Draining
-            - Web Application Firewall
-            - URL-based routing
+        - Autoscaling
+        - SSL Termination
+        - Connection Draining
+        - Web Application Firewall
+        - URL-based routing
 + create and configure Azure Front Door
 + create and configure Web Application Firewall (WAF)
 + configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
