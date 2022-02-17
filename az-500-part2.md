@@ -27,7 +27,14 @@
 + implement Azure Service Endpoints
 + implement Azure Private Endpoints, including integrating with other services
 + implement Azure Private Links
-+ implement Azure DDoS Protection
++ implement **Azure DDoS Protection**
+    - Two Servicwe Tiers
+        1. Basic
+        2. Standard _(Additional mitigation capabilities)_
+    - Instant on protection
+    - Traffic monitoring
+    - Adaptive tuning
+    - Attack analytics, metrics and alerting
 
 ## Configure advanced security for compute
 + configure Azure Endpoint Protection for virtual machines (VMs)
