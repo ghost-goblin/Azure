@@ -135,17 +135,40 @@
 
 ## Manage secure access by using Azure AD
 + configure Azure AD Privileged Identity Management (PIM)
+    ### 🔐 Configure Secure Access using Azure AD
+    + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
+    + Configure access reviews
+    + Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
+    + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
+    + Configure Azure AD Identity Protection
+    + Microsoft recommends ZERO permanently active assignments
+    + Know who can manage assignments for other admins in PIM: 
+        + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
+        + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
 + implement Conditional Access policies, including multifactor authentication
-+ implement Azure AD Identity Protection
-+ implement passwordless authentication
-+ configure access reviews
+    ### Manage Access Control
+    #### Conditional Access Policies (if [something] => do [something])
+    #### Conditions
+      - Users & Groups
+      - Cloud Apps
+      - Sign-in Risk
+      - Device Platform & State
+      - Location
+      - Client Apps
+    #### Controls
+      - MFA
+      - Compliant Device
+      - Approved Client App
+      - Terms of Use
+      - Custom & Session Controls
 
-## Manage application access
-+ integrate single sign-on (SSO) and identity providers for authentication
-+ create an app registration
-+ configure app registration permission scopes
-+ manage app registration permission consent
-+ manage API permissions to Azure subscriptions and resources
+    ### Authorization to Data
+    + RBAC in Azure AD
+    + Srorage Account Keys
+    + Shared Access Signatures
+    + implement Azure AD Identity Protection
+    + implement passwordless authentication
+    + configure access reviews
 + configure an authentication method for a service principal
 
 ## Manage access control
@@ -205,23 +228,6 @@ In the target Azure service, assign permissions to the client identity
 + Azure Event Hubs
 + Azure Analysis Services
 
-### 🔐 Configure Secure Access using Azure AD
-+ Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
-+ Configure access reviews
-+ Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
-+ Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
-+ Configure Azure AD Identity Protection
-+ Microsoft recommends ZERO permanently active assignments
-+ Know who can manage assignments for other admins in PIM: 
-    + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
-    + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
-
-> For the exam, know how to configure Privileged Identity Management and the configuration options for PIM access reviews
-
-+ Know how to configure Azure AD **Conditional Access**
-+ Know what Identity Protection brings to Conditional Access (_sign-in risk_)
-+ Know licencing required for AD Identity Protection
-
 ## ✔️ Azure AD Domain Services Intergration
 ### Azure AD Hybrid Join
 + Azure AD Connect
@@ -246,23 +252,4 @@ In the target Azure service, assign permissions to the client identity
   - SCIM 2.0 (provides a way for an application to talk to Azure AD)
   - Available on select SaaS apps
 
-### Manage Access Control
-#### Conditional Access Policies (if [something] => do [something])
-#### Conditions
-  - Users & Groups
-  - Cloud Apps
-  - Sign-in Risk
-  - Device Platform & State
-  - Location
-  - Client Apps
-#### Controls
-  - MFA
-  - Compliant Device
-  - Approved Client App
-  - Terms of Use
-  - Custom & Session Controls
 
-### Authorization to Data
-+ RBAC in Azure AD
-+ Srorage Account Keys
-+ Shared Access Signatures
