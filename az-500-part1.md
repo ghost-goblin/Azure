@@ -4,7 +4,7 @@
 
 # Manage Azure Active Directory (Azure AD) identities
 
-### 🧑‍🔧 Create and manage a managed identity for Azure resources
+## 🧑‍🔧 Create and manage a managed identity for Azure resources
 + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
 #### Managed Service Identities for Azure Services
 + A service of AAD (Azure Active Directory)
@@ -25,7 +25,7 @@
 
 - - -
 
-### 👪🔧 Manage Azure AD groups
+## 👪🔧 Manage Azure AD groups
 
 + Security
 + Microsoft 365
@@ -55,7 +55,7 @@ Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 ### Get a list of all Roles
 Get-AzureADDirectoryRoleTemplate
 ```
-### Creating & Managing Groups with PowerShell 
+## Creating & Managing Groups with PowerShell 
 
 ```ps1
 $group = Get-AzureADGroup -SearchString "Information Technology"
@@ -77,7 +77,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 
 - - -
 
-### 🧑‍🤝‍🧑🔧 Manage Azure AD users
+## 🧑‍🤝‍🧑🔧 Manage Azure AD users
 #### Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
@@ -144,7 +144,7 @@ $newUser = New-AzureADUser @user
 
 - - -
 
-### 👷🔧 Manage Administrative Units
+## 👷🔧 Manage Administrative Units
 
 + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
 + Locally organise your Azure AD users
@@ -152,7 +152,7 @@ $newUser = New-AzureADUser @user
 
 - - -
 # Manage secure access by using Azure AD
-### 🔧 Configure Azure AD Privileged Identity Management (PIM)
+## 🔧 Configure Azure AD Privileged Identity Management (PIM)
 #### 🔐 Configure Secure Access using Azure AD
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
@@ -166,7 +166,7 @@ $newUser = New-AzureADUser @user
 
 - - -
 
-### 🔧 Implement Conditional Access policies, including multifactor authentication
+## 🔧 Implement Conditional Access policies, including multifactor authentication
 #### Manage Access Control
 ##### Conditional Access Policies (if [something] => do [something])
 ##### Conditions
@@ -217,7 +217,7 @@ In the target Azure service, assign permissions to the client identity
 
 - - -
 
-### Implement Azure AD Identity Protection
+## Implement Azure AD Identity Protection
 #### 🔑 Azure AD Security Options
 1. Self-Service Password Reset (SSPR)
 + Reduces support desk password change issues
@@ -233,11 +233,11 @@ In the target Azure service, assign permissions to the client identity
 
 - - -
 
-### Implement passwordless authentication
+## Implement passwordless authentication
 
 - - -
 
-### Configure access reviews
+## Configure access reviews
 
 - - -
 
@@ -250,7 +250,7 @@ In the target Azure service, assign permissions to the client identity
   - SCIM 2.0 (provides a way for an application to talk to Azure AD)
   - Available on select SaaS apps
 
-### Integrate single sign-on (SSO) and identity providers for authentication
+## Integrate single sign-on (SSO) and identity providers for authentication
 + The **synchronized identity** model is the most common (SSO)
 + Azure AD Connect and **password writeback** facilitate this model
 + Password writeback is required for **AAD self-service password reset**
@@ -258,25 +258,25 @@ In the target Azure service, assign permissions to the client identity
 + Two types of auth for service pricipals: **secret** or **certificate**
 - - -
 
-### Create an app registration
+## Create an app registration
 
 - - -
 
-### Configure app registration permission scopes
+## Configure app registration permission scopes
 
 - - -
 
-### Manage app registration permission consent
+## Manage app registration permission consent
 
 - - -
 
-### Manage API permissions to Azure subscriptions and resources
+## Manage API permissions to Azure subscriptions and resources
 
 - - -
 
 
 # 🔑 Manage Access Control
-### Configure Azure role permissions for management groups, subscriptions, resource groups, and resources
+## Configure Azure role permissions for management groups, subscriptions, resource groups, and resources
 
 #### Authorization to Data
 + RBAC in Azure AD
@@ -285,13 +285,13 @@ In the target Azure service, assign permissions to the client identity
 
 - - -
 
-### Interpret role and resource permissions
+## Interpret role and resource permissions
 
 - - -
 
-### Assign built-in Azure AD roles
+## Assign built-in Azure AD roles
 
 - - -
 
-### Create and assign custom roles, including Azure roles and Azure AD roles
+## Create and assign custom roles, including Azure roles and Azure AD roles
 
