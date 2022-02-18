@@ -22,6 +22,10 @@
 + Principle of Least Privilege - user is given the minimum levels of access – or permissions – needed to perform their job functions
 + Security Principals - a security ID for applications or services
 + Roles
+  - **Owner** has full access to all resources and grant access
+  - **Contributor** can create/manage all resource, cannot grant access
+  - **Reader** can view existing resources
+  - **User Access Administrator** lets you mange user acces
 
 ## 🔥🧱 Create and configure **Azure Firewall**
 - Managed network security service that protects your Azure network resources
