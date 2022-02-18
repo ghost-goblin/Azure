@@ -25,8 +25,8 @@
 - Full stateful
 - High Availability
 - Unrescrticted scalability
-## create and configure Azure Firewall Manager
-## create and configure **Azure Application Gateway**
+## Create and configure Azure Firewall Manager
+## Create and configure **Azure Application Gateway**
 - Web traffic load balancer
 - Routes traffic at **OSI Layer 7**
 - Can route traffic based on the URL
@@ -35,14 +35,14 @@
     - Connection Draining
     - Web Application Firewall
     - URL-based routing
-## create and configure Azure Front Door
-## create and configure Web Application Firewall (WAF)
-## configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
-## configure network isolation for Web Apps and Azure Functions
-## implement Azure Service Endpoints
-## implement Azure Private Endpoints, including integrating with other services
-## implement Azure Private Links
-## implement **Azure DDoS Protection**
+## Create and configure Azure Front Door
+## Create and configure Web Application Firewall (WAF)
+## Configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service
+## Configure network isolation for Web Apps and Azure Functions
+## Implement Azure Service Endpoints
+## Implement Azure Private Endpoints, including integrating with other services
+## Implement Azure Private Links
+## Implement **Azure DDoS Protection**
 - Two Servicwe Tiers
     1. Basic
     2. Standard _(Additional mitigation capabilities)_
@@ -52,11 +52,11 @@
 - Attack analytics, metrics and alerting
 
 # 🕸️🖥️ Configure advanced security for compute
-## configure Azure Endpoint Protection for virtual machines (VMs)
+## Configure Azure Endpoint Protection for virtual machines (VMs)
 ## Implement and manage security updates for VMs
-## configure security for container services
-## manage access to Azure Container Registry
-## configure security for serverless compute
-## configure security for an Azure App Service
-## configure encryption at rest
-## configure encryption in transit
+## Configure security for container services
+## Manage access to Azure Container Registry
+## Configure security for serverless compute
+## Configure security for an Azure App Service
+## Configure encryption at rest
+## Configure encryption in transit
