@@ -15,7 +15,7 @@
   3. Destination Address
   4. Destination Port
   5. Protocol
-+ VMs
++ VMs (At the NIC level)
 + Subnets
 
 ### Role-based Access Groups
