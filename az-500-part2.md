@@ -20,7 +20,7 @@
 + Security Principals
 + Roles
 
-## create and configure **Azure Firewall**
+## 🔥🧱 Create and configure **Azure Firewall**
 - Managed network security service that protects your Azure network resources
 - Full stateful
 - High Availability
