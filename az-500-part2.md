@@ -19,6 +19,7 @@
 + Subnets
 
 ### Role-based Access Groups
++ Principle of Least Privilege - user is given the minimum levels of access – or permissions – needed to perform their job functions
 + Security Principals
 + Roles
 
