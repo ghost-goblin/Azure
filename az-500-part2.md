@@ -16,6 +16,7 @@
   5. Protocol
 + VMs
 + Subnets
+
 ### Role-based Access Groups
 + Security Principals
 + Roles
@@ -50,6 +51,8 @@
 - Traffic monitoring
 - Adaptive tuning
 - Attack analytics, metrics and alerting
+
+- - -
 
 # 🕸️🖥️ Configure advanced security for compute
 ## Configure Azure Endpoint Protection for virtual machines (VMs)
