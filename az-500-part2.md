@@ -5,7 +5,8 @@
 # 🕸️👨‍👨‍👧‍👦 Implement advanced network security
 ## Secure the connectivity of hybrid networks
 ## Secure the connectivity of virtual networks
-### Network Security Group (NSG)
+### Network Security Group (NSG)_
++ How do I create a Network Security Group? ... _just like with anything in Azure, you just create a **resource**_
 + Filter traffic to and from Azure resources
 + Contains security rules to allow or deny inbound/outbound traffic
 + Evaluated by priority using 5-tuple information
