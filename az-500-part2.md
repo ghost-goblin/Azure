@@ -25,7 +25,11 @@
   - **Owner** has full access to all resources and grant access
   - **Contributor** can create/manage all resource, cannot grant access
   - **Reader** can view existing resources
-  - **User Access Administrator** lets you mange user acces
+  - **User Access Administrator** lets you mange user access
++ Scope
+  - Adding the _Owner_ role at the _management group scope_ allows users in group to manage everything within all subscriptions
+  - Adding the _Reader_ role at the _subscription scope_ allows users in that group to view all resource groups and resources in that subscription
+  - Assigning the _Contributor_ role to an app at the _resource group_ scope allows it to manage resources within that group alone
 
 ## 🔥🧱 Create and configure **Azure Firewall**
 - Managed network security service that protects your Azure network resources
