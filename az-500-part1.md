@@ -151,7 +151,7 @@ $newUser = New-AzureADUser @user
 ## Configure Azure AD Privileged Identity Management (PIM)
 + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
 + Configure access reviews
-+ Activate and configure PIM - to delegate access to PIM, a Global Admin can assign other users to the Privileged Administrator Role
++ Activate and configure PIM - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
 + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
 + Configure Azure AD Identity Protection
 + Microsoft recommends ZERO permanently active assignments
