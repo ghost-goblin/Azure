@@ -135,6 +135,10 @@ $newUser = New-AzureADUser @user
   - If channel fails, sign-in works
 2. **Pass-through Authentication** (PTA)
   - Does not store any password hashes
+  - Password validation requests are sent to Windows Server Active Directory via pass-through authentication
+  - Need one or more (3 is recommended) **lightweight agents** installed on existing servers
+  - Agents have acces to on-premises Active Directory Domain Services
+  - They need outbound access to the Internet and access to your Domain Controllers
   - Authenticating the user account locally
   - If channel fails, sign-in fails
 
