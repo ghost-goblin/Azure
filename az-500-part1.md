@@ -129,11 +129,11 @@ $newUser = New-AzureADUser @user
 + Access to external URLs
 + Configure SCP (Service Connection Point) internally
 + Configure Active Directory Federation Service (ADFS) if required
-##### 1. **Password Hash Synchronization** (PHS)
+### 1. **Password Hash Synchronization** (PHS)
   - TCP 443 traffic (no VPN)
   - Hash of a hash passwords in the cloud
   - If channel fails, sign-in works
-##### 2. **Pass-through Authentication** (PTA)
+### 2. **Pass-through Authentication** (PTA)
   - Does not store any password hashes
   - Password validation requests are sent to Windows Server Active Directory via pass-through authentication
   - Need one or more (3 is recommended) **lightweight agents** installed on existing servers
