@@ -6,7 +6,7 @@
 + **High Availability** is the _percentage_ (%) of the time system response to the user request i.e. how long a system component is operational
 + **Availability** is the accessibility of an application or system by end-users
 
-> What causes unavailabilty?
+>>> What causes unavailabilty?
 1. Networking outage
 2. Application failure
 3. Power outage
