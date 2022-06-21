@@ -8,6 +8,7 @@
 + A **Region Pair** is a relationship between 2 Azure Regions within the sane geographic region for disaster recovery purposes
 
 2. Describe the benefits and usage of Availability Zones
++ **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 3. Describe the benefits and usage of Resource Groups
 4. Describe the benefits and usage of Subscriptions
 5. Describe the benefits and usage of Management Groups
