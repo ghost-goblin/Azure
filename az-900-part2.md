@@ -9,3 +9,14 @@
 5. describe the benefits and usage of Management Groups
 6. describe the benefits and usage of Azure Resource Manager
 7. explain Azure resources
+
+### Describe core resources available in Azure
+• describe the benefits and usage of Virtual Machines, Azure App Services, Azure
+Container Instances (ACI), Azure Kubernetes Service (AKS), and Azure Virtual Desktop
+• describe the benefits and usage of Virtual Networks, VPN Gateway, Virtual Network
+peering, and ExpressRoute
+• describe the benefits and usage of Container (Blob) Storage, Disk Storage, File Storage,
+and storage tiers
+• describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for
+MySQL, Azure Database for PostgreSQL, and Azure SQL Managed Instance
+• describe the benefits and usage of Azure Marketplace
