@@ -9,12 +9,12 @@
 
 2. Describe the benefits and usage of **Availability Zones**
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
-3. Describe the benefits and usage of Resource Groups
+3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
-4. Describe the benefits and usage of Subscriptions
-5. Describe the benefits and usage of Management Groups
-6. Describe the benefits and usage of Azure Resource Manager
+4. Describe the benefits and usage of **Subscriptions**
+5. Describe the benefits and usage of **Management Groups**
+6. Describe the benefits and usage of **Azure Resource Manager** (ARM)
 7. Explain Azure resources
 
 ### Describe core resources available in Azure
