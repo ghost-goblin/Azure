@@ -21,3 +21,18 @@
 
 3. Describe the **consumption-based model**
 +  The **consumption-based model** relies on the fundamental philosophy that customers pay according to the amounts of services that they use or consume
+
+### Describe the differences between categories of cloud services
+1. describe the shared responsibility model
+2. describe Infrastructure-as-a-Service (IaaS)
+3. describe Platform-as-a-Service (PaaS)
+4. describe serverless computing
+5. describe Software-as-a-Service (SaaS)
+6. identify a service type based on a use case
+
+### Describe the differences between types of cloud computing
+1. define cloud computing
+2. describe Public cloud
+3. describe Private cloud
+4. describe Hybrid cloud
+5. compare and contrast the three types of cloud computing
