@@ -1,6 +1,6 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
-## Describe core Azure Services
+## 🚒 Describe core Azure Services
 ### Describe the core Azure architectural components
 1. describe the benefits and usage of Regions and Region Pairs
 2. describe the benefits and usage of Availability Zones
