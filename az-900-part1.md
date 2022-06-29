@@ -23,16 +23,26 @@
 +  The **consumption-based model** relies on the fundamental philosophy that customers pay according to the amounts of services that they use or consume
 
 ### Describe the differences between categories of cloud services
-1. describe the shared responsibility model
-2. describe Infrastructure-as-a-Service (IaaS)
-3. describe Platform-as-a-Service (PaaS)
-4. describe serverless computing
-5. describe Software-as-a-Service (SaaS)
-6. identify a service type based on a use case
+1. Describe the **Shared Responsibility Model**
+
+       ++++++
+     ++++++++++
+   ++++ SaaS ++++ > Less Control
+  +++++ PaaS ++++++
++++++++ IaaS +++++++  > More Control
++++++++++++++++++++++
+
++ No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
++ The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
+2. Describe Infrastructure-as-a-Service (IaaS)
+3. Describe Platform-as-a-Service (PaaS)
+4. Describe serverless computing
+5. Describe Software-as-a-Service (SaaS)
+6. Identify a service type based on a use case
 
 ### Describe the differences between types of cloud computing
-1. define cloud computing
-2. describe Public cloud
-3. describe Private cloud
-4. describe Hybrid cloud
-5. compare and contrast the three types of cloud computing
+1. Define cloud computing
+2. Describe Public cloud
+3. Describe Private cloud
+4. Describe Hybrid cloud
+5. Compare and contrast the three types of cloud computing
