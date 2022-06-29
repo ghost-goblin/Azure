@@ -37,10 +37,12 @@
  ```
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
 + The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
-2. Describe Infrastructure-as-a-Service (IaaS)
-3. Describe Platform-as-a-Service (PaaS)
+2. Describe **Infrastructure-as-a-Service** (IaaS)
++ Manage the OS and software that runs on that infrastructure
++ The most popular IaaS service in Azure is called **Azure Virtual Machines**
+3. Describe **Platform-as-a-Service** (PaaS)
 4. Describe serverless computing
-5. Describe Software-as-a-Service (SaaS)
+5. Describe **Software-as-a-Service** (SaaS)
 6. Identify a service type based on a use case
 
 ### Describe the differences between types of cloud computing
