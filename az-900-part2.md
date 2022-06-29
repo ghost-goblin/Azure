@@ -13,6 +13,10 @@
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
 4. Describe the benefits and usage of **Subscriptions**
++ To use Azure's cloud-based services, you must first purchase a subscription
++ Highest level Azure resource
++ Each subscription has a unique ID
++ Subscriptions have quotas
 5. Describe the benefits and usage of **Management Groups**
 6. Describe the benefits and usage of **Azure Resource Manager** (ARM)
 7. Explain Azure resources
