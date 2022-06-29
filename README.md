@@ -1,7 +1,7 @@
 # ☁️ Microsoft Azure Services & Concepts
 
-### [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
-### [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
+### 🧱 [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
+### 🛡️ [Microsoft AZ-500](az-500-index.md): Microsoft Azure Security Technologies
 
 ## Azure Data Centre Regions & Availability Zones
 - Physical Deployment
