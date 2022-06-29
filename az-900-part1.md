@@ -40,6 +40,7 @@
 2. Describe **Infrastructure-as-a-Service** (IaaS)
 + Manage the OS and software that runs on that infrastructure
 + The most popular IaaS service in Azure is called **Azure Virtual Machines**
++ The ability to remote into the VM is usually reserved for IaaS services
 3. Describe **Platform-as-a-Service** (PaaS)
 4. Describe serverless computing
 5. Describe **Software-as-a-Service** (SaaS)
