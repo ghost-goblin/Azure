@@ -17,7 +17,10 @@
 + Highest level Azure resource
 + Each subscription has a unique ID
 + Subscriptions have quotas
++ A subscription is the parent of the Resource Group
 5. Describe the benefits and usage of **Management Groups**
++ A logical construct
++ Organise multiple Azure subscriptions or othe Management Groups
 6. Describe the benefits and usage of **Azure Resource Manager** (ARM)
 7. Explain Azure resources
 
