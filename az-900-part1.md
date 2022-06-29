@@ -24,14 +24,14 @@
 
 ### Describe the differences between categories of cloud services
 1. Describe the **Shared Responsibility Model**
-
--        ++++++
--      ++++++++++
--    ++++ SaaS ++++ > Less Control
--   +++++ PaaS ++++++
-- +++++++ IaaS +++++++  > More Control
-- +++++++++++++++++++++
-
+```sh
+        ++++++
+      ++++++++++
+    ++++ SaaS ++++ > Less Control
+   +++++ PaaS ++++++
+ +++++++ IaaS +++++++  > More Control
+ +++++++++++++++++++++
+ ```
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
 + The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
 2. Describe Infrastructure-as-a-Service (IaaS)
