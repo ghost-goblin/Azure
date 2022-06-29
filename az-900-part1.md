@@ -42,6 +42,7 @@
 + The most popular IaaS service in Azure is called **Azure Virtual Machines**
 + The ability to remote into the VM is usually reserved for IaaS services
 3. Describe **Platform-as-a-Service** (PaaS)
++ Azure App Service
 4. Describe serverless computing
 5. Describe **Software-as-a-Service** (SaaS)
 6. Identify a service type based on a use case
