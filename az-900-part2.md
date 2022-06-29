@@ -20,7 +20,7 @@
 + A subscription is the parent of the Resource Group
 5. Describe the benefits and usage of **Management Groups**
 + A logical construct
-+ Organise multiple Azure subscriptions or othe Management Groups
++ Organise multiple Azure subscriptions or other Management Groups
 6. Describe the benefits and usage of **Azure Resource Manager** (ARM)
 7. Explain Azure resources
 
