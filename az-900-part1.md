@@ -44,6 +44,8 @@
 3. Describe **Platform-as-a-Service** (PaaS)
 + Azure App Service
 4. Describe serverless computing
++ Azure Functions
++ Logic Apps
 5. Describe **Software-as-a-Service** (SaaS)
 6. Identify a service type based on a use case
 
