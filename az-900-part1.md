@@ -28,11 +28,11 @@
            ++> Less Control
           ++++
          ++++++
-       ++ SAAS ++
+       ++ SAAS ++ > Hosted Applications/apps
      ++++++++++++++
-    +++++ PAAS +++++
+    +++++ PAAS +++++ > Development tools, database management, operating systems
   +++++++++++++++++++
- ++++++++ IAAS ++++++++
+ ++++++++ IAAS ++++++++ > Servers & storage, Networking firewalls/security, Data center physical plant/building
 ++++++++++++++++++++++++ > More Control
  ```
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
