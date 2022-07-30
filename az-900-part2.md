@@ -28,6 +28,7 @@
 1. Describe the benefits and usage of Virtual Machines, Azure App Services, Azure Container Instances (ACI), Azure Kubernetes Service (AKS), and Azure Virtual Desktop
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
++ **Azure Cognitive Services** has an entire list of features that can be used to build Artificial Intelligent based applications
 2. Describe the benefits and usage of Virtual Networks, VPN Gateway, Virtual Network peering, and ExpressRoute
 3. Describe the benefits and usage of Container (Blob) Storage, Disk Storage, File Storage, and storage tiers
 4. Describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure SQL Managed Instance
