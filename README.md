@@ -35,7 +35,7 @@ ARM is used by __ALL__ the tools to manage resources.
 - Azure Portal
 - Azure PowerShell
 - Azure CLI
-- REST interface
+- REST interface (an architectural style or design pattern for APIs)
 
 ## Resource Manager Templates
 These are files written in JavaScript Object Notation (JSON) and defines infrastructure and configuration for Azure resources.
