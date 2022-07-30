@@ -12,6 +12,8 @@
 3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
++ **Resource Group** _tags_ are not inherited to resources within the group
++ If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
 4. Describe the benefits and usage of **Subscriptions**
 + To use Azure's cloud-based services, you must first purchase a subscription
 + Highest level Azure resource
