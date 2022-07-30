@@ -25,15 +25,17 @@
 ### Describe the differences between categories of cloud services
 1. Describe the **Shared Responsibility Model**
 ```sh
-           ++> Less Control
+      (Less Control)
+           ++
           ++++
          ++++++
        ++ SAAS ++ > Hosted Applications/apps
      ++++++++++++++
     +++++ PAAS +++++ > Development tools, database management, operating systems
   +++++++++++++++++++
- ++++++++ IAAS ++++++++ > VMs, Servers & storage, Networking firewalls/security, Data center physical plant/building
-++++++++++++++++++++++++ > More Control
+ ++++++++ IAAS ++++++++ > VMs, Servers + storage, Networking firewalls/security, Data center physical plant/building
+++++++++++++++++++++++++
+      (More Control)
  ```
 > Building security
 >> Physical network security
