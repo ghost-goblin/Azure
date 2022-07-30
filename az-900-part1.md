@@ -67,5 +67,7 @@
 2. Describe Public cloud
 > "The public cloud is defined as computing services offered by third-party providers over the public Internet, making them available to anyone who wants to use or purchase them."
 3. Describe Private cloud
+> "The private cloud is defined as computing services offered either over the Internet or a private internal network and only to select users instead of the general public."
 4. Describe Hybrid cloud
+> "A hybrid cloud—sometimes called a cloud hybrid—is a computing environment that combines an on-premises datacenter (also called a private cloud) with a public cloud, allowing data and applications to be shared between them."
 5. Compare and contrast the three types of cloud computing
