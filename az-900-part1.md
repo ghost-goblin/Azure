@@ -51,6 +51,7 @@
 
 ### Describe the differences between types of cloud computing
 1. Define cloud computing
++ The ability to rent cloud computing resources on demand
 2. Describe Public cloud
 3. Describe Private cloud
 4. Describe Hybrid cloud
