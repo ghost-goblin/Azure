@@ -9,15 +9,18 @@
 
 2. Describe the benefits and usage of **Availability Zones**
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
+
+> Azure provides four levels of scope: 
+> Management Groups
+>> Subscriptions
+>> Resource Groups
+>>> Resources
+
 3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
 + **Resource Group** _tags_ are not inherited to resources within the group
 + If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
-
-> Azure provides four levels of scope: management groups, subscriptions, resource groups, and resources.
-
-
 4. Describe the benefits and usage of **Subscriptions**
 + To use Azure's cloud-based services, you must first purchase a subscription
 + Highest level Azure resource
