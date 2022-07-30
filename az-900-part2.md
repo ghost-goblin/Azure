@@ -23,7 +23,7 @@
 5. Describe the benefits and usage of **Management Groups**
 + A logical construct
 + Organise multiple Azure subscriptions or other Management Groups
-6. Describe the benefits and usage of **Azure Resource Manager** (ARM)
+6. Describe the benefits and usage of **[https://docs.microsoft.com/en-us/azure/azure-resource-manager/](Azure Resource Manager)** (ARM)
 7. Explain Azure resources
 
 ### Describe core resources available in Azure
