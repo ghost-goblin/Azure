@@ -13,8 +13,8 @@
 > Azure provides four levels of scope: 
 >> Management Groups
 >>> Subscriptions
->>> Resource Groups
->>>> Resources
+>>>> Resource Groups
+>>>>> Resources
 
 3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
