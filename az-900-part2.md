@@ -33,8 +33,8 @@
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
-3. Describe the benefits and usage of Container (Blob) Storage, Disk Storage, File Storage, and storage tiers
-4. Describe the benefits and usage of Cosmos DB, Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, and Azure SQL Managed Instance
+3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
+4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
 + **CosmosDB**
 - No need for schema or Index management
 - Ensure low latency access to data from around the world
