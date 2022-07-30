@@ -63,6 +63,7 @@
 1. Define cloud computing
 + The ability to rent cloud computing resources on demand
 2. Describe Public cloud
+> "The public cloud is defined as computing services offered by third-party providers over the public Internet, making them available to anyone who wants to use or purchase them."
 3. Describe Private cloud
 4. Describe Hybrid cloud
 5. Compare and contrast the three types of cloud computing
