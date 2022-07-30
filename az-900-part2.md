@@ -10,7 +10,7 @@
 2. Describe the benefits and usage of **Availability Zones**
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
-> Azure provides four levels of scope: 
+> Azure provides 4 levels of scope: 
 >> Management Groups
 >>> Subscriptions
 >>>> Resource Groups
