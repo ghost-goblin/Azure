@@ -11,10 +11,10 @@
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
 > Azure provides four levels of scope: 
-> Management Groups
->> Subscriptions
->> Resource Groups
->>> Resources
+>> Management Groups
+>>> Subscriptions
+>>> Resource Groups
+>>>> Resources
 
 3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
