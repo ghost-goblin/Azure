@@ -32,19 +32,19 @@
      ++++++++++++++
     +++++ PAAS +++++ > Development tools, database management, operating systems
   +++++++++++++++++++
- ++++++++ IAAS ++++++++ > VMd, Servers & storage, Networking firewalls/security, Data center physical plant/building
+ ++++++++ IAAS ++++++++ > VMs, Servers & storage, Networking firewalls/security, Data center physical plant/building
 ++++++++++++++++++++++++ > More Control
-+ Building security
-+ Physical network security
-+ Physical computer security
-+ OS patches
-+ Network & Firweall settings
-+ Application settings
-+ Authentication platform
-+ User accounts
-+ Devices
-+ Data
  ```
+> Building security
+>> Physical network security
+>>> Physical computer security
+>>>> OS patches
+>>>>> Network & Firweall settings
+>>>>>> Application settings
+>>>>>>> Authentication platform
+>>>>>>>> User accounts
+>>>>>>>>> Devices
+>>>>>>>>>> Data
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
 + The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
 2. Describe **Infrastructure-as-a-Service** (IaaS)
