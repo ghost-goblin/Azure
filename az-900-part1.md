@@ -72,3 +72,4 @@
 > "A hybrid cloud—sometimes called a cloud hybrid—is a computing environment that combines an on-premises datacenter (also called a private cloud) with a public cloud, allowing data and applications to be shared between them."
 5. Compare and contrast the three types of cloud computing
 + IaaS vs. PaaS vs. SaaS
+      - Cloud pricing is complicated
