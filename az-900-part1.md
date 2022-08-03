@@ -73,3 +73,4 @@
 5. Compare and contrast the three types of cloud computing
 + IaaS vs. PaaS vs. SaaS
 + Cloud pricing is complicated
++ Usually any service is priced by 2 or 3 metrics combined
