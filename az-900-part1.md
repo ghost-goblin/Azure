@@ -61,6 +61,16 @@
 5. Describe **Software-as-a-Service** (SaaS)
 6. Identify a service type based on a use case
 
+### Benefits of Cloud 
++ Cost savings - both real and accounting
++ Availability & Scalability
++ Reliability & Predictability
++ Security & Goverance
++ Manageability
++ Global reach
++ Range of ready on-demand services
++ Range of tools
+
 ### Describe the differences between types of cloud computing
 1. Define cloud computing
 + The ability to rent cloud computing resources on demand
