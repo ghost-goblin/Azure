@@ -62,7 +62,7 @@ ARM is used by __ALL__ the tools to manage resources.
 + **Virtual Machines**
   - IaaS
   - Take an existing machine from your environment into the cloud - _a copy_
-  - Windows or Linux operating systems - sveral of each
+  - Windows or Linux operating systems - several of each
   - A "slice" of physical machine shared with other customers
   - Full control over it, as if it was your machine
   - Over 200 Virtual Machine types to choose from
