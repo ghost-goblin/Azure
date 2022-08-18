@@ -44,6 +44,13 @@ ARM is used by __ALL__ the tools to manage resources.
   - REST interface (an architectural style or design pattern for APIs)
 
 7. Explain Azure resources
++ A **Resource Group** is a container that hold related resources.
+  + Resources share the same lifecycle i.e. deploy, update, delete together
+  + Resources can only exist in one Resource Group
+  + Resource can communicate across Resource Groups
+  + Container for security boundaries
+  + Can export IAAS using __Resource Manager Templates__
+  + Resources can be in different regions
 
 ### Describe core resources available in Azure
 1. Describe the benefits and usage of **Virtual Machines**, **Azure App Services**, **Azure Container Instances** (ACI), **Azure Kubernetes Service** (AKS), and **Azure Virtual Desktop**
