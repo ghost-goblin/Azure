@@ -41,6 +41,8 @@
 
 #### Compute services - _executing code on the cloud_
 + Virtual Machines
+  - IaaS
+  - 
 + VM Scale Sets (VMSS)
 + App servicea (Web apps)
 + Azure Container Instances (ACI)
