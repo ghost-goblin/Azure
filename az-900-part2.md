@@ -38,6 +38,15 @@
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
+
+#### Compute services
++ Virtual Machines
++ VM Scale Sets (VMSS)
++ App servicea (Web apps)
++ Azure Container Instances (ACI)
++ Azure Kubernetes Service (AKS)
++ Windows Virtual Desktop
+
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
 3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
