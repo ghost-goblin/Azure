@@ -46,7 +46,15 @@
   - Windows or Linux operating systems - sveral of each
   - A "slice" of physical machine shared with other customers
   - Full control over it, as if it was your machine
+  - Over 200 Virtual Machine types to choose from
+  - Number of CPU cores, CPU speed, RAM size, temporary disk size, IOPS, etc.
 + VM Scale Sets (VMSS)
+  - Elasticity
+  - 2 or more VMs running the exact same code
+  - A **Load Balancer** in front to direct traffic randomly to one of the machines
+  - Autoscaling: add more and reduce machines on demand
+  - Can handle up to 100 VMs in a single scale set
+  - Can be configured to increase that to 1000 VMs in a single scale set
 + App servicea (Web apps)
 + Azure Container Instances (ACI)
 + Azure Kubernetes Service (AKS)
