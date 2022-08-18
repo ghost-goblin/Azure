@@ -42,7 +42,10 @@
 #### Compute services - _executing code on the cloud_
 + Virtual Machines
   - IaaS
-  - 
+  - Take an existing machine from your environment into the cloud - _a copy_
+  - Windows or Linux operating systems - sveral of each
+  - A "slice" of physical machine shared with other customers
+  - Full control over it, as if it was your machine
 + VM Scale Sets (VMSS)
 + App servicea (Web apps)
 + Azure Container Instances (ACI)
