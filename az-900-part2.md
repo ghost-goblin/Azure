@@ -61,7 +61,10 @@
   - Promise of performance with no access to physical hardware
   - PaaS
 + Azure Container Instances (ACI)
+  - Containers contain everything the app needs to run in a "container image"
+  - Fastest and easiest to deploy
 + Azure Kubernetes Service (AKS)
+  - runs on a cluster of servers, enterpise-grade
 + Windows Virtual Desktop
 
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
