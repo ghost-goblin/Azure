@@ -1,6 +1,7 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
 ## 🚒 Describe core Azure Services
+
 ### Describe the core Azure architectural components
 1. Describe the benefits and usage of **Regions** and **Region Pairs**
 + An **Azure Region** is a set of Datacenters that are connected through a dedicated low-latency network
@@ -27,10 +28,21 @@
 + Each subscription has a unique ID
 + Subscriptions have quotas
 + A subscription is the parent of the Resource Group
+
 5. Describe the benefits and usage of **Management Groups**
 + A logical construct
 + Organise multiple Azure subscriptions or other Management Groups
+
 6. Describe the benefits and usage of [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) (ARM)
+A deployment and management service for Azure and it's central to the management of resources.
+The Azure Portal sends instructions to the ARM endpoint, ARM handles authentication using Active Directory (Azure AD) and authorises the request.
+ARM then sends the request to the service you are attemting to create or manipulate (App service, VM, etc.).
+ARM is used by __ALL__ the tools to manage resources.
+- Azure Portal
+- Azure PowerShell
+- Azure CLI
+- REST interface (an architectural style or design pattern for APIs)
+
 7. Explain Azure resources
 
 ### Describe core resources available in Azure
