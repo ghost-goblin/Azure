@@ -39,7 +39,7 @@
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
 
-#### Compute services
+#### Compute services - _executing code on the cloud_
 + Virtual Machines
 + VM Scale Sets (VMSS)
 + App servicea (Web apps)
