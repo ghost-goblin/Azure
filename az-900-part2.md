@@ -59,7 +59,7 @@ ARM is used by __ALL__ the tools to manage resources.
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
 
 #### Compute services - _executing code on the cloud_
-+ Virtual Machines
++ **Virtual Machines**
   - IaaS
   - Take an existing machine from your environment into the cloud - _a copy_
   - Windows or Linux operating systems - sveral of each
@@ -67,24 +67,24 @@ ARM is used by __ALL__ the tools to manage resources.
   - Full control over it, as if it was your machine
   - Over 200 Virtual Machine types to choose from
   - Number of CPU cores, CPU speed, RAM size, temporary disk size, IOPS, etc.
-+ VM Scale Sets (VMSS)
++ **VM Scale Sets** (VMSS)
   - Elasticity
   - 2 or more VMs running the exact same code
   - A **Load Balancer** in front to direct traffic randomly to one of the machines
   - Autoscaling: add more and reduce machines on demand
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
-+ App servicea (Web apps)
++ **App services** (Web apps)
   - A new paradigm for running code in the cloud
   - Give your code and configuration to Azure, and they will run it
   - Promise of performance with no access to physical hardware
   - PaaS
-+ Azure Container Instances (ACI)
++ **Azure Container Instances** (ACI)
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
-+ Azure Kubernetes Service (AKS)
++ **Azure Kubernetes Service** (AKS)
   - runs on a cluster of servers, enterprise-grade
-+ Windows Virtual Desktop
++ **Windows Virtual Desktop**
 
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Connectivity
