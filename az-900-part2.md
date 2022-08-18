@@ -64,7 +64,7 @@
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
 + Azure Kubernetes Service (AKS)
-  - runs on a cluster of servers, enterpise-grade
+  - runs on a cluster of servers, enterprise-grade
 + Windows Virtual Desktop
 
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
