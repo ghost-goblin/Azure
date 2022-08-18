@@ -69,7 +69,7 @@
 
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Connectivity
-  - Virtual Network emulates a physical network
+  - A **Virtual Network** emulates a physical network
 
 > Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
 
