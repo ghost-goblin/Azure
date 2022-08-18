@@ -56,6 +56,10 @@
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
 + App servicea (Web apps)
+  - A new paradigm for running code in the cloud
+  - Give your code and configuration to Azure, and they will run it
+  - Promise of performance with no access to physical hardware
+  - PaaS
 + Azure Container Instances (ACI)
 + Azure Kubernetes Service (AKS)
 + Windows Virtual Desktop
