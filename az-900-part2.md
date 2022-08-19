@@ -73,7 +73,6 @@ ARM is used by __ALL__ the tools to manage resources.
 1. Describe the benefits and usage of **Virtual Machines**, **Azure App Services**, **Azure Container Instances** (ACI), **Azure Kubernetes Service** (AKS), and **Azure Virtual Desktop**
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
-+ **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
 
 #### Compute services - _executing code on the cloud_
 + **Virtual Machines**
