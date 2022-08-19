@@ -126,7 +126,7 @@ ARM is used by __ALL__ the tools to manage resources.
       - Gremlin
       - Azure Table Storage
 
-+ SQL Server
++ **SQL Server**
   + Host SQL Server on Virtual Machines
     + Full control over the SQL Server
     + Can provision from the Azure Marketplace
@@ -134,7 +134,7 @@ ARM is used by __ALL__ the tools to manage resources.
     + Automated updated scheduling
     + Managed Backup to Azure
 
-+ Azure SQL Database (fully managed PAAS in the cloud)
++ **Azure SQL Database** (fully managed PAAS in the cloud)
   + Always running the latest version of SQL Server
   + Flexible pricing model
     - Vcores
@@ -143,7 +143,7 @@ ARM is used by __ALL__ the tools to manage resources.
   + Automatic scaling
   + Service tiers for different workloads
 
-+ Azure SQL Managed Instance 
++ **Azure SQL Managed Instance** 
   + Broadset of SQL Server capabilities
   + Benefits of managed platform
   + Deploy VM onto your own VNET
