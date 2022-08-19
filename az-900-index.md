@@ -1,6 +1,6 @@
 # Microsoft AZ-900: Microsoft Azure Fundamentals
 
-[Schedule exam](https://docs.microsoft.com/en-us/certifications/exams/az-900)
+✏️ [Schedule exam](https://docs.microsoft.com/en-us/certifications/exams/az-900)
 
 1. ☁️ [Describe Cloud Concepts](az-900-part1.md) (25–30%)
 2. 🚒 [Describe core Azure Services](az-900-part2.md) (15-20%)
