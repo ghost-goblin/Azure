@@ -4,13 +4,30 @@
 
 ### Describe Azure security features
 1. Describe basic features of **Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
+
+
+- - -
+
 2. Describe the functionality and usage of **Azure Key Vault**
+
+- - -
+
 3. Describe the functionality and usage of **Microsoft Sentinel**
 + Microsoft's Security information and event management (SIEM)
+
+- - -
+
 4. Describe the functionality and usage of **Azure Dedicated Hosts**
+
+
+- - -
 
 ### Describe Azure network security
 1. Describe the concept of defense in depth
+
+
+
+- - -
 
 2. Describe the functionality and usage of **Network Security Group** (NSG)
 + How do I create a Network Security Group? ... _just like with anything in Azure, you just create a **resource**_
@@ -25,11 +42,19 @@
 + VMs (At the NIC level)
 + Subnets
 
+
+- - -
+
+
 3. Describe the functionality and usage of **Azure Firewall**
 - Managed network security service that protects your Azure network resources
 - Full stateful
 - High Availability
 - Unrescrticted scalability
+
+
+- - -
+
 
 4. Describe the functionality and usage of **Azure DDoS protection**
 - Two Service Tiers
