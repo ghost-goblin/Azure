@@ -100,6 +100,8 @@ ARM is used by __ALL__ the tools to manage resources.
   - Standard SSDs
   - Standard hard disk drives (HDD)
 + Blob storage is optimized for storing massive amounts of unstructured data
++ **Storage accounts** contain all AZure object with a unique namespace
++ Create a storage account in the Azure Portal and the CLI
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
 + Types of Data:
