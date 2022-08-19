@@ -153,7 +153,7 @@
   + Azure API Management
 
 + Azure Services that support Azure AD Authentication
-  + Azure Key Vault
+  + Azure Key Vault - _cloud service for securely storing and accessing secrets_
   + Azure SQL
   + Azure Service Bus
   + Azure Storage (Blobs & Queues)
@@ -203,9 +203,24 @@
 - - -
 
 3. Describe the functionality and usage of **tags**
++ Metadata elements with key-value pairs can be applied to Azure resources
+
+- - -
 4. Describe the functionality and usage of **Azure Policy**
-5. Describe the functionality and usage of **Azure Blueprints**
-6. Describe the **Cloud Adoption Framework** for Azure
+
+
+- - -
+
+
+6. Describe the functionality and usage of **Azure Blueprints**
+
+- - -
+
+8. Describe the **Cloud Adoption Framework** for Azure
+
+
+
+- - -
 
 ### Describe privacy and compliance resources
 1. Describe the Microsoft core tenets of **Security**, **Privacy**, and **Compliance**
