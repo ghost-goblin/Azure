@@ -99,14 +99,34 @@ ARM is used by __ALL__ the tools to manage resources.
 + Types of Data:
   + **Structured/Relational Data**
     + Azure SQL Database
-    + Azure Database for MySQL
-    + Azure Database for PostgreSQL
+      + Host SQL Server on Virtual Machines
+      + Full control over the SQL Server
+      + Can provision from the Azure Marketplace
+      + Flexible pricing oprions
+      + Automated updated scheduling
+      + Managed Backup to Azure
+      + Azure Database for MySQL
+          + Always running the latest version of SQL Server
+          + Flexible pricing model
+            - Vcores
+            - DTU's
+          + Single database or Elastic Pool
+          + Automatic scaling
+          + Service tiers for different workloads
+      + Azure Database for PostgreSQL
+      + **Azure SQL Managed Instance** 
+          + Broadset of SQL Server capabilities
+          + Benefits of managed platform
+          + Deploy VM onto your own VNET
+          + Lift-and-shift with minimal changes
   + **Unstructured Data** 
     + Azure Blob Storage
     + Azure File Storage (supports SMB protocol)
     + Azure Disk Storage
   + **Semi-structured Data** (_Non-Relational/NoSQL_)
-    + Cosmos DB
+    + **Cosmos DB**
+      - No need for schema or Index management
+      - Ensure low latency access to data from around the world
       - Retail Applications
         + Attributes can vary & change over time
         + Flexible schema
@@ -119,38 +139,12 @@ ARM is used by __ALL__ the tools to manage resources.
         + Add/remove regions easily
         + Backed by SSD storage
         + Consistency options to ensure distributed data is updated
-    + Cosmos DB APIs
+    + **Cosmos DB API**s
       - SQL API
       - Cassandra
       - Mongo DB
       - Gremlin
       - Azure Table Storage
-
-+ **SQL Server**
-  + Host SQL Server on Virtual Machines
-    + Full control over the SQL Server
-    + Can provision from the Azure Marketplace
-    + Flexible pricing oprions
-    + Automated updated scheduling
-    + Managed Backup to Azure
-
-+ **Azure SQL Database** (fully managed PAAS in the cloud)
-  + Always running the latest version of SQL Server
-  + Flexible pricing model
-    - Vcores
-    - DTU's
-  + Single database or Elastic Pool
-  + Automatic scaling
-  + Service tiers for different workloads
-
-+ **Azure SQL Managed Instance** 
-  + Broadset of SQL Server capabilities
-  + Benefits of managed platform
-  + Deploy VM onto your own VNET
-  + Lift-and-shift with minimal changes
-+ **CosmosDB**
-  - No need for schema or Index management
-  - Ensure low latency access to data from around the world
 
 5. Describe the benefits and usage of Azure Marketplace
 + [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store that contains thousands of IT software applications and services built by industry-leading technology companies
