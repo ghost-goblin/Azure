@@ -115,7 +115,7 @@ ARM is used by __ALL__ the tools to manage resources.
 
 - - -
 
-3. 💾 Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
+3. 💾 Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and **Storage Tiers**
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
   - Premium solid-state drives (SSD)
