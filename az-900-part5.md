@@ -3,9 +3,11 @@
 ## 🧑‍🤝‍🧑 Describe identity, governance, privacy, and compliance features
 
 ### Describe core Azure identity services
-1. Explain the difference between **authentication** and **authorization**
 
-2. Define **Azure Active Directory**
+## 1. Explain the difference between **authentication** and **authorization**
+
+- - -
+## 2. Define **Azure Active Directory**
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -20,8 +22,9 @@
   - Azure AD B2B Collaboration
   - External Identities
 
+- - -
 
-3. Describe the functionality and usage of **Azure Active Directory**
+## 3. Describe the functionality and usage of **Azure Active Directory**
   + Managing Users with PowerShell
 ```ps1
 Connect-AzureAD #sign in
@@ -160,8 +163,9 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
+- - -
 
-4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
+## 4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
 + Integrate single sign-on (SSO) and identity providers for authentication
   + The **synchronized identity** model is the most common (SSO)
   + Azure AD Connect and **password writeback** facilitate this model
@@ -248,7 +252,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
     - SCIM 2.0 (provides a way for an application to talk to Azure AD)
     - Available on select SaaS apps
 
-
+- - -
 
 ### Describe Azure governance features
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
