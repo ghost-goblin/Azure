@@ -8,6 +8,8 @@
 + A region could be made up of one or multiple datacenters
 + A **Region Pair** is a relationship between 2 Azure Regions within the sane geographic region for disaster recovery purposes
 
+- - -
+
 2. Describe the benefits and usage of **Availability Zones**
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
 
@@ -17,11 +19,16 @@
 >>>> Resource Groups
 >>>>> Resources
 
+- - -
+
 3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
 + **Resource Group** _tags_ are not inherited to resources within the group
 + If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
+
+- - -
+
 4. Describe the benefits and usage of **Subscriptions**
 + To use Azure's cloud-based services, you must first purchase a subscription
 + Highest level Azure resource
@@ -29,9 +36,15 @@
 + Subscriptions have quotas
 + A subscription is the parent of the Resource Group
 
+
+- - -
+
 5. Describe the benefits and usage of **Management Groups**
 + A logical construct
 + Organise multiple Azure subscriptions or other Management Groups
+
+
+- - -
 
 6. Describe the benefits and usage of [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) (ARM)
 + A deployment and management service for Azure and it's central to the management of resources.
@@ -43,6 +56,9 @@ ARM is used by __ALL__ the tools to manage resources.
   - Azure CLI
   - REST interface (an architectural style or design pattern for APIs)
 
+- - -
+
+
 7. Explain Azure resources
 + A **Resource Group** is a container that hold related resources.
   + Resources share the same lifecycle i.e. deploy, update, delete together
@@ -51,6 +67,8 @@ ARM is used by __ALL__ the tools to manage resources.
   + Container for security boundaries
   + Can export IAAS using __Resource Manager Templates__
   + Resources can be in different regions
+
+- - -
 
 ### Describe core resources available in Azure
 1. Describe the benefits and usage of **Virtual Machines**, **Azure App Services**, **Azure Container Instances** (ACI), **Azure Kubernetes Service** (AKS), and **Azure Virtual Desktop**
@@ -86,12 +104,18 @@ ARM is used by __ALL__ the tools to manage resources.
   - runs on a cluster of servers, enterprise-grade
 + **Windows Virtual Desktop**
 
+
+- - -
+
 2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Connectivity
   - A **Virtual Network** emulates a physical network
   - **ExpressRoute** is _a high speed private connection to Azure_
 
 > Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
+
+
+- - -
 
 3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
@@ -102,6 +126,8 @@ ARM is used by __ALL__ the tools to manage resources.
 + Blob storage is optimized for storing massive amounts of unstructured data
 + **Storage accounts** contain all AZure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
+
+- - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
 + Types of Data:
@@ -153,6 +179,8 @@ ARM is used by __ALL__ the tools to manage resources.
       - Mongo DB
       - Gremlin
       - Azure Table Storage
+
+- - -
 
 5. Describe the benefits and usage of Azure Marketplace
 + [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store that contains thousands of IT software applications and services built by industry-leading technology companies
