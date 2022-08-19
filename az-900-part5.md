@@ -168,6 +168,20 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 - - -
 
 4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
++ Conditional Access Policies (if [something] => do [something])
+ + Conditions
+    - Users & Groups
+    - Cloud Apps
+    - Sign-in Risk
+    - Device Platform & State
+    - Location
+    - Client Apps
++ Controls
+    - MFA
+    - Compliant Device
+    - Approved Client App
+    - Terms of Use
+    - Custom & Session Controls
 + Integrate single sign-on (SSO) and identity providers for authentication
   + The **synchronized identity** model is the most common (SSO)
   + Azure AD Connect and **password writeback** facilitate this model
@@ -185,22 +199,6 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   + Shared Access Signatures
 
 
-
-+ Implement Conditional Access policies, including multifactor authentication
-+ Conditional Access Policies (if [something] => do [something])
- + Conditions
-  - Users & Groups
-  - Cloud Apps
-  - Sign-in Risk
-  - Device Platform & State
-  - Location
-  - Client Apps
-+ Controls
-  - MFA
-  - Compliant Device
-  - Approved Client App
-  - Terms of Use
-  - Custom & Session Controls
  
 + Managed Identities
   + Credentials in Code
