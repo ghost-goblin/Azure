@@ -85,7 +85,7 @@ $newUser = New-AzureADUser @user
   + Locally organise your Azure AD users
   + Delegate administrative permissions
 
-+ 🔐 Manage secure access by using Azure AD
++ Manage secure access by using Azure AD
     + Configure Azure AD Privileged Identity Management (PIM)
   + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
   + Configure access reviews
