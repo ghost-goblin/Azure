@@ -6,6 +6,7 @@
 1. Describe basic features of **Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
 2. Describe the functionality and usage of **Azure Key Vault**
 3. Describe the functionality and usage of **Microsoft Sentinel**
++ Microsoft's Security information and event management (SIEM)
 4. Describe the functionality and usage of **Azure Dedicated Hosts**
 
 ### Describe Azure network security
