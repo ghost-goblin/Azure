@@ -186,12 +186,12 @@
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
 + Principle of Least Privilege - user is given the minimum levels of access – or permissions – needed to perform their job functions
 + Security Principals - a security ID for applications or services
-+ Roles
++ **Roles**
   - **Owner** has full access to all resources and grant access
   - **Contributor** can create/manage all resource, cannot grant access
   - **Reader** can view existing resources
   - **User Access Administrator** lets you mange user access
-+ Scope
++ **Scope**
   - Adding the _Owner_ role at the _management group scope_ allows users in group to manage everything within all subscriptions
   - Adding the _Reader_ role at the _subscription scope_ allows users in that group to view all resource groups and resources in that subscription
   - Assigning the _Contributor_ role to an app at the _resource group_ scope allows it to manage resources within that group alon
@@ -206,8 +206,8 @@
 + Metadata elements with key-value pairs can be applied to Azure resources
 
 - - -
-4. Describe the functionality and usage of **Azure Policy**
 
+4. Describe the functionality and usage of **Azure Policy**
 
 - - -
 
