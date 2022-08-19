@@ -43,8 +43,6 @@ ARM is used by __ALL__ the tools to manage resources.
 + Can be stored and versioned in code repositories
 + Included in CI/CD pipelines
 
-## Azure Advisor
-For optimising your costs
 
 ## Azure Compute
 Set of Services for on-demand computing power
