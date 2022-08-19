@@ -272,6 +272,9 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 - - -
 
 2. Describe the functionality and usage of **resource locks**
++ Locks an Azure subscription, resource group, or resource to protect them from accidental user deletions and modifications - _the lock overrides any user permissions_
+- - -
+
 3. Describe the functionality and usage of **tags**
 4. Describe the functionality and usage of **Azure Policy**
 5. Describe the functionality and usage of **Azure Blueprints**
