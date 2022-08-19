@@ -10,6 +10,20 @@
 
 ### Describe Azure network security
 1. Describe the concept of defense in depth
+
 2. Describe the functionality and usage of **Network Security Group** (NSG)
++ How do I create a Network Security Group? ... _just like with anything in Azure, you just create a **resource**_
++ Filter traffic to and from Azure resources
++ Contains security rules to allow or deny inbound/outbound traffic
++ Evaluated by priority using 5-tuple information
+  1. Source Address
+  2. Source Port
+  3. Destination Address
+  4. Destination Port
+  5. Protocol
++ VMs (At the NIC level)
++ Subnets
+
 3. Describe the functionality and usage of **Azure Firewall**
+
 4. Describe the functionality and usage of **Azure DDoS protection**
