@@ -3,7 +3,7 @@
 ## ⚔️ Describe general security and network security features
 
 ### Describe Azure security features
-1. Describe basic features of** Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
+1. Describe basic features of **Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
 2. Describe the functionality and usage of **Azure Key Vault**
 3. Describe the functionality and usage of **Microsoft Sentinel**
 4. Describe the functionality and usage of **Azure Dedicated Hosts**
