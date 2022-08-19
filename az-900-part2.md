@@ -107,9 +107,10 @@ ARM is used by __ALL__ the tools to manage resources.
 
 2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 - A **Virtual Network** emulates a physical network
-- **ExpressRoute** is _a high speed private connection to Azure_
+- A **VPN Gateway** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
 - **Virtual Network peering** connects 2 or more Virtual Networks in Azure 
 - Traffic between virtual machines in peered virtual networks uses the **Microsoft backbone infrastructure**
+- **ExpressRoute** is _a high speed private connection to Azure_
 
 > Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
 
