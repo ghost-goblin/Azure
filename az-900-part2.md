@@ -122,7 +122,7 @@ ARM is used by __ALL__ the tools to manage resources.
   - Standard SSDs
   - Standard hard disk drives (HDD)
 + Blob storage is optimized for storing massive amounts of unstructured data
-+ [https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview](**Storage accounts**) contain all Azure object with a unique namespace
++ [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
   - General-purpose v2
   - General-purpose v1
