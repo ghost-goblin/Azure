@@ -25,5 +25,9 @@
 + Subnets
 
 3. Describe the functionality and usage of **Azure Firewall**
+- Managed network security service that protects your Azure network resources
+- Full stateful
+- High Availability
+- Unrescrticted scalability
 
 4. Describe the functionality and usage of **Azure DDoS protection**
