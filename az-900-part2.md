@@ -96,16 +96,16 @@ ARM is used by __ALL__ the tools to manage resources.
 3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
-+ Types of Data
-  + Structured/Relational Data
++ Types of Data:
+  + **Structured/Relational Data**
     + Azure SQL Database
     + Azure Database for MySQL
     + Azure Database for PostgreSQL
-  + Unstructured Data 
+  + **Unstructured Data** 
     + Azure Blob Storage
     + Azure File Storage (supports SMB protocol)
     + Azure Disk Storage
-  + Semi-structured Data (Non-Relational/NoSQL)
+  + **Semi-structured Data** (_Non-Relational/NoSQL_)
     + Cosmos DB
       - Retail Applications
         + Attributes can vary & change over time
@@ -115,10 +115,10 @@ ARM is used by __ALL__ the tools to manage resources.
         + Millisecond reads
       - Social Media Applications
         + Flexible data schemas needed for user generated content
-+ Elastically scale throughput and storage across any number of Azure regions
-+ Add/remove regions easily
-+ Backed by SSD storag
-+ Consistency options to ensure distributed data is updated
+        + Elastically scale throughput and storage across any number of Azure regions
+        + Add/remove regions easily
+        + Backed by SSD storage
+        + Consistency options to ensure distributed data is updated
     + Cosmos DB APIs
       - SQL API
       - Cassandra
