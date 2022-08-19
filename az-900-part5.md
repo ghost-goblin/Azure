@@ -6,77 +6,6 @@
 1. Explain the difference between **authentication** and **authorization**
 
 2. Define **Azure Active Directory**
-## Create and manage a managed identity for Azure resources
-+ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
-#### Managed Service Identities for Azure Services
-+ A service of AAD (Azure Active Directory)
-+ Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
-+ Provides **authentication** NOT authorizaton
-+ The new name for the service formerly known as **Managed Service Identity** (MSI)
-#### Types of Managed Identities
-1. **System-Assigned**
-+ Enable directly on an Azure service instance
-+ One per each Azure service instance
-+ Gets cleaned up if Azure services instance is deleted
-+ Widely supported by Azure resources
-2. **User-Assigned**
-+ Created as standalone Azure resource
-+ Can be assigned to one or more Azure service instances
-+ Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
-+ Might be in preview for some resources
-
-## Manage Azure AD groups
-
-+ Security
-+ Microsoft 365
-+ Owners
-+ Assigned Membership
-+ Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
-+ Group-Assigned Roles & Licenses
-
-```ps1
-Find-Module AzureAD
-Install-Module AzureAD
-Import-Module -Name AzureAD
-
-### Get credentials to connect
-$AzureADCredentials = Get-Credential -Message "Login to Azure AD"
-### Connect to tenant
-Connect-AzureAD -Credential $AzureADCredentials
-
-Get-Command -Module AzureAD
-
-### Working with roles
-Connect-AzureAD
-Get-AzureADDirectoryRole
-$CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
-Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
-
-### Get a list of all Roles
-Get-AzureADDirectoryRoleTemplate
-```
-### Creating & Managing Groups with PowerShell 
-
-```ps1
-$group = Get-AzureADGroup -SearchString "Information Technology"
-### Get all the members &  the owner
-Get-AzureADGroupOwner -ObjectId $group.ObjectId
-
-### Create a new group hash table
-$group = @{
-  DisplayName = "Marketing Group"
-  MailEnabled = $false
-  MailNickName = "MarketingGroup"
-  SecurityEnabled = $true
-}
-$newGroup = New-AzureADGroup @group
-
-### Update the group description
-Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
-```
-
-## Manage Azure AD users
-#### Azure Active Directory
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -165,6 +94,76 @@ $newUser = New-AzureADUser @user
     + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
     + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
 
+
+## Create and manage a managed identity for Azure resources
++ Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
+#### Managed Service Identities for Azure Services
++ A service of AAD (Azure Active Directory)
++ Provides Azure services with an automatically managed idenntity. You can use this identity to authenticate to any service that supports Azure AD authentication, without any credentials in your code
++ Provides **authentication** NOT authorizaton
++ The new name for the service formerly known as **Managed Service Identity** (MSI)
+#### Types of Managed Identities
+1. **System-Assigned**
++ Enable directly on an Azure service instance
++ One per each Azure service instance
++ Gets cleaned up if Azure services instance is deleted
++ Widely supported by Azure resources
+2. **User-Assigned**
++ Created as standalone Azure resource
++ Can be assigned to one or more Azure service instances
++ Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
++ Might be in preview for some resources
+
+## Manage Azure AD groups
+
++ Security
++ Microsoft 365
++ Owners
++ Assigned Membership
++ Dynamic Membership _(Azure AD populates the group based on the properties of a user account)_
++ Group-Assigned Roles & Licenses
+
+```ps1
+Find-Module AzureAD
+Install-Module AzureAD
+Import-Module -Name AzureAD
+
+### Get credentials to connect
+$AzureADCredentials = Get-Credential -Message "Login to Azure AD"
+### Connect to tenant
+Connect-AzureAD -Credential $AzureADCredentials
+
+Get-Command -Module AzureAD
+
+### Working with roles
+Connect-AzureAD
+Get-AzureADDirectoryRole
+$CompanyAdminRole = Get-AzureADDirectoryRole | Where-Object {$_.DisplayName -eq "Comapany Administrator"}
+Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
+
+### Get a list of all Roles
+Get-AzureADDirectoryRoleTemplate
+```
+### Creating & Managing Groups with PowerShell 
+
+```ps1
+$group = Get-AzureADGroup -SearchString "Information Technology"
+### Get all the members &  the owner
+Get-AzureADGroupOwner -ObjectId $group.ObjectId
+
+### Create a new group hash table
+$group = @{
+  DisplayName = "Marketing Group"
+  MailEnabled = $false
+  MailNickName = "MarketingGroup"
+  SecurityEnabled = $true
+}
+$newGroup = New-AzureADGroup @group
+
+### Update the group description
+Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
+```
+
 ## Implement Conditional Access policies, including multifactor authentication
 ##### Conditional Access Policies (if [something] => do [something])
 ##### Conditions
@@ -223,11 +222,6 @@ In the target Azure service, assign permissions to the client identity
 + Enable with Azure portal
 + Password writeback (Azure AD Premium P1 License) _(In order for Azure AD Connect to write the cloud based password change back to the local Acrive Directory)_
 
-2. Multi-Factor Authentication
-+ Azure hosted MFA Service
-+ Global Administrators get Azure MFA for free
-+ Registration URL Endpoint: [https://aka.ms/mfasetup](https://aka.ms/mfasetup)
-
 
 # 🛠️ Manage Applicaion Access
 + Azure AD IDaaS (Identity as a Service)
@@ -238,13 +232,22 @@ In the target Azure service, assign permissions to the client identity
   - SCIM 2.0 (provides a way for an application to talk to Azure AD)
   - Available on select SaaS apps
 
-## Integrate single sign-on (SSO) and identity providers for authentication
-+ The **synchronized identity** model is the most common (SSO)
-+ Azure AD Connect and **password writeback** facilitate this model
-+ Password writeback is required for **AAD self-service password reset**
-+ **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
-+ Two types of auth for service pricipals: **secret** or **certificate**
-- - -
+
+
+
+3. Describe the functionality and usage of **Azure Active Directory**
+
+4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
++ Integrate single sign-on (SSO) and identity providers for authentication
+  + The **synchronized identity** model is the most common (SSO)
+  + Azure AD Connect and **password writeback** facilitate this model
+  + Password writeback is required for **AAD self-service password reset**
+  + **Pass Through Authentications** (PTA) forwards request to on-prem AD (log-on hours)
+  + Two types of auth for service pricipals: **secret** or **certificate**
++ Multi-Factor Authentication
+  + Azure hosted MFA Service
+  + Global Administrators get Azure MFA for free
+  + Registration URL Endpoint: [https://aka.ms/mfasetup](https://aka.ms/mfasetup)
 
 
 
@@ -256,11 +259,6 @@ In the target Azure service, assign permissions to the client identity
 + RBAC in Azure AD
 + Srorage Account Keys
 + Shared Access Signatures
-
-
-
-3. Describe the functionality and usage of **Azure Active Directory**
-4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
 
 ### Describe Azure governance features
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
