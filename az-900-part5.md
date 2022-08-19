@@ -5,6 +5,8 @@
 ### Describe core Azure identity services
 
 1. Explain the difference between **authentication** and **authorization**
++ **Authentication** is the process of proving that you are who you say you are
++ **Authorization** is the act of granting an authenticated party permission to do something
 
 - - -
 2. Define **Azure Active Directory**
