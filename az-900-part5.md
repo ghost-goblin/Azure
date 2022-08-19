@@ -48,7 +48,7 @@
   - If channel fails, sign-in fails
 
 
-+ Manage Administrative Units
++ Manage **Administrative Units**
   + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
   + Locally organise your Azure AD users
   + Delegate administrative permissions
@@ -84,7 +84,7 @@
     + Lifecycle is seperate from the lifecycle of Azure service to which it's assigned
     + Might be in preview for some resources
 
-+ Manage Azure AD groups
++ Manage **Azure AD groups**
   + Security
   + Microsoft 365
   + Owners
