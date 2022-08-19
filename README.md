@@ -96,7 +96,7 @@ Focus on the code and business logic
 - Development features & support (APIs)
 
 
-### 🖼️ Configuring TLS/SSL Certificates
+## 🖼️ Configuring TLS/SSL Certificates
 + Protocols that are used to secure communication between different machines
 + If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
 + The private key never leaves the server and will always stay on the certificate owner's machine, it is used to encrypt / decrypt the payloads
