@@ -107,7 +107,7 @@ ARM is used by __ALL__ the tools to manage resources.
 
 - - -
 
-2. Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
+2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
 + Connectivity
   - A **Virtual Network** emulates a physical network
   - **ExpressRoute** is _a high speed private connection to Azure_
@@ -117,7 +117,7 @@ ARM is used by __ALL__ the tools to manage resources.
 
 - - -
 
-3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
+3. 💾 Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
   - Premium solid-state drives (SSD)
