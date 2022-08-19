@@ -15,12 +15,18 @@
 + **Agility** refers to the ability of an organization to rapidly develop, test, and launch software applications that drive business growth _(addition of business value)_
 + **Disaster Recovery** is an organization's ability to respond to and recover from an event that negatively affects business operations
 
+- - -
+
 2. Identify the differences between **Capital Expenditure** (CapEx) and **Operational Expenditure** (OpEx)
 + **Capital Expenditure** occurs when a company spends money, utilizes collateral, or incurs debt to purchase a new asset or enhance value to an existing one
 + **Operational Expenditure** is a daily cost required to keep the business operational
 
+- - -
+
 3. Describe the **consumption-based model**
 +  The **consumption-based model** relies on the fundamental philosophy that customers pay according to the amounts of services that they use or consume
+
+- - -
 
 ### Describe the differences between categories of cloud services
 1. Describe the **Shared Responsibility Model**
@@ -70,6 +76,8 @@
 + Global reach
 + Range of ready on-demand services
 + Range of tools
+
+- - -
 
 ### Describe the differences between types of cloud computing
 1. Define cloud computing
