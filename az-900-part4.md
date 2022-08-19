@@ -31,7 +31,7 @@
 - Unrescrticted scalability
 
 4. Describe the functionality and usage of **Azure DDoS protection**
-- Two Servicwe Tiers
+- Two Service Tiers
     1. Basic
     2. Standard _(Additional mitigation capabilities)_
 - Instant on protection
