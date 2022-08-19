@@ -137,7 +137,7 @@
 > Our goal is to remove Azure service credentials from code without breaking the functionality
 
 + Configure Managed Service Identities (MSI) for Microsoft Azure Resources
-  + STEP 1
++ STEP 1
     + Create Identity
       + Create system-assigned or user-assigned identity for your client service
 + STEP 2
