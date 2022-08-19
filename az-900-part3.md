@@ -103,7 +103,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 - - -
 
 2. Describe the functionality and usage of **Azure Advisor**
-For optimising your costs
+- For optimising your costs
 
 - - -
 3. Describe the functionality and usage of **Azure Resource Manager** (ARM) templates
