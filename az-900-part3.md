@@ -105,6 +105,14 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 2. Describe the functionality and usage of **Azure Advisor**
 - - -
 3. Describe the functionality and usage of **Azure Resource Manager** (ARM) templates
++ These are files written in JavaScript Object Notation (JSON) and defines infrastructure and configuration for Azure resources.
+  + Declarative syntax
+  + Deployment
+    - Using Azure Pipelines (CI/CD)
+    - From GitHub
+    - Using PowerShell and the Azure CLI
+    - Resource Manager ARM REST API
+    - Azure Portal
 - - -
 4. Describe the functionality and usage of **Azure Monitor**
 - - -
