@@ -96,9 +96,61 @@ ARM is used by __ALL__ the tools to manage resources.
 3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
++ Types of Data
+  + Structured/Relational Data
+    + Azure SQL Database
+    + Azure Database for MySQL
+    + Azure Database for PostgreSQL
+  + Unstructured Data 
+    + Azure Blob Storage
+    + Azure File Storage (supports SMB protocol)
+    + Azure Disk Storage
+  + Semi-structured Data (Non-Relational/NoSQL)
+    + Cosmos DB
+      - Retail Applications
+        + Attributes can vary & change over time
+        + Flexible schema
+      - Gaming Applications
+        + Millions of simiultaneous updates
+        + Millisecond reads
+      - Social Media Applications
+        + Flexible data schemas needed for user generated content
++ Elastically scale throughput and storage across any number of Azure regions
++ Add/remove regions easily
++ Backed by SSD storag
++ Consistency options to ensure distributed data is updated
+    + Cosmos DB APIs
+      - SQL API
+      - Cassandra
+      - Mongo DB
+      - Gremlin
+      - Azure Table Storage
+
++ SQL Server
+  + Host SQL Server on Virtual Machines
+    + Full control over the SQL Server
+    + Can provision from the Azure Marketplace
+    + Flexible pricing oprions
+    + Automated updated scheduling
+    + Managed Backup to Azure
+
++ Azure SQL Database (fully managed PAAS in the cloud)
+  + Always running the latest version of SQL Server
+  + Flexible pricing model
+    - Vcores
+    - DTU's
+  + Single database or Elastic Pool
+  + Automatic scaling
+  + Service tiers for different workloads
+
++ Azure SQL Managed Instance 
+  + Broadset of SQL Server capabilities
+  + Benefits of managed platform
+  + Deploy VM onto your own VNET
+  + Lift-and-shift with minimal changes
 + **CosmosDB**
-- No need for schema or Index management
-- Ensure low latency access to data from around the world
+  - No need for schema or Index management
+  - Ensure low latency access to data from around the world
 
 5. Describe the benefits and usage of Azure Marketplace
 + [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store that contains thousands of IT software applications and services built by industry-leading technology companies
