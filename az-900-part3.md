@@ -9,7 +9,10 @@
 + **Azure Sphere** is a secured IoT platform for building solutions that start in silicon and extend through the OS and the cloud. Securely connect, manage, and protect new and existing intelligent devices
 
 2. Describe the benefits and usage of **Azure Synapse Analytics**, **HDInsight**, and **Azure Databricks**
+
 3. Describe the benefits and usage of **Azure Machine Learning**, **Cognitive Services** and **Azure Bot Service**
++ **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
+
 4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
 5. Describe the benefits and usage of **Azure DevOps**, **GitHub**, **GitHub Actions**, and A**zure DevTest Labs**
 
