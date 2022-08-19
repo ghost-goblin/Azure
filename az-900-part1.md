@@ -82,14 +82,14 @@
 
 6. Identify a service type based on a use case
 - Benefits of Cloud 
-      + Cost savings - both real and accounting
-      + Availability & Scalability
-      + Reliability & Predictability
-      + Security & Goverance
-      + Manageability
-      + Global reach
-      + Range of ready on-demand services
-      + Range of tools
+   + Cost savings - both real and accounting
+   + Availability & Scalability
+   + Reliability & Predictability
+   + Security & Goverance
+   + Manageability
+   + Global reach
+   + Range of ready on-demand services
+   + Range of tools
 
 - - -
 
