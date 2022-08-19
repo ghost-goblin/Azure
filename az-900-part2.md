@@ -94,6 +94,12 @@ ARM is used by __ALL__ the tools to manage resources.
 > Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
 
 3. Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and storage tiers
++ Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
+  - Ultra disks
+  - Premium solid-state drives (SSD)
+  - Standard SSDs
+  - Standard hard disk drives (HDD)
++ Blob storage is optimized for storing massive amounts of unstructured data
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
 + Types of Data:
