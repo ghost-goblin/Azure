@@ -36,15 +36,6 @@ ARM is used by __ALL__ the tools to manage resources.
 - Azure CLI
 - REST interface (an architectural style or design pattern for APIs)
 
-## Resource Manager Templates
-These are files written in JavaScript Object Notation (JSON) and defines infrastructure and configuration for Azure resources.
-+ Declarative syntax
-+ Deployment
-+ - Using Azure Pipelines (CI/CD)
-+ - From GitHub
-+ - Using PowerShell and the Azure CLI
-+ - Resource Manager ARM REST API
-+ - Azure Portal
 
 ### Agile Development and DevOps
 + Combines IT Operations and Development
