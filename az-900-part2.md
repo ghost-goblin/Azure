@@ -133,6 +133,10 @@ ARM is used by __ALL__ the tools to manage resources.
     + **Cosmos DB**
       - No need for schema or Index management
       - Ensure low latency access to data from around the world
+      + Elastically scale throughput and storage across any number of Azure regions
+      + Add/remove regions easily
+      + Backed by SSD storage
+      + Consistency options to ensure distributed data is updated
       - Retail Applications
         + Attributes can vary & change over time
         + Flexible schema
@@ -141,10 +145,6 @@ ARM is used by __ALL__ the tools to manage resources.
         + Millisecond reads
       - Social Media Applications
         + Flexible data schemas needed for user generated content
-        + Elastically scale throughput and storage across any number of Azure regions
-        + Add/remove regions easily
-        + Backed by SSD storage
-        + Consistency options to ensure distributed data is updated
     + **Cosmos DB API**s
       - SQL API
       - Cassandra
