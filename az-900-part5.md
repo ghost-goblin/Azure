@@ -21,80 +21,78 @@
   - External Identities
 
 
-## Implement Conditional Access policies, including multifactor authentication
-##### Conditional Access Policies (if [something] => do [something])
-##### Conditions
++ Implement Conditional Access policies, including multifactor authentication
++ Conditional Access Policies (if [something] => do [something])
+ + Conditions
   - Users & Groups
   - Cloud Apps
   - Sign-in Risk
   - Device Platform & State
   - Location
   - Client Apps
-##### Controls
++ Controls
   - MFA
   - Compliant Device
   - Approved Client App
   - Terms of Use
   - Custom & Session Controls
-#### Managed Identities
-##### Credentials in Code
-+ Keeping service credentials in application configuartion is not secure
-+ Credentials can get checked into source control or the configuration file can get compromised
-+ **Azure Key Vault** is more secure but the code still needs to use Azure Active Directory credentials to login to Key Vault
-+ Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
++ Managed Identities
+  + Credentials in Code
+    + Keeping service credentials in application configuartion is not secure
+    + Credentials can get checked into source control or the configuration file can get compromised
+    + **Azure Key Vault** is more secure but the code still needs to use Azure Active Directory credentials to login to Key Vault
+    + Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
 
 > Our goal is to remove Azure service credentials from code without breaking the functionality
 
-### Configure Managed Service Identities (MSI) for Microsoft Azure Resources
-#### STEP 1
-##### Create Identity
-Create system-assigned or user-assigned identity for your client service
-#### STEP 2
-##### Give Permission
-In the target Azure service, assign permissions to the client identity
++ Configure Managed Service Identities (MSI) for Microsoft Azure Resources
+  + STEP 1
+    + Create Identity
+      + Create system-assigned or user-assigned identity for your client service
++ STEP 2
+    + Give Permission
+      + In the target Azure service, assign permissions to the client identity
 
-### Azure Services that support Managed Identities for Azure Resources
-+ Azure Virtual Machines
-+ Azure VM Scale Sets
-+ Azure App Service, Functions, Logic Apps
-+ Azure Blueprints
-+ Azure Container Instances
-+ Azure API Management
++ Azure Services that support Managed Identities for Azure Resources
+  + Azure Virtual Machines
+  + Azure VM Scale Sets
+  + Azure App Service, Functions, Logic Apps
+  + Azure Blueprints
+  + Azure Container Instances
+  + Azure API Management
 
-### Azure Services that support Azure AD Authentication
-+ Azure Key Vault
-+ Azure SQL
-+ Azure Service Bus
-+ Azure Storage (Blobs & Queues)
-+ Azure Event Hubs
-+ Azure Analysis Services
-
-
-## Implement Azure AD Identity Protection
-####  Azure AD Security Options
-1. Self-Service Password Reset (SSPR)
-+ Reduces support desk password change issues
-+ Azure AD Premium P1 license required
-+ Direct users to Registration URL: [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)
-+ Enable with Azure portal
-+ Password writeback (Azure AD Premium P1 License) _(In order for Azure AD Connect to write the cloud based password change back to the local Acrive Directory)_
++ Azure Services that support Azure AD Authentication
+  + Azure Key Vault
+  + Azure SQL
+  + Azure Service Bus
+  + Azure Storage (Blobs & Queues)
+  + Azure Event Hubs
+  + Azure Analysis Services
 
 
-# 🛠️ Manage Applicaion Access
-+ Azure AD IDaaS (Identity as a Service)
-+ Application types
-  - Third-party or internal
-  - Pre-integrated or proxied
-+ Automated user provisioning and access
-  - SCIM 2.0 (provides a way for an application to talk to Azure AD)
-  - Available on select SaaS apps
++ Implement Azure AD Identity Protection
+  +  Azure AD Security Options
+    + 1. Self-Service Password Reset (SSPR)
+      + Reduces support desk password change issues
+      + Azure AD Premium P1 license required
+      + Direct users to Registration URL: [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)
+      + Enable with Azure portal
+      + Password writeback (Azure AD Premium P1 License) _(In order for Azure AD Connect to write the cloud based password change back to the local Acrive Directory)_
+
++ 🛠️ Manage Applicaion Access
+  + Azure AD IDaaS (Identity as a Service)
+  + Application types
+    - Third-party or internal
+    - Pre-integrated or proxied
+  + Automated user provisioning and access
+    - SCIM 2.0 (provides a way for an application to talk to Azure AD)
+    - Available on select SaaS apps
 
 
 
 
 3. Describe the functionality and usage of **Azure Active Directory**
-+ Managing Users with PowerShell
-
+  + Managing Users with PowerShell
 ```ps1
 Connect-AzureAD #sign in
 $domain = "domain.onmicrosoft.com"
@@ -125,7 +123,6 @@ $user = @{
 ### pass the hash table of parameters
 $newUser = New-AzureADUser @user
 ```
-- - -
 
 + Manage external identities by using Azure AD
   + Azure AD Domain Services Intergration
@@ -246,16 +243,10 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
   + Global Administrators get Azure MFA for free
   + Registration URL Endpoint: [https://aka.ms/mfasetup](https://aka.ms/mfasetup)
 
-
-
-
-# 🔑 Manage Access Control
-## Configure Azure role permissions for management groups, subscriptions, resource groups, and resources
-
-#### Authorization to Data
-+ RBAC in Azure AD
-+ Srorage Account Keys
-+ Shared Access Signatures
++ Authorization to Data
+  + RBAC in Azure AD
+  + Storage Account Keys
+  + Shared Access Signatures
 
 ### Describe Azure governance features
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
