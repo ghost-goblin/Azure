@@ -126,6 +126,11 @@ ARM is used by __ALL__ the tools to manage resources.
 + Blob storage is optimized for storing massive amounts of unstructured data
 + **Storage accounts** contain all AZure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
+  - General-purpose v2
+  - General-purpose v1
+  - BlockBlobStorage
+  - FileStorage
+  - BlobStorage
 
 - - -
 
