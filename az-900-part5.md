@@ -4,10 +4,10 @@
 
 ### Describe core Azure identity services
 
-## 1. Explain the difference between **authentication** and **authorization**
+1. Explain the difference between **authentication** and **authorization**
 
 - - -
-## 2. Define **Azure Active Directory**
+2. Define **Azure Active Directory**
 + Microsoft's multi-tenant cloud-based directory and identity management service
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
@@ -24,7 +24,7 @@
 
 - - -
 
-## 3. Describe the functionality and usage of **Azure Active Directory**
+3. Describe the functionality and usage of **Azure Active Directory**
   + Managing Users with PowerShell
 ```ps1
 Connect-AzureAD #sign in
@@ -165,7 +165,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
 ```
 - - -
 
-## 4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
+4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
 + Integrate single sign-on (SSO) and identity providers for authentication
   + The **synchronized identity** model is the most common (SSO)
   + Azure AD Connect and **password writeback** facilitate this model
