@@ -243,7 +243,7 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
       + Enable with Azure portal
       + Password writeback (Azure AD Premium P1 License) _(In order for Azure AD Connect to write the cloud based password change back to the local Acrive Directory)_
 
-+ 🛠️ Manage Applicaion Access
++ Manage Applicaion Access
   + Azure AD IDaaS (Identity as a Service)
   + Application types
     - Third-party or internal
