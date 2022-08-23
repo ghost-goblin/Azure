@@ -1,17 +1,17 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
-## 🤑 Describe Azure cost management and Service Level Agreements
+## 🤑 Describe **Azure cost management** and **Service Level Agreements**
 
 ### Describe methods for planning and managing costs
 1. Identify factors that can affect costs (resource types, services, locations, ingress and egress traffic)
 
 - - -
 
-2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) Describe the functionality and usage of the Pricing calculator and the Total Cost of Ownership (TCO) calculator
+2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
 
 - - -
 
-3. Describe the functionality and usage of Azure Cost Management
+3. Describe the functionality and usage of **Azure Cost Management**
 
 
 - - -
