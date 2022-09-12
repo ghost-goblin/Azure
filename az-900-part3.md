@@ -27,6 +27,13 @@
 - - -
 
 5. Describe the benefits and usage of **Azure DevOps**, **GitHub**, **GitHub Actions**, and **Azure DevTest Labs**
++ Azure DevOps is a collection of services that allow teams to share their code, track their work, and deploy and ship software:
+    - Azure Boards
+    - Azure Pipelines
+    - Azure Repos
+    - Azure Artifacts
+    - Azure Test Plans
++ Azure DevTest Labs is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
 
 - - -
 
