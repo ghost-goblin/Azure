@@ -167,6 +167,7 @@
   + Azure Monitor
   - runs on a cluster of servers, enterprise-grade
 + **Windows Virtual Desktop**
+  - VDIs
 
 - - -
 
