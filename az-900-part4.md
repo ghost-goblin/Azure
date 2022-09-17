@@ -9,6 +9,7 @@
 - - -
 
 2. Describe the functionality and usage of **Azure Key Vault**
++ Azure Key Vault is a cloud service for securely storing and accessing secrets
 
 - - -
 
