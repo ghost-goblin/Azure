@@ -6,56 +6,6 @@
 
 ### 🧱 [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
-## Azure Compute
-Set of Services for on-demand computing power
-1. Virtual Machines
-2. Containers
-3. Azure App Service
-4. Serverless Computing
-
-## Azure Virtual Machines
-+ IAAS
-+ Full control over the OS
-+ Must maintain and patch VM
-
-## 🐋 Containers
-> Virtual Machines virtualise the hardware while containers virtualise the operating system on a runtime instead of a hypervisor
-
-### Hosting options for Containers:
-1. Local Workstation
-2. On-premises Servers
-3. VMs in Azure
-4. Azure Container Instances (ACI) [__Small scale__]
-5. Azure Kubernetes Service (AKS) [__Large scale__]
-6. Azure App Service
-
-## Azure Kubernetes Service
-A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications. **Pods** are groups of containers with shared storage and network resources.
-+ Nodes are virtual machines in AKS and can leverage VM scale sets
-+ Azure Container Registry
-+ Azure Monitor
-
-## Azure App Services
-+ Web Apps
-+ API Apps
-+ Mobile Apps
-+ Containers
-+ WebJobs
-
-## Serverless Compute
-Focus on the code and business logic
-+ **Azure Functions** allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
-+ **Azure Logic Apps** design workflows in the Azure Portal and you can call Azure Functions if needed
-+ **Azure Event Grid** connects data sources and event handlers
-
-# Data Storage in Azure
-- Automated backup & recovery
-- Replication across the world
-- Encryption options
-- Security & platform integration
-- Development features & support (APIs)
-
-
 ## 🖼️ Configuring TLS/SSL Certificates
 + Protocols that are used to secure communication between different machines
 + If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
