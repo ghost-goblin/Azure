@@ -157,7 +157,7 @@
   + Azure SQL
   + Azure Service Bus
   + Azure Storage (Blobs & Queues)
-  + Azure Event Hubs
+  + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
   + Azure Analysis Services
 
 
