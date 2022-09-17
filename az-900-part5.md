@@ -234,6 +234,7 @@
 
 ### Describe privacy and compliance resources
 1. Describe the Microsoft core tenets of **Security**, **Privacy**, and **Compliance**
++ [Can you trust your cloud provider?](https://azure.microsoft.com/en-in/blog/trusted-cloud-security-privacy-compliance-resiliency-and-ip/)
 
 - - -
 
