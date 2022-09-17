@@ -73,6 +73,7 @@
   - Azure CLI
   - REST interface (an architectural style or design pattern for APIs)
 + Azure provides 4 levels of hierarchical scope:
+
 | Scope             | Level           |
 | :---------------- |:---------------:|
 | Management Groups | 1               |
