@@ -1,4 +1,4 @@
-# Microsoft AZ-900: Microsoft Azure Fundamentals
+# 🧱 Microsoft AZ-900: Microsoft Azure Fundamentals
 
 ✏️ Download the [AZ-900 study guide](https://docs.microsoft.com/en-us/certifications/exams/az-900) to help you prepare for the exam
 
