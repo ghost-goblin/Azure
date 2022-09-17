@@ -210,12 +210,15 @@
 + Blob storage is optimized for storing massive amounts of unstructured data
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
-  - General-purpose v2
-  - General-purpose v1
-  - BlockBlobStorage
-  - FileStorage
-  - BlobStorage
-
+  - **General-purpose** v2
+  - **General-purpose** v1
+  - **BlockBlobStorage**
+  - **FileStorage** (SMB)
+  - **BlobStorage** (Text + Binary Data)
+     + Hot
+     + Cool
+     + Archive
+  
 - - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
