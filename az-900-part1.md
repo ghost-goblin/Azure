@@ -12,11 +12,15 @@
 1. Identify the benefits of cloud computing, such as **High Availability**, **Scalability**, **Elasticity**, **Agility**, and **Disaster Recovery**
 + **High Availability** is the _percentage_ (%) of the time system response to the user request i.e. how long a system component is operational
 + **Availability** is the accessibility of an application or system by end-users
-> What causes unavailabilty?
->> Networking outage
->>> Application failure
->>>> Power outage
->>>>> Problems with external systems such as databases
+      
+| > What causes unavailabilty?                    |
+| :---------------------------------------------- |
+| Networking outage                               |
+| Application failure                             |
+| Power outage                                    |
+|Problems with external systems such as databases |
+
+      
 + **Scalability** is the long-term planning and implementations to deal with the increase / decrease in demand
 + **Elasticity** is the ability to aquire / release resources as and when it is needed
 + **Agility** refers to the ability of an organization to rapidly develop, test, and launch software applications that drive business growth _(addition of business value)_
@@ -50,16 +54,20 @@
 ++++++++++++++++++++++++
       (More Control)
  ```
-> Building security
->> Physical network security
->>> Physical computer security
->>>> OS patches
->>>>> Network & Firweall settings
->>>>>> Application settings
->>>>>>> Authentication platform
->>>>>>>> User accounts
->>>>>>>>> Devices
->>>>>>>>>> Data
+
+| Level                        |
+| :--------------------------- |
+| Building security            |
+| Physical network security    |
+| OS patches                   |
+| Network & Firweall settings  |
+| Application settings         |
+| Authentication platform      |
+| User accounts                |
+| Devices                      |
+| Data                         |
+
+
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
 + The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
 
