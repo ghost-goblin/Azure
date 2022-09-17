@@ -1,4 +1,9 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
+<div align="center">
+      
+[<<<](az-900-part3.md) | [>>>](az-900-part5.md)
+      
+</div>
 
 ## ⚔️ Describe general security and network security features
 
