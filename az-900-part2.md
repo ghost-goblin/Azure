@@ -155,6 +155,11 @@
 - - -
 
 3. 💾 Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and **Storage Tiers**
+- Automated backup & recovery
+- Replication across the world
+- Encryption options
+- Security & platform integration
+- Development features & support (APIs)
 + **Azure Storage** supports 3 types of blobs:
     - Block blobs store text and binary data. Block blobs are made up of blocks of data that can be managed individually. Block blobs can store up to about 190.7 TiB.
     - Append blobs are made up of blocks like block blobs, but are optimized for append operations. Append blobs are ideal for scenarios such as logging data from virtual machines.
