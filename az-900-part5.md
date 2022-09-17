@@ -215,15 +215,18 @@
 - - -
 
 4. Describe the functionality and usage of **Azure Policy**
++ [Azure Policy]((https://learn.microsoft.com/en-us/azure/governance/policy/overview) helps to enforce organizational standards and to assess compliance at-scale
 
 - - -
 
 
 6. Describe the functionality and usage of **Azure Blueprints**
++ [Azure Blueprints](https://learn.microsoft.com/en-us/azure/governance/blueprints/overview) enables cloud architects and central information technology groups to define a repeatable set of Azure resources that implements and adheres to an organization's standards, patterns, and requirements
 
 - - -
 
-8. Describe the **Cloud Adoption Framework** for Azure
+8. Describe the **[Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)** for Azure
++ [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview) enables cloud architects, IT professionals, and business decision makers to achieve their cloud adoption goals
 
 
 
