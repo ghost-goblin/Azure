@@ -35,7 +35,7 @@
 - - -
 
 2. Describe the functionality and usage of **Network Security Group** (NSG)
-+ How do I create a Network Security Group? ... _just like with anything in Azure, you just create a **resource**_
++ How do I create a [Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)? ... _just like with anything in Azure, you just create a **resource**_
 + Filter traffic to and from Azure resources
 + Contains security rules to allow or deny inbound/outbound traffic
 + Evaluated by priority using 5-tuple information
