@@ -21,7 +21,7 @@
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
 - - -
 
-4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
+4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **[Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)**
 + Azure Functions uses code to perform an action whereas Azure Logic Apps use workflow triggered by an event
 
 - - -
