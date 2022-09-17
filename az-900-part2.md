@@ -114,9 +114,9 @@ ARM is used by __ALL__ the tools to manage resources.
 - **ExpressRoute** is _a high speed private connection to Azure_
 
 >>> Tutorials:
->>> [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal)
->>> [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
->>> [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)
++ [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal)
++ [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
++ [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
 
 - - -
