@@ -186,7 +186,7 @@
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
 + Principle of Least Privilege - user is given the minimum levels of access – or permissions – needed to perform their job functions
 + Security Principals - a security ID for applications or services
-+ **Roles**
++ **[Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)**
   - **Owner** has full access to all resources and grant access
   - **Contributor** can create/manage all resource, cannot grant access
   - **Reader** can view existing resources
