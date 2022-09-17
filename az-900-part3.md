@@ -5,14 +5,19 @@
 ### Describe core solutions available in Azure
 1. Describe the benefits and usage of **Internet of Things** (IoT) **Hub**, **IoT Central**, and **Azure Sphere**
 + [Azure IoT Hub](https://azure.microsoft.com/en-gb/services/iot-hub/#overview) provides a cloud-hosted solution back-end to connect any device virtually
-+ **Azure IoT Central** is a ready-made UX and API surface for connecting and managing devices at scale, delivering reliable data for business insights. It preassembles platform as a service (PaaS) offerings, bringing together each service beneath it for an easy-to-configure, comprehensive, and secure IoT offering
++ **Azure IoT Central** is a ready-made UX and API surface for connecting and managing devices at scale, delivering reliable data for business insights
 + **Azure Sphere** is a secured IoT platform for building solutions that start in silicon and extend through the OS and the cloud. Securely connect, manage, and protect new and existing intelligent devices
 
 - - -
 
 2. Describe the benefits and usage of **Azure Synapse Analytics**, **HDInsight**, and **Azure Databricks**
-+ **Azure Synapse Analytics** is a limitless analytics service that brings together data integration, enterprise data warehousing and big data analytics.
-+ **Azure HDInsight** is a managed, full-spectrum, open-source analytics service in the cloud for enterprises. With HDInsight, you can use open-source frameworks such as Hadoop, Apache Spark, Apache Hive, LLAP, Apache Kafka, and more, in your Azure environment
++ **Azure Synapse Analytics** is a limitless analytics service that brings together data integration, enterprise data warehousing and big data analytics
++ **Azure HDInsight** is a managed, full-spectrum, open-source analytics service in the cloud for enterprises:
+        - Hadoop
+        - Apache Spark
+        - Apache Hive
+        - LLAP
+        - Apache Kafka
 + **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is a data analytics platform optimized for the Microsoft Azure cloud services platform
     + 3 environments for developing data intensive applications:
         1. Databricks SQL
@@ -133,5 +138,10 @@ Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Market
     - Azure Portal
 - - -
 4. Describe the functionality and usage of **Azure Monitor**
++ **[Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)**: for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
 - - -
 5. Describe the functionality and usage of **Azure Service Health**
++ **[Azure Service Health](https://learn.microsoft.com/en-us/azure/service-health/overview)** keeps you informed about the health of your cloud resources:
+    1. Azure status
+    2. Service health
+    3. Resource health
