@@ -18,13 +18,12 @@
 - - -
 
 2. Describe the benefits and usage of **Availability Zones**
-+ **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview) 
-     
-            + Azure Data Centre Regions & Availability Zones
-                        - Physical Deployment
-                        - High Availability & Disaster Recovery
-                        - You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created
-                        - Not all Azure services are available in all regions
++ **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)     
++ Azure Data Centre Regions & Availability Zones
+  - Physical Deployment
+  - High Availability & Disaster Recovery
+  - You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created
+  - Not all Azure services are available in all regions
 
 - - -
 
