@@ -29,13 +29,12 @@
 
 3. Describe the benefits and usage of **Resource Groups**
 + A resource is just a managable item in the cloud:
-+ Virtual Machines
-+ Storage Accounts
-+ Web Apps
-+ Databases
-+ VNETs
-+ etc.
-     
+  + Virtual Machines
+  + Storage Accounts
+  + Web Apps
+  + Databases
+  + VNETs
+    
 > Azure provides 4 levels of scope: 
 >> Management Groups
 >>> Subscriptions
