@@ -28,7 +28,7 @@
 - - -
 
 3. Describe the functionality and usage of **Azure Cost Management**
-+ [Monitor, allocate and optimise cloud costs]([https://learn.microsoft.com/en-us/azure/cost-management-billing/](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/?WT.mc_id=AZ-MVP-5003556))
++ [Monitor, allocate and optimise cloud costs](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/?WT.mc_id=AZ-MVP-5003556)
 
 - - -
 
