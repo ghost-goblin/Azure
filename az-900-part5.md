@@ -241,7 +241,7 @@
 2. Describe the purpose of the **Microsoft Privacy Statement**, **Online Services Terms** (OST) and **Data Protection Amendment** (DPA)
 + **Online Services Terms** (OST) is a legal agreement between Microsoft and the customer detailing the obligations by both parties with respect to the processing and security of customer data and personal data
 
-+ The **Data Protection Addendum** (DPA) defines data processing and security terms for online services:
+      + The **Data Protection Addendum** (DPA) defines data processing and security terms for online services:
             + Compliance with laws
             + Disclosure of processed data
             + Data Security, which includes security practices and policies, data encryption, data access, customer responsibilities, and compliance with auditing
