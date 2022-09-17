@@ -19,6 +19,16 @@
 
 2. Describe the benefits and usage of **Availability Zones**
 + **Availability Zones** are physically seperate locations within each Azure region that are [tolerant to local failures](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
+      
++ Azure Data Centre Regions & Availability Zones
+            - Physical Deployment
+            - High Availability & Disaster Recovery
+            - You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created
+            - Not all Azure services are available in all regions
+
+- - -
+
+3. Describe the benefits and usage of **Resource Groups**
 
 > Azure provides 4 levels of scope: 
 >> Management Groups
@@ -26,12 +36,15 @@
 >>>> Resource Groups
 >>>>> Resources
 
-- - -
-
-3. Describe the benefits and usage of **Resource Groups**
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
 + If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
++ Resources share the same lifecycle i.e. deploy, update, delete together
++ Resources can only exist in one Resource Group
++ Resource can communicate across Resource Groups
++ Container for security boundaries
++ Can export IAAS using __Resource Manager Templates__
++ Resources can be in different regions
 
 - - -
 
