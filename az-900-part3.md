@@ -13,7 +13,11 @@
 2. Describe the benefits and usage of **Azure Synapse Analytics**, **HDInsight**, and **Azure Databricks**
 + **Azure Synapse Analytics** is a limitless analytics service that brings together data integration, enterprise data warehousing and big data analytics.
 + **Azure HDInsight** is a managed, full-spectrum, open-source analytics service in the cloud for enterprises. With HDInsight, you can use open-source frameworks such as Hadoop, Apache Spark, Apache Hive, LLAP, Apache Kafka, and more, in your Azure environment
-+ **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is a data analytics platform optimized for the Microsoft Azure cloud services platform. Azure Databricks offers three environments for developing data intensive applications: Databricks SQL, Databricks Data Science & Engineering, and Databricks Machine Learning
++ **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is a data analytics platform optimized for the Microsoft Azure cloud services platform
+    + 3 environments for developing data intensive applications:
+        1. Databricks SQL
+        2. Databricks Data Science & Engineering
+        3. Databricks Machine Learning
 
 - - -
 
