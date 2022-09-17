@@ -52,7 +52,7 @@
 
 - - -
 
-6. Describe the benefits and usage of [Azure Resource Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/) (ARM)
+6. Describe the benefits and usage of [Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview) (ARM)
 + A deployment and management service for Azure and it's central to the management of resources.
 The Azure Portal sends instructions to the ARM endpoint, ARM handles authentication using Active Directory (Azure AD) and authorises the request.
 ARM then sends the request to the service you are attemting to create or manipulate (App service, VM, etc.).
