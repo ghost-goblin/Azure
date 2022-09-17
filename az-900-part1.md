@@ -56,6 +56,7 @@
  ```
 
 | Building security            |
+| :--------------------------- |
 | Physical network security    |
 | OS patches                   |
 | Network & Firweall settings  |
