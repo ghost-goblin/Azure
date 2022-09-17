@@ -236,8 +236,9 @@
 
 - - -
 
-4. Describe the purpose of the **Azure compliance documentation**
+4. Describe the purpose of the **Azure Compliance Documentation**
 
 - - -
 
 5. Describe the purpose of **Azure Sovereign Regions** (Azure Government cloud services and Azure China cloud services)
++ [Azure Government](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome)
