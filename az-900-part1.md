@@ -4,7 +4,7 @@
 
 <div align="center">
       
-[<<<](az-900-index.md) | [>>>](az-900-part1.md)
+[<<<](az-900-index.md) | [>>>](az-900-part2.md)
       
 </div>
 
