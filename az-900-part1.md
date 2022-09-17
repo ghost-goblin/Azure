@@ -91,6 +91,7 @@
 - - -
 
 5. Describe **Software-as-a-Service** (SaaS)
++ **Software as a service** allows users to connect to and use cloud-based apps over the Internet
 
 - - -
 
