@@ -97,6 +97,7 @@
 
 ### Describe core resources available in Azure
 1. Describe the benefits and usage of **Virtual Machines**, **Azure App Services**, **Azure Container Instances** (ACI), **Azure Kubernetes Service** (AKS), and **Azure Virtual Desktop**
++ Virtual Machines virtualise the hardware while containers virtualise the operating system on a runtime instead of a hypervisor
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
 
@@ -119,6 +120,11 @@
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
 + **App services** (Web apps)
+    + Web Apps
+    + API Apps
+    + Mobile Apps
+    + Containers
+    + WebJobs
   - A new paradigm for running code in the cloud
   - Give your code and configuration to Azure, and they will run it
   - Promise of performance with no access to physical hardware
@@ -126,6 +132,13 @@
 + **Azure Container Instances** (ACI)
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
+  + Hosting options for Containers:
+    1. Local Workstation
+    2. On-premises Servers
+    3. VMs in Azure
+    4. Azure Container Instances (ACI) [__Small scale__]
+    5. Azure Kubernetes Service (AKS) [__Large scale__]
+    6. Azure App Service
 + **Azure Kubernetes Service** (AKS)
   + A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications
   + **Pods** are groups of containers with shared storage and network resources
@@ -134,7 +147,6 @@
   + Azure Monitor
   - runs on a cluster of servers, enterprise-grade
 + **Windows Virtual Desktop**
-
 
 - - -
 
