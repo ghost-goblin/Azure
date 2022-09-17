@@ -112,8 +112,7 @@ ARM is used by __ALL__ the tools to manage resources.
 - Traffic between virtual machines in peered virtual networks uses the **Microsoft backbone infrastructure**
 - **ExpressRoute** is _a high speed private connection to Azure_
 
-> Tutorial: [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal)
-> Tutorial: [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
+> Tutorials: [Create a site-to-site VPN connection in the Azure portal](https://learn.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal), [Create and manage a VPN gateway using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-create-gateway-portal)
 
 
 - - -
