@@ -30,15 +30,6 @@ A resource is just a managable item in the cloud:
 + Can export IAAS using __Resource Manager Templates__
 + Resources can be in different regions
 
-## Azure Resource Manager (ARM)
-A deployment and management service for Azure and it's central to the management of resources.
-The Azure Portal sends instructions to the ARM endpoint, ARM handles authentication using Active Directory (Azure AD) and authorises the request.
-ARM then sends the request to the service you are attemting to create or manipulate (App service, VM, etc.).
-ARM is used by __ALL__ the tools to manage resources.
-- Azure Portal
-- Azure PowerShell
-- Azure CLI
-- REST interface (an architectural style or design pattern for APIs)
 
 
 ### Agile Development and DevOps
