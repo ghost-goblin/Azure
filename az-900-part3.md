@@ -51,6 +51,12 @@
     - Azure Artifacts
     - Azure Test Plans
 + Azure DevTest Labs is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
++ Agile Development and DevOps
+      + Combines IT Operations and Development
+      + Infrastructure now being managed as code
+      + Can be stored and versioned in code repositories
+      + Included in CI/CD pipelines
+
 
 - - -
 
