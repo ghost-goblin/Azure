@@ -27,6 +27,7 @@
 
 ### Describe Azure Service Level Agreements (SLAs) and service lifecycles
 1. Describe the purpose of an Azure Service Level Agreement (SLA)
++ [Using business metrics to design resilient Azure applications](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/business-metrics#understand-service-levelagreements)
 + Check out the [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) to see which services Azure offers in **Public Preview** _(excluded from the SLA and Limited Warranty)_
 
 - - -
