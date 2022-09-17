@@ -104,6 +104,8 @@
 #### Compute services - _executing code on the cloud_
 + **Virtual Machines**
   - IaaS
+  + Full control over the OS
+  + Must maintain and patch VM
   - Take an existing machine from your environment into the cloud - _a copy_
   - Windows or Linux operating systems - several of each
   - A "slice" of physical machine shared with other customers
