@@ -61,7 +61,7 @@
 
 + Manage secure access by using Azure AD
     + Configure Azure AD Privileged Identity Management (PIM)
-  + Monitor privleged acess for Azure AD **Privileged Identity Management** (PIM)
+  + Monitor privleged access for Azure AD **Privileged Identity Management** (PIM)
   + Configure access reviews
   + Activate and configure PIM - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
   + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
