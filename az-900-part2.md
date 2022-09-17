@@ -1,6 +1,6 @@
 <div align="center">
       
-# [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
+# 🧱 [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
     
 [<<<](az-900-part1.md) | [>>>](az-900-part3.md)
       
