@@ -38,7 +38,7 @@
 - - -
 
 4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
-+ [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
++ **[Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)** allows you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
 + **[Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)** design workflows in the Azure Portal and you can call Azure Functions if needed
 
 - - -
