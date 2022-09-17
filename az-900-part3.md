@@ -47,25 +47,25 @@
 - - -
 
 5. Describe the benefits and usage of **Azure DevOps**, **GitHub**, **GitHub Actions**, and **Azure DevTest Labs**
-+ Azure DevOps is a collection of services that allow teams to share their code, track their work, and deploy and ship software:
++ **Azure DevOps** is a collection of services that allow teams to share their code, track their work, and deploy and ship software:
     - Azure Boards
     - Azure Pipelines
     - Azure Repos
     - Azure Artifacts
     - Azure Test Plans
-+ Azure DevTest Labs is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
-+ Agile Development and DevOps
-      + Combines IT Operations and Development
-      + Infrastructure now being managed as code
-      + Can be stored and versioned in code repositories
-      + Included in CI/CD pipelines
-
+  + Agile Development and DevOps
+  + Combines IT Operations and Development
+  + Infrastructure now being managed as code
+  + Can be stored and versioned in code repositories
+  + Included in CI/CD pipelines
++ **Azure DevTest Labs** is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
 
 - - -
 
 ### Describe Azure management tools
 1. Describe the functionality and usage of the **Azure Portal**, **Azure PowerShell**, **Azure CLI**, **Cloud Shell**, and **Azure Mobile App**
-+ Managing Users with PowerShell
+
++ Managing Users with **Azure PowerShell**:
 ```ps1
 Connect-AzureAD #sign in
 $domain = "domain.onmicrosoft.com"
