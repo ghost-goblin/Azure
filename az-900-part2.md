@@ -33,13 +33,15 @@
   + Storage Accounts
   + Web Apps
   + Databases
-  + VNETs
-    
-> Azure provides 4 levels of scope: 
->> Management Groups
->>> Subscriptions
->>>> Resource Groups
->>>>> Resources
+  + VNETs    
++ Azure provides 4 levels of scope: 
+
+| Scope             | Level           |
+| :---------------- |:---------------:|
+| Management Groups | 1               |
+| Subscriptions     | 2               |
+| Resource Groups   | 3               |
+| Resources         | 4               |
 
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in a specific region can contain the resources created in the other regions
