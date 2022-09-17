@@ -5,17 +5,18 @@
 ### Describe methods for planning and managing costs
 1. Identify factors that can affect costs (resource types, services, locations, ingress and egress traffic)
 + More information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
-+ [App Service pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
+
+- - -
+
+2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
++ [Total Cost of Ownership Calculator](https://azure.microsoft.com/en-in/pricing/tco/calculator/)
++ [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
     - **Shared Environment** for dev/test
     - **Basic Dedicated** environment for dev/test
     - **Standard** Run production workloads
     - **Premium** Enhanced performance and scale
     - **Isolated High-Performance**, Security and Isolation
-
-- - -
-
-2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
 
 - - -
 
