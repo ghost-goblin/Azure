@@ -38,8 +38,8 @@
 - - -
 
 4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
-+ Azure Functions uses code to perform an action whereas Azure Logic Apps use workflow triggered by an event
-+ **[Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)** is a cloud-based platform for creating and running automated workflows that integrate your apps, data, services, and systems
++ [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) allow you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
++ **[Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)** design workflows in the Azure Portal and you can call Azure Functions if needed
 
 - - -
 
