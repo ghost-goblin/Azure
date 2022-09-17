@@ -34,7 +34,9 @@
 - - -
 
 3. Describe the benefits and usage of **Azure Machine Learning**, **Cognitive Services** and **Azure Bot Service**
++ **[Azure Machine Learning](https://learn.microsoft.com/EN-US/azure/machine-learning/overview-what-is-azure-machine-learning)** is a cloud service for accelerating and managing the machine learning project lifecycle
 + **Azure Cognitive Services** has an entire list of features that can be used to build **Artificial Intelligence** based applications
++ **Azure Bot Service** provides an integrated development environment for bot building
 - - -
 
 4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
