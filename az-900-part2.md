@@ -100,8 +100,9 @@
 1. Describe the benefits and usage of **Virtual Machines**, **Azure App Services**, **Azure Container Instances** (ACI), **Azure Kubernetes Service** (AKS), and **Azure Virtual Desktop**
 + Virtual Machines virtualise the hardware while containers virtualise the operating system on a runtime instead of a hypervisor
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
-+ URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)     
-+ Configuring TLS/SSL Certificates
++ URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
+  
+#### Configuring TLS/SSL Certificates
   + Protocols that are used to secure communication between different machines
   + If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
   + The private key never leaves the server and will always stay on the certificate owner's machine, it is used to encrypt / decrypt the payloads
