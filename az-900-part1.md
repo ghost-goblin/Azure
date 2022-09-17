@@ -22,10 +22,10 @@
 + **Agility** refers to the ability of an organization to rapidly develop, test, and launch software applications that drive business growth _(addition of business value)_
 + **Disaster Recovery** is an organization's ability to respond to and recover from an event that negatively affects business operations
 + Azure Data Centre Regions & Availability Zones
-      - Physical Deployment
-      - High Availability & Disaster Recovery
-      - You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created
-      - Not all Azure services are available in all regions
+            - Physical Deployment
+            - High Availability & Disaster Recovery
+            - You need to choose the **region** (a.k.a. the datacentre/s) where you want the instance of the service created
+            - Not all Azure services are available in all regions
 
 - - -
 
