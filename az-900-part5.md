@@ -1,5 +1,11 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
+<div align="center">
+      
+[<<<](az-900-part4.md) | [>>>](az-900-part6.md)
+      
+</div>
+
 ## 🧑‍🤝‍🧑 Describe identity, governance, privacy, and compliance features
 
 ### Describe core Azure identity services
