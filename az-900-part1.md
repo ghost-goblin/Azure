@@ -1,9 +1,7 @@
+<div align="center">
+
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
-
-
-<div align="center">
-      
 [<<<](az-900-index.md) | [>>>](az-900-part2.md)
       
 </div>
