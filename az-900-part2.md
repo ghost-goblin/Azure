@@ -64,14 +64,6 @@
 - - -
 
 6. Describe the benefits and usage of **[Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/overview)** (ARM)
-+ Azure provides 4 levels of scope: 
-
-| Scope             | Level           |
-| :---------------- |:---------------:|
-| Management Groups | 1               |
-| Subscriptions     | 2               |
-| Resource Groups   | 3               |
-| Resources         | 4               |
 + A deployment and management service for Azure and it's central to the management of resources
 + The Azure Portal sends instructions to the ARM endpoint, ARM handles authentication using Active Directory (Azure AD) and authorises the request
 + ARM then sends the request to the service you are attemting to create or manipulate (App service, VM, etc.)
@@ -80,6 +72,14 @@
   - Azure PowerShell
   - Azure CLI
   - REST interface (an architectural style or design pattern for APIs)
++ Azure provides 4 levels of hierarchical scope:
+| Scope             | Level           |
+| :---------------- |:---------------:|
+| Management Groups | 1               |
+| Subscriptions     | 2               |
+| Resource Groups   | 3               |
+| Resources         | 4               |
+
 
 - - -
 
