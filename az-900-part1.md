@@ -55,8 +55,6 @@
       (More Control)
  ```
 
-| Level                        |
-| :--------------------------- |
 | Building security            |
 | Physical network security    |
 | OS patches                   |
