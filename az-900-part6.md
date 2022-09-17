@@ -28,7 +28,7 @@
 - - -
 
 3. Describe the functionality and usage of **Azure Cost Management**
-
++ [Monitor, allocate and optimise cloud costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/)
 
 - - -
 
@@ -40,8 +40,10 @@
 - - -
 
 2. Identify actions that can impact an SLA (i.e. Availability Zones)
++ [SLA](https://azure.microsoft.com/en-gb/support/legal/sla/summary/) summary for Azure services
 
 
 - - -
 
 3. Describe the service lifecycle in Azure (Public Preview and General Availability)
++ [Lifecycle FAQ](https://learn.microsoft.com/en-us/lifecycle/faq/azure?WT.mc_id=AZ-MVP-5003556) defines how every Azure service is released for public use
