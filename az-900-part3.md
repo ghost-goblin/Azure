@@ -58,6 +58,7 @@
     - Azure Repos
     - Azure Artifacts
     - Azure Test Plans
++ **[GitHub Actions](https://learn.microsoft.com/en-us/azure/developer/github/github-actions)** helps you automate your software development workflows from within GitHub
 + **Azure DevTest Labs** is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
 
 - - -
