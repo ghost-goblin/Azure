@@ -173,13 +173,13 @@
 - Security & platform integration
 - Development features & support (APIs)
 + **Azure Storage** supports 3 types of blobs:
-      1. **Block blobs** store text and binary data
-                  + made up of blocks of data that can be managed individually
-                  + up to about 190.7 TiB.
-      2. **Append blob** are made up of blocks like block blobs but are optimized for append operations i.e. logging data from virtual machines
-      3. **Page blobs** store random access files 
-                  + up to 8 TiB in size
-                  + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine
+            1. **Block blobs** store text and binary data
+             + made up of blocks of data that can be managed individually
+             + up to about 190.7 TiB.
+            2. **Append blob** are made up of blocks like block blobs but are optimized for append operations i.e. logging data from virtual machines
+            3. **Page blobs** store random access files 
+             + up to 8 TiB in size
+             + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
   - Premium solid-state drives (SSD)
