@@ -14,7 +14,7 @@
 - - -
 
 3. Describe the functionality and usage of **Microsoft Sentinel**
-+ Microsoft's Security information and event management **[SIEM](https://azure.microsoft.com/en-gb/products/microsoft-sentinel/#overview)**
++ Microsoft's Security information and event management **[SIEM](https://learn.microsoft.com/en-us/azure/sentinel/overview)**
 
 - - -
 
