@@ -52,6 +52,7 @@
 
 
 3. Describe the functionality and usage of **Azure Firewall**
+- [Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview) is a cloud-native and intelligent network firewall security service
 - Managed network security service that protects your Azure network resources
 - Full stateful
 - High Availability
@@ -62,6 +63,7 @@
 
 
 4. Describe the functionality and usage of **Azure DDoS protection**
+- **[Azure DDoS Protection](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)** provides enhanced DDoS mitigation features to defend against DDoS attacks
 - Two Service Tiers
     1. Basic
     2. Standard _(Additional mitigation capabilities)_
