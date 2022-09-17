@@ -1,5 +1,12 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
+<div align="center">
+      
+[<<<](az-900-part5.md) | [>>>](az-900-index.md)
+      
+</div>
+
+
 ## 🤑 Describe **Azure cost management** and **Service Level Agreements**
 
 ### Describe methods for planning and managing costs
