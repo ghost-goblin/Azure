@@ -27,8 +27,9 @@
 - - -
 
 ### Describe Azure network security
-1. Describe the _concept of defense in depth_
-
+1. Describe the _concept of defense in depth_ (DiD)
++ **Defense in Depth** is an approach to cybersecurity in which a series of defensive mechanisms are layered in order to protect valuable data and information
++  If one mechanism fails, another steps up immediately to thwart an attack
 
 
 - - -
