@@ -121,12 +121,12 @@
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
 + **App services** (Web apps)
+  - A new paradigm for running code in the cloud
     + Web Apps
     + API Apps
     + Mobile Apps
     + Containers
     + WebJobs
-  - A new paradigm for running code in the cloud
   - Give your code and configuration to Azure, and they will run it
   - Promise of performance with no access to physical hardware
   - PaaS
