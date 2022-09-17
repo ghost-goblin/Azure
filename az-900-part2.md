@@ -126,7 +126,12 @@
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
 + **Azure Kubernetes Service** (AKS)
-  - runs on a cluster of servers, enterprise-grade
+      + A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications
+      + **Pods** are groups of containers with shared storage and network resources
+      + Nodes are virtual machines in AKS and can leverage VM scale sets
+      + Azure Container Registry
+      + Azure Monitor
+      - runs on a cluster of servers, enterprise-grade
 + **Windows Virtual Desktop**
 
 
