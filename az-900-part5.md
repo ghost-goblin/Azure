@@ -233,10 +233,12 @@
 - - -
 
 3. Describe the purpose of the **Trust Center**
++ **[Trust Center](https://www.microsoft.com/en-gb/trust-center/product-overview)** handles your data securely and in compliance with privacy and legal requirements
 
 - - -
 
 4. Describe the purpose of the **Azure Compliance Documentation**
++ **[Azure compliance documentation](https://learn.microsoft.com/en-us/azure/compliance/)** provides you with detailed documentation about legal and regulatory standards and compliance on Azure
 
 - - -
 
