@@ -215,7 +215,7 @@
 - - -
 
 4. Describe the functionality and usage of **Azure Policy**
-+ [Azure Policy]((https://learn.microsoft.com/en-us/azure/governance/policy/overview) helps to enforce organizational standards and to assess compliance at-scale
++ [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) helps to enforce organizational standards and to assess compliance at-scale
 
 - - -
 
