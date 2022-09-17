@@ -4,12 +4,13 @@
 
 ### Describe Azure security features
 1. Describe basic features of **Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
++ **[Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)** is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all of your Azure, on-premises, and multicloud (Amazon AWS and Google GCP) resources
 
 
 - - -
 
 2. Describe the functionality and usage of **Azure Key Vault**
-+ Azure Key Vault is a cloud service for securely storing and accessing secrets
++ **[Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)** is a cloud service for securely storing and accessing secrets
 
 - - -
 
@@ -19,12 +20,14 @@
 - - -
 
 4. Describe the functionality and usage of **Azure Dedicated Hosts**
++ **[Azure Dedicated Hosts](https://azure.microsoft.com/en-gb/services/virtual-machines/dedicated-host/)** provides physical servers that host one or more Azure virtual machines
++ Your server is dedicated to your organisation and workloads – capacity isn’t shared with other customers
 
 
 - - -
 
 ### Describe Azure network security
-1. Describe the concept of defense in depth
+1. Describe the _concept of defense in depth_
 
 
 
