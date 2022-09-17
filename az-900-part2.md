@@ -29,7 +29,7 @@
 - - -
 
 3. Describe the benefits and usage of **Resource Groups**
-A resource is just a managable item in the cloud:
++ A resource is just a managable item in the cloud:
 + Virtual Machines
 + Storage Accounts
 + Web Apps
