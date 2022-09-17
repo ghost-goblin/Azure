@@ -1,5 +1,12 @@
 # [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
 
+<div align="center">
+      
+[<<<](az-900-part2.md) | [>>>](az-900-part4.md)
+      
+</div>
+ 
+
 ## 🔨 Describe core solutions and management tools on Azure 
 
 ### Describe core solutions available in Azure
