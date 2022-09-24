@@ -201,6 +201,7 @@
       + storing blobs, files, tables, queues and Azure VMs
 2. **Premium** Performance Tier
       + Unmanaged VM disks only
+#### Storage Types    
 1. **Blob**
       - Text + Binary Data
 2. **File**
