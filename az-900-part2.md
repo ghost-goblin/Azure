@@ -192,7 +192,8 @@
 - Replication across the world
 - Encryption options
 - Security & platform integration
-- Development features & support (APIs)
+- Development features & support:
+      + REST API
 
 #### Storage Accounts
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
@@ -200,7 +201,7 @@
 1. **Standard** Performance Tier
       + storing blobs, files, tables, queues and Azure VMs
 2. **Premium** Performance Tier
-      + Unmanaged VM disks only
+      + unmanaged VM disks only
 #### Storage Types    
 1. **Blob**
       - Text + Binary Data
@@ -235,7 +236,16 @@
   - Premium solid-state drives (SSD)
   - Standard SSDs
   - Standard hard disk drives (HDD)
-
++ **Locally-Redundant Storage** (LRS)
+  - simple,low-cost replication
+  - replicated within a single storge unit
++ **Zone-Redundant Storage** (ZRS)
+  - high availability and durability
+  - replicated synchronously across three availability zones
++ **Geo-Redundant Storage** (GRS)
+  - cross-regional replication to protect against region-side unavailability
++ **Read-access Geo-Redundant Storage** (RA-GRS)
+  - cross-regional replication with read access only
 - - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
