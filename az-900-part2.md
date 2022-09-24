@@ -83,7 +83,7 @@
 | Resources         | 4               |
 
       
-+ [ARM Template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax) __(JSON format)__
++ [ARM Templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax) __(JSON format)__
 
 ```json
 {
