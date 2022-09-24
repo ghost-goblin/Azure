@@ -193,6 +193,15 @@
 - Encryption options
 - Security & platform integration
 - Development features & support (APIs)
+
+#### Storage Accpunts
+1. Blob
+      - Text + Binary Data
+2. File
+      - SMB
+3. Queue
+4. Table
+
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
   - Premium solid-state drives (SSD)
@@ -201,11 +210,6 @@
 + **Blob storage** is optimized for storing massive amounts of unstructured data
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
-  - **General-purpose** v2
-  - **General-purpose** v1
-  - **BlockBlobStorage**
-  - **FileStorage** (SMB)
-  - **BlobStorage** (Text + Binary Data)
      + Hot
      + Cool
      + Archive
