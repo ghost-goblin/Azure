@@ -55,8 +55,9 @@
       (More Control)
  ```
 
-| Building security            |
+| Layers of Security       |
 | :--------------------------- |
+| Building security            |
 | Physical network security    |
 | OS patches                   |
 | Network & Firweall settings  |
