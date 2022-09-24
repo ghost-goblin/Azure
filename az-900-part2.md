@@ -200,18 +200,18 @@
 1. Blob
       - Text + Binary Data
 2. File
-      - SMB
+      - SMB File Shares
 3. Queue
 4. Table
 
 #### Blob Storage Access Tiers      
-+ Hot
-            - optimised for frequent access of objects
-+ Cool
-            - optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
-+ Archive 
-            - optimised for frequent data that can tolerate several hours of retrieval latency
-            - 180 days
++ **Hot**
+- optimised for frequent access of objects
++ **Cool**
+- optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
++ **Archive** 
+- optimised for frequent data that can tolerate several hours of retrieval latency
+- 180 days
       
 #### Blobs
 **Blob storage** is optimized for storing massive amounts of unstructured data
