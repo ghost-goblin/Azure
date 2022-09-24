@@ -213,13 +213,13 @@
       - NoSQL database in the cloud
       - Highly scalable
 #### Blob Storage Access Tiers      
-+ **Hot**
-- optimised for frequent access of objects
-+ **Cool**
-- optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
-+ **Archive** 
-- optimised for frequent data that can tolerate several hours of retrieval latency
-- 180 days
+1. **Hot**
+    - optimised for frequent access of objects
+2. **Cool**
+    - optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
+3. **Archive** 
+    - optimised for frequent data that can tolerate several hours of retrieval latency
+    - 180 days
       
 #### Blobs
 **Blob storage** is optimized for storing massive amounts of unstructured data
