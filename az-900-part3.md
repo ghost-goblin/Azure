@@ -66,7 +66,7 @@
 ### Describe Azure management tools
 1. Describe the functionality and usage of the **Azure Portal**, **Azure PowerShell**, **Azure CLI**, **Cloud Shell**, and **Azure Mobile App**
 
-+ **Azure PowerShell* can be used for automation and DevOps     
++ **Azure PowerShell** can be used for automation and DevOps     
       
 ```ps1
 Install-Module Az -Force -AllowClobber
