@@ -96,10 +96,9 @@ $user = @{
 
 ### pass the hash table of parameters
 $newUser = New-AzureADUser @user
-```
-+ Creating & Managing Groups with PowerShell 
 
-```ps1
+### Creating & Managing Groups with PowerShell 
+
 Find-Module AzureAD
 Install-Module AzureAD
 Import-Module -Name AzureAD
@@ -119,9 +118,7 @@ Get-AzureADDirectoryRoleMember -ObjectId $CompanyAdminRole.ObjectId
 
 ### Get a list of all Roles
 Get-AzureADDirectoryRoleTemplate
-```
 
-```ps1
 $group = Get-AzureADGroup -SearchString "Information Technology"
 ### Get all the members &  the owner
 Get-AzureADGroupOwner -ObjectId $group.ObjectId
