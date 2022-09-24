@@ -66,6 +66,7 @@
 ### Describe Azure management tools
 1. Describe the functionality and usage of the **Azure Portal**, **Azure PowerShell**, **Azure CLI**, **Cloud Shell**, and **Azure Mobile App**
 
++ **Azure Portal** is a web-based GUI console where you can manage subscriptions
 + **Azure PowerShell** can be used for automation and DevOps     
       
 ```ps1
