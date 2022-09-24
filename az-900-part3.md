@@ -149,6 +149,24 @@ az account
 az group
       az group list
       az group create
+
+# Create a NIC
+az network nic create \
+--resource-group ContosoResourceGroup \
+--name ContosoNIC4 \
+--location eastus \
+--subnet ContosoVM1Subnet \
+--private-ip-address 10.0.0.10 \
+--vnet-name ContosoVM1VNET
+
+# Create a VM
+az vm create \
+--resource-group ContosoResourceGroup \
+--name ContosoDC01 \
+--location eastus \
+--image Win2019Datacenter \
+--admin-username adminuser \
+--nics ContosoNIC4
 ```
 
 +  **Cloud Shell** is a cloud hosted shell environment
