@@ -138,6 +138,25 @@ $newGroup = New-AzureADGroup @group
 ### Update the group description
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
++ **Azure CLI** is a command line interface for Azure:
+
+```sh     
+az login
+az account   
+az group
+      az group list
+      az group create
+```
+
++  **Cloud Shell**
+
+
++ **Azure Mobile App** designed to work with **Azure App Service**:
+                  - Authentication
+                  - Data query
+                  - Offline data synchronization
+      
+
 - - -
 
 2. Describe the functionality and usage of **Azure Advisor**
