@@ -148,7 +148,9 @@ az group
       az group create
 ```
 
-+  **Cloud Shell**
++  **Cloud Shell** is a cloud hosted shell environment
+  - access through **Azure Portal**
+  - mount storage (Storage Account)
 
 
 + **Azure Mobile App** is designed to work with **Azure App Service**:
