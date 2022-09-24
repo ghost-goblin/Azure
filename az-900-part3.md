@@ -151,10 +151,10 @@ az group
 +  **Cloud Shell**
 
 
-+ **Azure Mobile App** designed to work with **Azure App Service**:
-                  - Authentication
-                  - Data query
-                  - Offline data synchronization
++ **Azure Mobile App** is designed to work with **Azure App Service**:
+  - Authentication
+  - Data query
+  - Offline data synchronization
       
 
 - - -
