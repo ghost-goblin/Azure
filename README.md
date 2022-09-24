@@ -5,4 +5,4 @@
 </div>
 
 ### 🧱 [Microsoft AZ-900](az-900-index.md): Microsoft Azure Fundamentals
-### 🖥️ [Microsoft AZ-800](az-800-index.md): Administering Windows Server Hybrid Core Infrastructure
+### 🖥️ [Microsoft AZ-800](https://learn.microsoft.com/en-us/certifications/exams/az-800): Administering Windows Server Hybrid Core Infrastructure
