@@ -195,6 +195,8 @@
 - Development features & support (APIs)
 
 #### Storage Accounts
++ [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
++ Create a storage account in the Azure Portal and the CLI
 1. Blob
       - Text + Binary Data
 2. File
@@ -204,14 +206,15 @@
 
 #### Blob Storage Access Tiers      
 + Hot
-      - optimised for frequent access of objects
+            - optimised for frequent access of objects
 + Cool
-      - optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
+            - optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
 + Archive 
-      - optimised for frequent data that can tolerate several hours of retrieval latency
-      - 180 days
+            - optimised for frequent data that can tolerate several hours of retrieval latency
+            - 180 days
       
 #### Blobs
+**Blob storage** is optimized for storing massive amounts of unstructured data
 1. **Block blobs** store text and binary data
       + made up of blocks of data that can be managed individually
       + up to about 190.7 TiB.
@@ -225,9 +228,7 @@
   - Premium solid-state drives (SSD)
   - Standard SSDs
   - Standard hard disk drives (HDD)
-+ **Blob storage** is optimized for storing massive amounts of unstructured data
-+ [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
-+ Create a storage account in the Azure Portal and the CLI
+
 - - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
