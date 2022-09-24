@@ -193,9 +193,7 @@
 - Encryption options
 - Security & platform integration
 - Development features & support:
-            + REST API
-
-#### Storage Accounts
+  + REST API
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
 1. **Standard** Performance Tier
