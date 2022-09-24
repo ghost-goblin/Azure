@@ -66,10 +66,15 @@
 ### Describe Azure management tools
 1. Describe the functionality and usage of the **Azure Portal**, **Azure PowerShell**, **Azure CLI**, **Cloud Shell**, and **Azure Mobile App**
 
-+ Managing Users with **Azure PowerShell**:
++ **Azure PowerShell* can be used for automation and DevOps     
+      
 ```ps1
-Connect-AzureAD #sign in
+Install-Module Az -Force -AllowClobber
+#sign in
+Connect-AzureAD 
 $domain = "domain.onmicrosoft.com"
+
+### Managing Users with Azure PowerShell
 $passwordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
 $PasswordProfile.Password = "p@ssword1"
 
