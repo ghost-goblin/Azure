@@ -197,13 +197,19 @@
 #### Storage Accounts
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
 + Create a storage account in the Azure Portal and the CLI
-1. Blob
+1. **Standard** Performance Tier
+      + storing blobs, files, tables, queues and Azure VMs
+2. **Premium** Performance Tier
+      + Unmanaged VM disks only
+1. **Blob**
       - Text + Binary Data
-2. File
+2. **File**
       - SMB File Shares
-3. Queue
-4. Table
-
+3. **Queue**
+      - A messaging service for messaging between application components
+4. **Table**
+      - NoSQL database in the cloud
+      - Highly scalable
 #### Blob Storage Access Tiers      
 + **Hot**
 - optimised for frequent access of objects
