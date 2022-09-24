@@ -218,8 +218,6 @@
 3. **Archive** 
     - optimised for frequent data that can tolerate several hours of retrieval latency
     - 180 days
-      
-#### Blobs
 **Blob storage** is optimized for storing massive amounts of unstructured data
 1. **Block blobs** store text and binary data
       + made up of blocks of data that can be managed individually
