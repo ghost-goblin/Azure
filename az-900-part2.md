@@ -329,3 +329,8 @@
 7. Describe migration options, including **Azure Migrate** and **Azure Data Box**
 + **Azure Migrate** is a unified migration platform to start, run, and track your migration to Azure
 + **Azure Data Box** for offline data transfer when you are limited by time, network, or cost
+      
+- - -
+
+8. Describe the purpose of **[Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/overview)**
++ Manage your entire environment together by projecting your existing non-Azure and/or on-premises resources into Azure Resource Manager
