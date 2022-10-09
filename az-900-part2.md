@@ -314,3 +314,14 @@
 
 5. Describe the benefits and usage of Azure Marketplace
 + [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store that contains thousands of IT software applications and services built by industry-leading technology companies
+
+- - -
+      
+6. Identify options for moving files, including **AzCopy**, **Azure Storage Explorer**, and **Azure File Sync**
++ **AzCopy** is a command-line tool that moves data into and out of Azure Storage
+  + `azcopy [command] [arguments] --[flag-name]=[flag-value]`
++ **Microsoft Azure Storage Explorer** is a standalone app that makes it easy to work with Azure Storage data on Windows, macOS, and Linux
++ [Azure File Sync](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) to centralize your organization's file shares in Azure Files
+  + The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription     
+- - -
+7. Describe migration options, including **Azure Migrate** and **Azure Data Box**
