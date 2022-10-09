@@ -322,6 +322,10 @@
   + `azcopy [command] [arguments] --[flag-name]=[flag-value]`
 + **Microsoft Azure Storage Explorer** is a standalone app that makes it easy to work with Azure Storage data on Windows, macOS, and Linux
 + [Azure File Sync](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) to centralize your organization's file shares in Azure Files
-  + The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription     
+  + The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription
+
 - - -
+
 7. Describe migration options, including **Azure Migrate** and **Azure Data Box**
++ **Azure Migrate** is a unified migration platform to start, run, and track your migration to Azure
++ **Azure Data Box** for offline data transfer when you are limited by time, network, or cost
