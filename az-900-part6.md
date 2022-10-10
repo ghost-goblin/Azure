@@ -15,7 +15,13 @@
 
 - - -
 
-2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing) Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
+2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
++ Azure **Reserved Instances** often offer 40% or more savings off of the price of pay-as-you-go virtual machines
+
+
+- - -
+
+3. Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
 + [Total Cost of Ownership Calculator](https://azure.microsoft.com/en-in/pricing/tco/calculator/)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
@@ -27,7 +33,7 @@
 
 - - -
 
-3. Describe the functionality and usage of **Azure Cost Management**
+4. Describe the functionality and usage of **Azure Cost Management**
 + [Monitor, allocate and optimise cloud costs](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/?WT.mc_id=AZ-MVP-5003556)
 
 - - -
