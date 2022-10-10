@@ -236,18 +236,13 @@
 7. Describe the **[Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)** for Azure
 + [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview) enables cloud architects, IT professionals, and business decision makers to achieve their cloud adoption goals
 
-- - -
-      
-8. Describe the purpose of the **[Service Trust Portal](https://learn.microsoft.com/en-us/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide)**
-+ Content, tools, and other resources about how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization
-
 
 - - -
 
 ### Describe privacy and compliance resources
 1. Describe the Microsoft core tenets of **Security**, **Privacy**, and **Compliance**
 + _[Can you trust your cloud provider?](https://azure.microsoft.com/en-in/blog/trusted-cloud-security-privacy-compliance-resiliency-and-ip/)_
-
++ **[Service Trust Portal](https://learn.microsoft.com/en-us/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide)** - content, tools, and other resources about how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization
 - - -
 
 2. Describe the purpose of the **Microsoft Privacy Statement**, **Online Services Terms** (OST) and **Data Protection Amendment** (DPA)
