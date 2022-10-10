@@ -236,6 +236,10 @@
 7. Describe the **[Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)** for Azure
 + [Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview) enables cloud architects, IT professionals, and business decision makers to achieve their cloud adoption goals
 
+- - -
+      
+*.  Describe the purpose of the **[Service Trust Portal](https://learn.microsoft.com/en-us/microsoft-365/compliance/get-started-with-service-trust-portal?view=o365-worldwide)**
++ Content, tools, and other resources about how Microsoft cloud services protect your data, and how you can manage cloud data security and compliance for your organization
 
 
 - - -
