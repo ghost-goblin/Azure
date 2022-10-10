@@ -139,7 +139,6 @@
 #### Compute services - _executing code on the cloud_
 + **Virtual Machines**
   - IaaS
-  + **1000** virtual machines can be managed under a single Virtual Machine Scale Set
   + Full control over the OS
   + Must maintain and patch VM
   - Take an existing machine from your environment into the cloud - _a copy_
@@ -149,6 +148,7 @@
   - Over 200 Virtual Machine types to choose from
   - Number of CPU cores, CPU speed, RAM size, temporary disk size, IOPS, etc.
 + **VM Scale Sets** (VMSS)
+  + **1000** virtual machines can be managed under a single VM Scale Set
   - Elasticity
   - 2 or more VMs running the exact same code
   - A **Load Balancer** in front to direct traffic randomly to one of the machines
