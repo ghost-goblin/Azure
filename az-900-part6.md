@@ -19,7 +19,19 @@
     - **Standard** Run production workloads
     - **Premium** Enhanced performance and scale
     - **Isolated High-Performance**, Security and Isolation
-
+|                              | Free   | Shared      | Basic       | Standard   | Premium    | Isolated   |
+|------------------------------|--------|-------------|-------------|------------|------------|------------|
+| Web, mobile or API apps      | 10     | 100         | Unlimited   | Unlimited  | Unlimited  | Unlimited  |
+| Disk space                   | 1 GB   | 1 GB        | 10 GB       | 50 GB      | 250 GB     | 1 TB       |
+| Maximum instances            | –      | –           | Up to 3     | Up to 10   | Up to 30*  | Up to 100  |
+| Custom domain                | –      | Supported   | Supported   | Supported  | Supported  | Supported  |
+| Auto Scale                   | –      | –           | –           | Supported  | Supported  | Supported  |
+| Hybrid Connectivity          | –      | –           | Supported   | Supported  | Supported  | Supported  |
+| Virtual Network Connectivity | –      | –           | Supported   | Supported  | Supported  | Supported  |
+| Private Endpoints            | –      | –           | Supported   | Supported  | Supported  | Supported  |
+| Compute Type                 | Shared | Shared      | Dedicated   | Dedicated  | Dedicated  | Isolated   |
+| Pay as you go price          | Free   | $0.013/hour | $0.075/hour | $0.10/hour | $0.20/hour | $0.40/hour |
+ 
 - - -
 
 2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
