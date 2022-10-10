@@ -25,7 +25,7 @@
 |------------------------------|--------|-------------|-------------|------------|------------|------------|
 | Web, mobile or API apps      | 10     | 100         | Unlimited   | Unlimited  | Unlimited  | Unlimited  |
 | Disk space                   | 1 GB   | 1 GB        | 10 GB       | 50 GB      | 250 GB     | 1 TB       |
-| Maximum instances            | –      | –           | Up to 3     | Up to 10   | Up to 30*  | Up to 100  |
+| Maximum instances            | –      | –           | Up to 3     | Up to 10   | Up to 30   | Up to 100  |
 | Custom domain                | –      | Supported   | Supported   | Supported  | Supported  | Supported  |
 | Auto Scale                   | –      | –           | –           | Supported  | Supported  | Supported  |
 | Hybrid Connectivity          | –      | –           | Supported   | Supported  | Supported  | Supported  |
