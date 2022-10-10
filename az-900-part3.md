@@ -59,7 +59,11 @@
     - Azure Artifacts
     - Azure Test Plans
 + **[GitHub Actions](https://learn.microsoft.com/en-us/azure/developer/github/github-actions)** helps you automate your software development workflows from within GitHub
-+ **Azure DevTest Labs** is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
++ **[Azure DevTest Labs](https://learn.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview)** is a service for easily creating, using, and managing infrastructure-as-a-service (IaaS) virtual machines (VMs) and platform-as-a-service (PaaS) environments in labs
+  + Create Windows and Linux training and demo environments, or sandbox resource groups for exploring Azure, by using reusable ARM templates and artifacts
+    + Use the Azure CLI command-line tool to manage VMs and environments
+  + Test app versions and scale up load testing by creating multiple test agents and environments
+  + Create development or testing environments from continuous integration and deployment (CI/CD) tools
 
 - - -
 
