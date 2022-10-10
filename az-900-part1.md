@@ -10,7 +10,7 @@
 ## ☁️ Describe Cloud Computing
 ### Identify the benefits and considerations of using cloud services
 1. Identify the benefits of cloud computing, such as **High Availability**, **Scalability**, **Elasticity**, **Agility**, and **Disaster Recovery**
-+ **High Availability** is the _percentage_ (%) of the time system response to the user request i.e. how long a system component is operational
++ **High Availability** is a system specifically designed to be resilient when some component of the system fails (with no single point of failures)
 + **Availability** is the accessibility of an application or system by end-users
       
 | What causes unavailabilty?                      |
