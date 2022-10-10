@@ -139,6 +139,7 @@
 #### Compute services - _executing code on the cloud_
 + **Virtual Machines**
   - IaaS
+  + **1000** virtual machines can me managed under a single Virtual Machine Scale Set
   + Full control over the OS
   + Must maintain and patch VM
   - Take an existing machine from your environment into the cloud - _a copy_
