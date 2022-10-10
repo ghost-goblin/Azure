@@ -1,6 +1,7 @@
 <div align='center'>
 
 # ☁️ Microsoft Azure Services & Concepts
+Azure has the most regions of any major cloud provider - 60+ global regions.
 
 </div>
 
