@@ -183,7 +183,7 @@ az vm create \
 - - -
 
 2. Describe the functionality and usage of **Azure Advisor**
-- For optimising your costs
+- **Azure Advisor** analyzes your account usage and makes recommendations for you based on its set rules
 
 - - -
 3. Describe the functionality and usage of **Azure Resource Manager** (ARM) templates
