@@ -23,7 +23,7 @@
       
 + **Scalability** is the long-term planning and implementations to deal with the increase / decrease in demand
 + **Elasticity** is the ability to aquire / release resources as and when it is needed
-+ **Agility** refers to the ability of an organization to rapidly develop, test, and launch software applications that drive business growth _(addition of business value)_
++ **Agility** - the ability to respond to change "rapidly" based on changes to market or environment; ensuring fast time to market
 + **Disaster Recovery** is an organization's ability to respond to and recover from an event that negatively affects business operations
 
 - - -
