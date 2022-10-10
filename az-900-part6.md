@@ -19,6 +19,8 @@
     - **Standard** Run production workloads
     - **Premium** Enhanced performance and scale
     - **Isolated High-Performance**, Security and Isolation
+
+
 |                              | Free   | Shared      | Basic       | Standard   | Premium    | Isolated   |
 |------------------------------|--------|-------------|-------------|------------|------------|------------|
 | Web, mobile or API apps      | 10     | 100         | Unlimited   | Unlimited  | Unlimited  | Unlimited  |
@@ -31,7 +33,8 @@
 | Private Endpoints            | –      | –           | Supported   | Supported  | Supported  | Supported  |
 | Compute Type                 | Shared | Shared      | Dedicated   | Dedicated  | Dedicated  | Isolated   |
 | Pay as you go price          | Free   | $0.013/hour | $0.075/hour | $0.10/hour | $0.20/hour | $0.40/hour |
- 
+
+
 - - -
 
 2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
