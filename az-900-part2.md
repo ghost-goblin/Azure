@@ -160,6 +160,7 @@
   - A new paradigm for running code in the cloud
     + Web Apps
       - **Application Gateway** _(or Load Balancer)_ allows you to split ingress traffic and direct it to several identical VMs
+      - **Application Gateway** understands the HTTP protocol and can make load balancing decisions based on the URL path _(while a load balancer cannot)_
         - optional **Web Application Firewall** (WAF)
     + API Apps
     + Mobile Apps
