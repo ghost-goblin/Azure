@@ -12,6 +12,8 @@
 ### Describe methods for planning and managing costs
 1. Identify factors that can affect costs (resource types, services, locations, ingress and egress traffic)
 + **Ingress** bandwidth is __free__; you pay for **egress** (outbound)
++ [SLA](https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/) for Virtual Machines
+  - 100% SLA for 2+ Azure Virtual Machines that have been placed into different Availability Zones in the same region
 + More information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
