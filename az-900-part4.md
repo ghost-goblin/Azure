@@ -38,6 +38,19 @@
 +  If one mechanism fails, another steps up immediately to thwart an attack
 
 
+| Layers of Security                        |
+| :-----------------------------------------|
+| Building security                         |
+| Physical network security                 |
+| OS patches                                |
+| Network & Firweall settings _(perimeter)_ |
+| Application settings                      |
+| Authentication platform                   |
+| User accounts                             |
+| Devices                                   |
+| Data                                      |
+
+
 - - -
 
 2. Describe the functionality and usage of **Network Security Group** (NSG)
