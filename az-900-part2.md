@@ -48,6 +48,7 @@
 
 4. Describe the benefits and usage of **Subscriptions**
 + To use Azure's cloud-based services, you must first purchase a subscription
++ There's **no limit** to the number of subscriptions a single user can be included on
 + Highest level Azure resource
 + Each subscription has a unique ID
 + Subscriptions have quotas
