@@ -77,12 +77,15 @@
 2. Describe **Infrastructure-as-a-Service** (IaaS)
 + Manage the OS and software that runs on that infrastructure
 + The most popular IaaS service in Azure is called **Azure Virtual Machines**
+  + SQL Server on Azure VM
 + The ability to remote into the VM is usually reserved for IaaS services
 
 - - -
 
 3. Describe **Platform-as-a-Service** (PaaS)
 + Azure App Service
++ Azure SQL Managed Instance
++ Azure SQL Database (DBaaS)
 
 - - -
 
