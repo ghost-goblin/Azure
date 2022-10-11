@@ -56,17 +56,17 @@
       (More Control)
  ```
 
-| Layers of Security       |
-| :--------------------------- |
-| Building security            |
-| Physical network security    |
-| OS patches                   |
-| Network & Firweall settings  |
-| Application settings         |
-| Authentication platform      |
-| User accounts                |
-| Devices                      |
-| Data                         |
+| Layers of Security                        |
+| :-----------------------------------------|
+| Building security                         |
+| Physical network security                 |
+| OS patches                                |
+| Network & Firweall settings _(perimeter)_ |
+| Application settings                      |
+| Authentication platform                   |
+| User accounts                             |
+| Devices                                   |
+| Data                                      |
 
 
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
