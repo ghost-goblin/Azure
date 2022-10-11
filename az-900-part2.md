@@ -159,6 +159,8 @@
 + **App services** (Web apps)
   - A new paradigm for running code in the cloud
     + Web Apps
+      - **Application Gateway** _(or Load Balancer)_ allows you to split ingress traffic and direct it to several identical VMs
+        - optional **Web Application Firewall** (WAF)
     + API Apps
     + Mobile Apps
     + Containers
