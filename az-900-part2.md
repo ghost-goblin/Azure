@@ -314,7 +314,7 @@
 - - -
 
 5. Describe the benefits and usage of Azure Marketplace
-+ [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store that contains thousands of IT software applications and services built by industry-leading technology companies
++ [Azure Marketplace](https://docs.microsoft.com/en-us/marketplace/azure-marketplace-overview) is an online store within the Azure Portal to find all of the __third-party__ virtual machine and other offers
 
 - - -
       
