@@ -267,4 +267,4 @@
 - - -
 
 5. Describe the purpose of **Azure Sovereign Regions** (Azure Government cloud services and Azure China cloud services)
-+ [Azure Government](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome)
++ [Azure Government](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome) -  US federal, state, local, or tribal government entities 
