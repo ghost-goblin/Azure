@@ -73,3 +73,4 @@
 
 3. Describe the service lifecycle in Azure (Public Preview and General Availability)
 + [Lifecycle FAQ](https://learn.microsoft.com/en-us/lifecycle/faq/azure?WT.mc_id=AZ-MVP-5003556) defines how every Azure service is released for public use
++ Public Preview is for any customer with the proper Azure AD license to evaluate but not for production use
