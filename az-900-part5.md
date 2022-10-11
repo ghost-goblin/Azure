@@ -218,6 +218,7 @@
 
 4. Describe the functionality and usage of **Azure Policy**
 + [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) helps to enforce organizational standards and to assess compliance at-scale
++ Can add restrictions on storage account SKUs, virtual machine instance types, and rules relating to tagging of resources and groups
 
 - - -
 
