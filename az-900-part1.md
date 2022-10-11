@@ -79,8 +79,13 @@
 - - -
 
 4. Describe serverless computing
-+ Azure Functions
-+ Logic Apps
++ **Azure Functions** are designed for short pieces of code that start and end quickly
++ Logic Apps are designed for automated workloads:
+  - Schedule and send email notifications using Office 365 when a specific event happens, for example, a new file is uploaded
+  - Route and process customer orders across on-premises systems and cloud services
+  - Move uploaded files from an SFTP or FTP server to Azure Storage
+
+
 
 - - -
 
