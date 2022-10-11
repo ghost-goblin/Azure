@@ -212,6 +212,8 @@
 - Development features & support:
   + REST API
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
++ A single subscription can have up to **250** storage accounts per region
++ Each storage account can store up to **5 Petabytes**
 + Create a storage account in the Azure Portal and the CLI
 1. **Standard** Performance Tier
       + storing blobs, files, tables, queues and Azure VMs
