@@ -14,6 +14,7 @@
 + **Ingress** bandwidth is __free__; you pay for **egress** (outbound)
 + [SLA](https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/) for Virtual Machines
   - 100% SLA for 2+ Azure Virtual Machines that have been placed into different Availability Zones in the same region
+  - 99.95% SLA for 2+ Virtual Machines in an Availability Set
 + More information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
