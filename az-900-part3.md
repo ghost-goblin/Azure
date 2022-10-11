@@ -146,6 +146,7 @@ $newGroup = New-AzureADGroup @group
 Set-AzureADGroup -ObjectId $newGroup.ObjectId -Description "Group for the Marketing Department"
 ```
 + **Azure CLI** is a command line interface for Azure:
+  + The real benefit is **automation**
 
 ```sh     
 az login
@@ -173,7 +174,7 @@ az vm create \
 --nics ContosoNIC4
 ```
 
-+  **Cloud Shell** is a cloud hosted shell environment
++ **Cloud Shell** is a cloud hosted shell environment
   - access through **Azure Portal**
   - mount storage (Storage Account)
 
