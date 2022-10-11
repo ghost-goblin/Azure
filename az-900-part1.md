@@ -56,18 +56,6 @@
       (More Control)
  ```
 
-| Layers of Security                        |
-| :-----------------------------------------|
-| Building security                         |
-| Physical network security                 |
-| OS patches                                |
-| Network & Firweall settings _(perimeter)_ |
-| Application settings                      |
-| Authentication platform                   |
-| User accounts                             |
-| Devices                                   |
-| Data                                      |
-
 
 + No matter where an application sits within the Cloud Pyramid, the user and the cloud provider share some level of responsibility
 + The cloud provider has the most responsibility at the top of the pyramid and the least responsibility at the bottom of the pyramid
