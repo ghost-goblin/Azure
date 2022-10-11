@@ -200,10 +200,23 @@ az vm create \
     - Using PowerShell and the Azure CLI
     - Resource Manager ARM REST API
     - Azure Portal
+
+
 - - -
+
+
 4. Describe the functionality and usage of **Azure Monitor**
-+ **[Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)**: for collecting, analyzing, and acting on telemetry from your cloud and on-premises environments
++ **[Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)**: for collecting, analyzing, and acting on the availability and performance of your applications and services
+  - Detect and diagnose issues across applications and dependencies with Application Insights
+  - Correlate infrastructure issues with VM insights and Container insights
+  - Drill into your monitoring data with Log Analytics for troubleshooting and deep diagnostics
+  - Support operations at scale with automated actions
+  - Create visualizations with Azure dashboards and workbooks
+  - Collect data from monitored resources by using Azure Monitor Metrics
+  - Investigate change data for routine monitoring or for triaging incidents by using Change Analysis
+
 - - -
+
 5. Describe the functionality and usage of **Azure Service Health**
 + **[Azure Service Health](https://learn.microsoft.com/en-us/azure/service-health/overview)** keeps you informed about the health of your cloud resources:
     1. Azure status
