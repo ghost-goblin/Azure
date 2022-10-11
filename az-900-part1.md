@@ -31,6 +31,7 @@
 
 2. Identify the differences between **Capital Expenditure** (CapEx) and **Operational Expenditure** (OpEx)
 + **Capital Expenditure** occurs when a company spends money, utilizes collateral, or incurs debt to purchase a new asset or enhance value to an existing one
+  - One of the downsides of CapEx is that the money invested cannot be deducted immediately from your taxes
 + **Operational Expenditure** is a daily cost required to keep the business operational
 
 - - -
