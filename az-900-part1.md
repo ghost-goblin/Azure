@@ -25,7 +25,7 @@
 + **Scalability** is the long-term planning and implementations to deal with the increase / decrease in demand
 + **Elasticity** is the ability to aquire / release resources as and when it is needed
 + **Agility** - the ability to respond to change "rapidly" based on changes to market or environment; ensuring fast time to market
-+ **Disaster Recovery** is an organization's ability to respond to and recover from an event that negatively affects business operations
++ **Disaster Recovery** is the ability to recover from a big failure within an acceptable period of time, with an acceptable amount of data lost
 
 - - -
 
