@@ -12,9 +12,6 @@
 ### Describe methods for planning and managing costs
 1. Identify factors that can affect costs (resource types, services, locations, ingress and egress traffic)
 + **Ingress** bandwidth is _free_; you pay for **egress** (outbound)
-+ [SLA](https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/) for Virtual Machines
-  - 100% SLA for 2+ Azure Virtual Machines that have been placed into different Availability Zones in the same region
-  - 99.95% SLA for 2+ Virtual Machines in an Availability Set
 + More information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
@@ -70,7 +67,9 @@
 
 2. Identify actions that can impact an SLA (i.e. Availability Zones)
 + [SLA](https://azure.microsoft.com/en-gb/support/legal/sla/summary/) summary for Azure services
-
++ [SLA](https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/v1_9/) for Virtual Machines
+  - 100% SLA for 2+ Azure Virtual Machines that have been placed into different Availability Zones in the same region
+  - 99.95% SLA for 2+ Virtual Machines in an Availability Set
 
 - - -
 
