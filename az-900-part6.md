@@ -43,6 +43,9 @@
 
 2. Identify factors that can reduce costs (reserved instances, reserved capacity, hybrid use benefit, spot pricing)
 + Azure **Reserved Instances** often offer 40% or more savings off of the price of pay-as-you-go virtual machines
++ **Azure Spot Instances** make use of Microsoft's leftover Compute Capacity
++ **Azure Budgets** will notify you when your expenditure is nearing the limit, allowing you to take appropriate action
+
 
 
 - - -
@@ -73,4 +76,7 @@
 
 3. Describe the service lifecycle in Azure (Public Preview and General Availability)
 + [Lifecycle FAQ](https://learn.microsoft.com/en-us/lifecycle/faq/azure?WT.mc_id=AZ-MVP-5003556) defines how every Azure service is released for public use
-+ Public Preview is for any customer with the proper Azure AD license to evaluate but not for production use
++ **Private Preview** are are only available for specific types of customers
++ **Public Preview** is for any customer with the proper Azure AD license to evaluate but not for production use
++ **General Availability** are accessible to the whole community, support SLAs, and are appropriate for production environments
+
