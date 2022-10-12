@@ -48,7 +48,10 @@
 - - -
 
 3. Describe the functionality and usage of the **Pricing calculator** and the **Total Cost of Ownership** (TCO) **calculator**
-+ [Total Cost of Ownership Calculator](https://azure.microsoft.com/en-in/pricing/tco/calculator/)
++ **Pricing calculator** is a tool that can be used to assist us in understanding the
+costs of Azure services and features. It simply calculates the cost of Azure Services
++ [Total Cost of Ownership Calculator](https://azure.microsoft.com/en-in/pricing/tco/calculator/) calculates the cost reductions that could be obtained by moving your workloads to Azure
+  - PDF report
 
 
 - - -
