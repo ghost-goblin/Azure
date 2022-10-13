@@ -58,14 +58,18 @@
 + How do I create a [Network Security Group](https://learn.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview)? ... _just like with anything in Azure, you just create a **resource**_
 + Filter traffic to and from Azure resources
 + Contains security rules to allow or deny inbound/outbound traffic
-+ Evaluated by priority using 5-tuple information
++ Evaluated by priority using 5-tuple information:
   1. Source Address
   2. Source Port
   3. Destination Address
   4. Destination Port
   5. Protocol
-+ VMs (At the NIC level)
++ VMs _(at the NIC level)_
 + Subnets
+  - _Allow RDP traffic via NSG rules_
+  - _Allow HTTP traffic via NSG rules_
+    -  Istall a **IIS** web server:
+      + Server Manager > Add Roles and Features > `http://localhost/`
 
 
 - - -
