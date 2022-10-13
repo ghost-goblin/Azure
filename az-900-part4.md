@@ -68,7 +68,7 @@
 + Subnets
   - _Allow RDP traffic via NSG rules_
   - _Allow HTTP traffic via NSG rules_
-    -  Istall a **IIS** web server:
+    -  Install a **IIS** web server:
       + Server Manager > Add Roles and Features > `http://localhost/`
 
 ```ps1
