@@ -258,12 +258,15 @@
   - Standard hard disk drives (HDD)
 + **Locally-Redundant Storage** (LRS)
   - simple,low-cost replication
-  - replicated within a single storge unit
+  - duplicates your data **3** times inside a single data center
 + **Zone-Redundant Storage** (ZRS)
   - high availability and durability
-  - replicated synchronously across three availability zones
+  - replicated synchronously across **3** availability zones
 + **Geo-Redundant Storage** (GRS)
   - cross-regional replication to protect against region-side unavailability
+  - replicates your data **3** times synchronously inside a single physical location in the primary region
++ **GZRS** (Geo-Zone-Redundant storage)
+  - duplicated to a secondary geographic area for disaster recovery and is replicated across three Azure availability zones in the original region
 + **Read-access Geo-Redundant Storage** (RA-GRS)
   - cross-regional replication with read access only
 - - -
