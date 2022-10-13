@@ -16,8 +16,9 @@
 
 - - -
 2. Define **Azure Active Directory**
-+ Microsoft's multi-tenant cloud-based directory and identity management service
-+ Control access to your apps and your resources
++ Multi-tenant cloud service
++ Identity and Access Management Services
++ Control access to your **apps** and your **resources**
 + Can be used to require multi-factor authentication when accessing important organizational resources
 + Can be intergrated with an existing Windows Server Active Directory
 + Uses HTTPS queries instead of LDAP
