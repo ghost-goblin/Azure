@@ -232,6 +232,11 @@
 
 6. Describe the functionality and usage of **Azure Blueprints**
 + [Azure Blueprints](https://learn.microsoft.com/en-us/azure/governance/blueprints/overview) enables cloud architects and central information technology groups to define a repeatable set of Azure resources that implements and adheres to an organization's standards, patterns, and requirements
++ **Azure Blueprint Artifacts** are something that can be used to build the blueprint
+  1. ARM Templates
+  2. Resource Groups
+  3. Azure RBAC
+  4. Azure policies
 
 - - -
 
