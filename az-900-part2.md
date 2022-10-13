@@ -142,13 +142,18 @@
   - Can be configured to increase that to 1000 VMs in a single scale set
 + **App Services** (Web apps)
   - HTTP-based PaaS for hosting web applications, REST APIs and mobile back ends
-    - .NET
-    - .NET Core
-    - Java
-    - Ruby
-    - Node.js
-    - PHP
-    - Python
+  - Give your code and configuration to Azure, and they will run it
+    + API Apps
+    + Mobile Apps
+    + Containers
+    + WebJobs
+      - .NET
+      - .NET Core
+      - Java
+      - Ruby
+      - Node.js
+      - PHP
+      - Python
   - **Azure Load Balancer** works at the **Layer 4** of OSI Reference Model using the TCP and UDP protocols to manage transaction traffic and direct it to several identical VMs
     + High availability for your application
     + Front-end IP configuration ccontains one or more public IP addresses
@@ -156,13 +161,6 @@
     + A back-end address pool contains the IP addresses of the virtual NICs connected to the load balancer
   - **Application Gateways** understands the **HTTP** protocol _(Layer 7)_ and can make load balancing decisions based on the **URL** path _while a load balancer cannot_
     - optional **Web Application Firewall** (WAF)
-      + API Apps
-      + Mobile Apps
-      + Containers
-      + WebJobs
-    - Give your code and configuration to Azure, and they will run it
-    - Promise of performance with no access to physical hardware
-
 
 - - -      
 
