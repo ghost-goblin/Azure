@@ -209,14 +209,12 @@ az vm create \
 
 4. Describe the functionality and usage of **Azure Monitor**
 + **[Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)**: for collecting, analyzing, and acting on the availability and performance of your applications and services
-  - Detect and diagnose issues across applications and dependencies with Application Insights
-  - Correlate infrastructure issues with VM insights and Container insights
-  - Drill into your monitoring data with Log Analytics for troubleshooting and deep diagnostics
-  - Support operations at scale with automated actions
-  - Create visualizations with Azure dashboards and workbooks
-  - Collect data from monitored resources by using Azure Monitor Metrics
-  - Investigate change data for routine monitoring or for triaging incidents by using Change Analysis
+  - **Metrics** and **Logs** are the 2 main diagnostic data
+  - Identify your issues with the help of these diagnostic data
+  - Create alerts as well in Azure based on the metrics and logs
+  - A _Resource blade_ called **Service Health** allows you to monitor the health of deployed resources (VMs, Apps, Containers) and generate alerts based on health
 
+      
 - - -
 
 5. Describe the functionality and usage of **Azure Service Health**
