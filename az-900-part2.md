@@ -118,24 +118,6 @@
 + **IaaS** makes up the Infrastructure that constitutes your Azure Virtual Machines
 + URL to manage Azure Web Apps: [https://portal.azure.com/#create/hub](https://portal.azure.com/#create/hub)
   
-#### Configuring TLS/SSL Certificates
-  + Protocols that are used to secure communication between different machines
-  + If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
-  + The private key never leaves the server and will always stay on the certificate owner's machine, it is used to encrypt / decrypt the payloads
-  + If any client wishes to communuicate withe the server, the client will use their public key to encrypt their request
-  + The server processes the request and generates a response, encrypts the respinse using the private key and sends it back to the client
-  + TLS provides privacy and data integrity between communicating applications by encrypting the payload
-  + The public key is packaged into the SSL certificate and shared with clients (i.e. web browsers)
-  - SSL protocol is depreciated, **TLS** (Transport Layer Security) has replaced it
-  + SSL/TLS certificates can vbe purchased from trusted authorities. They establish the authenticity of the certificates.
-  + In HTTPS, the communication is encrypted using TLS (formerly SSL)
-  + To use SSL with custom domains, you need to buy and configure a SSL certificate
-  + The SSL certificate will be stotred in **Azure Key Vault**
-  + To bind a custom SSL certifictae, your App Service plan must be in Basic, Standard, Premium, or Isolated Tier
-  + You need to prove the ownership of the custom domain and add a CNAME record
-  + Bind the hostname and the certificate in SSL Bindings
-    - **IP Based SSL** _(A single certificate for an ip)_
-    - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
 
 #### Compute services - _executing code on the cloud_
 + **Virtual Machines**
@@ -158,7 +140,7 @@
   - Autoscaling: add more and reduce machines on demand
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
-+ **App services** (Web apps)
++ **App Services** (Web apps)
   - HTTP-based PaaS for hosting web applications, REST APIs and mobile back ends
     - .NET
     - .NET Core
@@ -167,8 +149,12 @@
     - Node.js
     - PHP
     - Python
-  - **Application Gateway** _(or Load Balancer)_ allows you to split ingress traffic and direct it to several identical VMs
-  - **Application Gateway** understands the HTTP protocol and can make load balancing decisions based on the URL path _(while a load balancer cannot)_
+  - **Azure Load Balancer** works at the **Layer 4** of OSI Reference Model using the TCP and UDP protocols to manage transaction traffic and direct it to several identical VMs
+    + High availability for your application
+    + Front-end IP configuration ccontains one or more public IP addresses
+    + VMs connect to a load balancer using their virtual NIC
+    + A back-end address pool contains the IP addresses of the virtual NICs connected to the load balancer
+  - **Application Gateways** understands the **HTTP** protocol _(Layer 7)_ and can make load balancing decisions based on the **URL** path _while a load balancer cannot_
     - optional **Web Application Firewall** (WAF)
       + API Apps
       + Mobile Apps
@@ -176,6 +162,33 @@
       + WebJobs
     - Give your code and configuration to Azure, and they will run it
     - Promise of performance with no access to physical hardware
+
+
+- - -      
+
+#### Configuring TLS/SSL Certificates
+  + Protocols that are used to secure communication between different machines
+  + If you buy a SSL certificate to secure your App Service, it will consist of **two** keys; the public key and the private key
+  + The private key never leaves the server and will always stay on the certificate owner's machine, it is used to encrypt / decrypt the payloads
+  + If any client wishes to communuicate withe the server, the client will use their public key to encrypt their request
+  + The server processes the request and generates a response, encrypts the respinse using the private key and sends it back to the client
+  + TLS provides privacy and data integrity between communicating applications by encrypting the payload
+  + The public key is packaged into the SSL certificate and shared with clients (i.e. web browsers)
+  - SSL protocol is depreciated, **TLS** (Transport Layer Security) has replaced it
+  + SSL/TLS certificates can vbe purchased from trusted authorities. They establish the authenticity of the certificates.
+  + In HTTPS, the communication is encrypted using TLS (formerly SSL)
+  + To use SSL with custom domains, you need to buy and configure a SSL certificate
+  + The SSL certificate will be stotred in **Azure Key Vault**
+  + To bind a custom SSL certifictae, your App Service plan must be in Basic, Standard, Premium, or Isolated Tier
+  + You need to prove the ownership of the custom domain and add a CNAME record
+  + Bind the hostname and the certificate in SSL Bindings
+    - **IP Based SSL** _(A single certificate for an ip)_
+    - **SNI SSL** _(Assign multiple SSL cetificates to a public IP address on a server based on the requested domain name, the server will then return the corresponding certificate)_
+
+      
+- - -
+
+
 + **Azure Container Instances** (ACI)
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
