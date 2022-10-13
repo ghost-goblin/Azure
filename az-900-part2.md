@@ -203,11 +203,11 @@
   + Nodes are virtual machines in AKS and can leverage VM scale sets
   + Azure Container Registry
   + Azure Monitor
-    - runs on a cluster of servers, enterprise-grade
-      - Create an Azure Kubernetes Service > `Create a resource`
-      - `Workloads` > `Add with YAML`
-
-      
+    - runs on a cluster of servers _(enterprise-grade)_
+  + Deploy a container on AKS
+    - Create an **Azure Kubernetes Service** > `Create a resource`
+    - `Workloads` > `Add with YAML`
+     
 ```yml
 apiVersion: apps/v1
 
@@ -245,12 +245,33 @@ spec:
 
               ports:
 
-               - containerPort: 80     
+               - containerPort: 80
 ```
 
+  + Create a Load Balancer service for the container
+    - `Services and ingresses` > `Add with YAML`
 
-      - Create an Azure Kubernetes Service > `Create a resource`
-      - `Workloads` > `Add with YAML`
+```yml
+apiVersion: v1
+
+kind: Service
+
+metadata:
+
+   name: whizlab-service
+
+spec:
+
+   type: LoadBalancer
+
+   ports:
+
+     - port: 80
+
+   selector:
+
+       app: nginx
+```
       
       
 + **Windows Virtual Desktop**
