@@ -25,7 +25,7 @@
   - Apache Hive
   - LLAP
         - Apache Kafka
-+ **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is a data analytics platform optimized for the Microsoft Azure cloud services platform
++ **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is an Azure-optimized _Apache R Spark-based_ analytics platform that is completely managed, quick, simple, and collaborative
     + 3 environments for developing data intensive applications:
         1. Databricks SQL
         2. Databricks Data Science & Engineering
