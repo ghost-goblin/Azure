@@ -204,8 +204,57 @@
   + Azure Container Registry
   + Azure Monitor
     - runs on a cluster of servers, enterprise-grade
+      - Create an Azure Kubernetes Service > `Create a resource`
+      - `Workloads` > `Add with YAML`
+
+      
+```yml
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+   name: nginx
+
+spec:
+
+   replicas: 1
+
+   selector:
+
+      matchLabels:
+
+          app: nginx
+
+   template:
+
+      metadata:
+
+           labels:
+
+               app: nginx
+
+      spec:
+
+           containers:
+
+            - name: nginx
+
+              image: nginx:1.15.2
+
+              ports:
+
+               - containerPort: 80     
+```
+
+
+      - Create an Azure Kubernetes Service > `Create a resource`
+      - `Workloads` > `Add with YAML`
+      
+      
 + **Windows Virtual Desktop**
-  - VDIs
+  - **VDI**s - a Windows desktop session that runs in the cloud
 
 - - -
 
