@@ -12,6 +12,8 @@
 ### Describe methods for planning and managing costs
 1. Identify factors that can affect costs (resource types, services, locations, ingress and egress traffic)
 + **Ingress** bandwidth is _free_; you pay for **egress** (outbound)
++ If you don't want to spend over a certain amount, implement a spending limit in the account center
++ Using up the free credits causes all your resources to be stopped until you decide to get a paid account
 + More information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
