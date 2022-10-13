@@ -275,7 +275,7 @@ spec:
       
       
 + **Windows Virtual Desktop**
-  - **VDI**s - a Windows desktop session that runs in the cloud
+  - **VDI**s - a virtual Windows desktop session that runs in the cloud
 
 - - -
 
