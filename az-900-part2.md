@@ -159,7 +159,7 @@
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
 + **App services** (Web apps)
-  - HTTP-based service for hosting web applications, REST APIs, and mobile back ends
+  - HTTP-based PaaS for hosting web applications, REST APIs and mobile back ends
     - .NET
     - .NET Core
     - Java
@@ -167,17 +167,15 @@
     - Node.js
     - PHP
     - Python
-      + Web Apps
-        - **Application Gateway** _(or Load Balancer)_ allows you to split ingress traffic and direct it to several identical VMs
-        - **Application Gateway** understands the HTTP protocol and can make load balancing decisions based on the URL path _(while a load balancer cannot)_
-          - optional **Web Application Firewall** (WAF)
-    + API Apps
-    + Mobile Apps
-    + Containers
-    + WebJobs
-  - Give your code and configuration to Azure, and they will run it
-  - Promise of performance with no access to physical hardware
-  - PaaS
+  - **Application Gateway** _(or Load Balancer)_ allows you to split ingress traffic and direct it to several identical VMs
+  - **Application Gateway** understands the HTTP protocol and can make load balancing decisions based on the URL path _(while a load balancer cannot)_
+    - optional **Web Application Firewall** (WAF)
+      + API Apps
+      + Mobile Apps
+      + Containers
+      + WebJobs
+    - Give your code and configuration to Azure, and they will run it
+    - Promise of performance with no access to physical hardware
 + **Azure Container Instances** (ACI)
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
