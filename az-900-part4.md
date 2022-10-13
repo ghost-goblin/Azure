@@ -77,11 +77,11 @@
 
 3. Describe the functionality and usage of **Azure Firewall**
 - [Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview) is a cloud-native and intelligent network firewall security service
-- Azure Firewall is part of the perimeter security
-- Managed network security service that protects your Azure network resources
-- Full stateful
-- High Availability
-- Unrescrticted scalability
+  - Azure Firewall is part of the perimeter security
+  - Managed network security service that protects your Azure network resources
+  - Full stateful
+  - High Availability
+  - Unrescrticted scalability
 
 
 - - -
