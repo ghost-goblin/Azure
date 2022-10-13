@@ -71,6 +71,18 @@
     -  Istall a **IIS** web server:
       + Server Manager > Add Roles and Features > `http://localhost/`
 
+```ps1
+# Install IIS server role
+Install-WindowsFeature -name Web-Server -IncludeManagementTool
+
+# Remove default htm file
+Remove-Item C:\inetpub\wwwroot\iisstart.htm
+
+# Add a new htm file that displays server name
+Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
+
+```
+
 
 - - -
 
