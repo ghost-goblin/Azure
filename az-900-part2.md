@@ -321,6 +321,8 @@
       - Mongo DB
       - Gremlin
       - Azure Table Storage
++ **Private endpoints** allows your private VNET to access Azure services such as **Storage**, **Cosmos DB**, and **SQL Database** privately by disabling public access
++ A **private endpoint** is a network interface that uses a _private IP Address_ from your virtual network and securely connects you to a service _(powered by Azure Private Link)_
 
 - - -
 
