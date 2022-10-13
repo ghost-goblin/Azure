@@ -26,10 +26,8 @@
   - LLAP
         - Apache Kafka
 + **[Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks#apache-spark-based-analytics-platform)** is an Azure-optimized _Apache R Spark-based_ analytics platform that is completely managed, quick, simple, and collaborative
-    + 3 environments for developing data intensive applications:
-        1. Databricks SQL
-        2. Databricks Data Science & Engineering
-        3. Databricks Machine Learning
+  - create fully managed, dynamically auto-scalable Apache Spark clusters
+
 
 - - -
 
@@ -42,9 +40,9 @@
 4. Describe the benefits and usage of serverless computing solutions that include **Azure Functions** and **Logic Apps**
 + **[Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)** allows you to write small pieces of code iniated by triggers (C#, PowerShell, Python)
   - Build a web API Using the HTTP trigger, create an endpoint for your web apps
-  - Build a serverless workflow Utilizing durable functions, chain a sequence of functions together
-  - Respond to database changes When a document is generated or modified in Cosmos DB, run custom logic
-  - Process data in real-time Use SignalR and Functions to react to data in real-time
+  - Build a serverless workflow utilizing durable functions, chain a sequence of functions together
+  - Respond to database changes when a document is generated or modified in Cosmos DB, run custom logic
+  - Process data in real-time, use SignalR and Functions to react to data in real-time
 + **[Logic Apps](https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)** design workflows in the Azure Portal and you can call Azure Functions if needed
 + **Azure Event Grid** connects data sources and event handlers
 
