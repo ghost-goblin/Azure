@@ -203,7 +203,7 @@
   + Nodes are virtual machines in AKS and can leverage VM scale sets
   + Azure Container Registry
   + Azure Monitor
-  - runs on a cluster of servers, enterprise-grade
+    - runs on a cluster of servers, enterprise-grade
 + **Windows Virtual Desktop**
   - VDIs
 
