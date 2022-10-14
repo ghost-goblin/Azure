@@ -132,7 +132,10 @@
   - Full control over it, as if it was your machine
   - Over 200 Virtual Machine types to choose from
   - Number of CPU cores, CPU speed, RAM size, temporary disk size, IOPS, etc.
-+ **VM Scale Sets** (VMSS)
+  - [Tutorial](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal): Create a Windows virtual machine in the Azure portal  
+
+
++ **[VM Scale Sets](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)** (VMSS)
   + **1000** virtual machines can be managed under a single VM Scale Set
   - Elasticity
   - 2 or more VMs running the exact same code
@@ -140,13 +143,16 @@
   - Autoscaling: add more and reduce machines on demand
   - Can handle up to 100 VMs in a single scale set
   - Can be configured to increase that to 1000 VMs in a single scale set
+  - [Tutorial](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/flexible-virtual-machine-scale-sets-portal): create virtual machines in a scale set using Azure portal
+
+
 + **App Services** (Web apps)
   - HTTP-based PaaS for hosting web applications, REST APIs and mobile back ends
-  - Give your code and configuration to Azure, and they will run it
-    + API Apps
+  - Give your **code** and **configuration** to Azure, and they will run it
+    + Web & API Apps
     + Mobile Apps
-    + Containers
-    + WebJobs
+    + Docker containers (Windows and Linux)
+    + WebJobs (Functions & Logic Apps)
       - .NET
       - .NET Core
       - Java
@@ -159,7 +165,7 @@
     + Front-end IP configuration ccontains one or more public IP addresses
     + VMs connect to a load balancer using their virtual NIC
     + A back-end address pool contains the IP addresses of the virtual NICs connected to the load balancer
-  - **Application Gateways** understands the **HTTP** protocol _(Layer 7)_ and can make load balancing decisions based on the **URL** path _while a load balancer cannot_
+  - **[Application Gateway](https://learn.microsoft.com/en-us/azure/app-service/environment/integrate-with-application-gateway)** understands the **HTTP** protocol _(Layer 7)_ and can make load balancing decisions based on the **URL** path _while a load balancer cannot_
     - optional **Web Application Firewall** (WAF)
 
 - - -      
@@ -454,7 +460,7 @@ az storage account update \
 
 7. Describe migration options, including **Azure Migrate** and **Azure Data Box**
 + **Azure Migrate** is a unified migration platform to start, run, and track your migration to Azure
-+ **Azure Data Box** for offline data transfer when you are limited by time, network, or cost
++ **Azure Data Box** for **offline** data transfer when you are limited by time, network, or cost
       
 - - -
 
