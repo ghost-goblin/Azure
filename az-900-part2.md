@@ -124,7 +124,7 @@
 + **Virtual Machines**
   - IaaS
   + Each virtual network in Azure needs to be assigned to an address space: `15.0.0.0/16`
-  + Each Virtual Machine has a [Resource Health blade](https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview)
+  + Each Virtual Machine has a [Resource Health blade](https://learn.microsoft.com/en-us/azure/service-health/resource-health-overview) - _(Azure Monitor)_
   + Full control over the OS
   + Must maintain and patch VM
   - Take an existing machine from your environment into the cloud - _a copy_
