@@ -280,9 +280,14 @@ spec:
 
 - - -
 
-2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Virtual Network peering**, and **ExpressRoute**
+2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Azure DNS**, **Virtual Network peering**, and **ExpressRoute**
 - A **Virtual Network** emulates a physical network
 - A **[VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/design)** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
+- **Azure DNS** is a hosting service for domain names:
+  + Supports private DNS Zones for name resolution in VNETs
+  + Anycast Networking to answer the DNS query
+  + Purchanse domain names from third-party domain provides _(like GoDaddy)_
+  + Azure DNS currently does not support DNSSEC
 - **[Point-to-Site VPN](https://learn.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about)** lets you create a secure connection to your virtual network from an **individual** client computer
 - A **Site-to-Site VPN** gateway connection is a connection over IPsec/IKE (IKEv1 or IKEv2) VPN tunnel, connections can be used for cross-premises and hybrid configurations and requires a VPN device located on-premises that has a public IP address assigned to it
 - **Virtual Network peering** connects 2 or more Virtual Networks in Azure 
