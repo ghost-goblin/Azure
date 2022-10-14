@@ -172,7 +172,7 @@
   + **Azure Key Vault** - _cloud service for securely storing and accessing secrets_
   + Azure SQL
   + **[Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)**
-    - Data is transfer between different applications and services using **messages**
+    - Data is transferred between different applications and services using **messages**
   + **Azure Storage** (Blobs & Queues)
   + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
   + Azure Analysis Services
