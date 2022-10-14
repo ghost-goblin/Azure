@@ -66,7 +66,7 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 
 ### Describe Azure Service Level Agreements (SLAs) and service lifecycles
 1. Describe the purpose of an Azure Service Level Agreement (SLA)
-+ Check out the [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) to see which services Azure offers in **Public Preview** _(excluded from the SLA and Limited Warranty)_
+
 
 - - -
 
@@ -82,5 +82,6 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 + [Lifecycle FAQ](https://learn.microsoft.com/en-us/lifecycle/faq/azure?WT.mc_id=AZ-MVP-5003556) defines how every Azure service is released for public use
 + **Private Preview** are are only available for specific types of customers
 + **Public Preview** is for any customer with the proper Azure AD license to evaluate but not for production use
+  + Check out the [Supplemental Terms of Use for Microsoft Azure Previews](https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/) to see which services Azure offers in **Public Preview** _(excluded from the SLA and Limited Warranty)_
 + **General Availability** are accessible to the whole community, support SLAs, and are appropriate for production environments
 
