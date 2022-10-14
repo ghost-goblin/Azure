@@ -39,7 +39,7 @@
 + Manage external identities by using Azure AD
   + Azure AD Domain Services Intergration
     + Azure AD Hybrid Join
-      + Azure AD Connect
+      + **Azure AD Connect**
       + Access to external URLs
       + Configure SCP (Service Connection Point) internally
       + Configure Active Directory Federation Service (ADFS) if required
