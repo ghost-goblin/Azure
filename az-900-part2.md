@@ -322,6 +322,7 @@ spec:
 - Development features & support:
   + REST API
 + [Storage accounts](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview) contain an Azure object with a unique namespace
+  - `http://mystorageaccount.blob.core.windows.net`
 + A single subscription can have up to **250** storage accounts per region
 + Each storage account can store up to **5 Petabytes**
 + Create a storage account in the Azure Portal and the CLI
@@ -332,12 +333,15 @@ spec:
 #### Storage Types    
 1. **Blob**
       - Text + Binary Data
+        1. The Storage Account
+          2. A container in the storage account
+            3. A blob in a container
 2. **File**
       - Create a [Server Message Block](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows) (SMB) file share
       - Create a [Network File System](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linuxhttps://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux) (NFS) file share
       - Azure Files REST API
 3. **Queue**
-      - A messaging service for messaging between application components
+      - A messaging service for **messaging** between application components
 4. **Table**
       - NoSQL database in the cloud
       - Highly scalable
@@ -359,12 +363,14 @@ az storage account update \
     --access-tier Cool
 ```
       
-  
-1. **Block blobs** store text and binary data
-      + made up of blocks of data that can be managed individually, up to about 190.7 TiB
-2. **Append blob** are made up of blocks like block blobs but are optimized for append operations i.e. logging data from virtual machines
+1. **General-purpose v2** is a standard storage account type for blobs, file shares, queues, and tables
+2. **Block blobs** store text and binary data
+      + **Premium** storage account type
+      + made up of blocks of data that can be managed individually
 3. **Page blobs** store random access files
-      + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine, up to 8 TiB in size
+      + **Premium** storage account type
+      + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine
+4. **Append blob** are made up of blocks like block blobs but are optimized for append operations _i.e. logging data from virtual machines_
 
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
