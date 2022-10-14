@@ -338,7 +338,7 @@ spec:
             3. A blob in a container
 2. **File**
       - Create a [Server Message Block](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows) (SMB) file share
-      - Create a [Network File System](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linuxhttps://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux) (NFS) file share
+      - Create a [Network File System](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux) (NFS) file share
       - Azure Files REST API
 3. **Queue**
       - A messaging service for **messaging** between application components
