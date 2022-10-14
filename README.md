@@ -14,6 +14,7 @@
 
 
 - Azure has the most regions of any major cloud provider - 60+ global regions
+- _So, what do you need to create an account?_
   1. Phone number
   2. Credit/debit card
   3. Microsoft/GitHub account
