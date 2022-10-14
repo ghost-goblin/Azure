@@ -2,10 +2,16 @@
 
 # ☁️ Microsoft Azure Services & Concepts
 
-</div>
+
 
 
 ### [Microsoft AZ-900](az-900-index.md): 🧱 Microsoft Azure Fundamentals
+
+
+
+</div>
+
+
 
 - Azure has the most regions of any major cloud provider - 60+ global regions
   1. Phone number
