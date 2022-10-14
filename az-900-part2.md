@@ -297,7 +297,7 @@ spec:
   - _Custom Routes:_
     - **[User-defined routes](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)** changes the way traffic is routed and override default System Routes
 - A **[VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/design)** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
-- **Azure DNS** is a hosting service for domain names:
+- **[Azure DNS](https://learn.microsoft.com/en-us/azure/dns/dns-overview)** is a hosting service for domain names:
   + Supports private DNS Zones for name resolution in VNETs
   + **Anycast Networking** to answer DNS queries
   + Purchase domain names from third-party domain providers _(like [GoDaddy](https://www.godaddy.com/))_
