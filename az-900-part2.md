@@ -379,16 +379,18 @@ az storage account update \
   - Premium solid-state drives (SSD)
   - Standard SSDs
   - Standard hard disk drives (HDD)
-+ **Locally-Redundant Storage** (LRS)
-  - simple,low-cost replication, duplicates your data **3** times inside a _single data center_
-+ **Zone-Redundant Storage** (ZRS)
-  - high availability & durability, replicated synchronously across **3** availability zones
-+ **Geo-Redundant Storage** (GRS)
+
++ Describe redundancy options:
+  + **Locally-Redundant Storage** (LRS)
+    - simple,low-cost replication, duplicates your data **3** times inside a _single data center_
+  + **Zone-Redundant Storage** (ZRS)
+    - high availability & durability, replicated synchronously across **3** availability zones
+  + **Geo-Redundant Storage** (GRS)
   - replicates data **3** times synchronously inside a single physical location across **2** regions
-+ **Geo-Zone-Redundant storage** (GZRS)
-  - replicated across **3** Azure _availability zones_ & duplicated to a secondary geographic area for disaster recovery
-+ **Read-access Geo-Redundant Storage** (RA-GRS)
-  - cross-regional replication with _read access only_
+  + **Geo-Zone-Redundant storage** (GZRS)
+    - replicated across **3** Azure _availability zones_ & duplicated to a secondary geographic area for disaster recovery
+  + **Read-access Geo-Redundant Storage** (RA-GRS)
+    - cross-regional replication with _read access only_
 
 
 
