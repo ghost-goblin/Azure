@@ -281,7 +281,11 @@ spec:
 - - -
 
 2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Azure DNS**, **Virtual Network peering**, and **ExpressRoute**
-- A **Virtual Network** emulates a physical network
+- A **[Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)** emulates a physical network
+  - **System routes** are automatically created and assigned to each subnet
+    - can't be created or removed but can be overriden with _custom routes_
+  - _Custom Routes:_
+    - **[User-defined routes](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)** changes the way traffic is routed and override default yustem routes
 - A **[VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/design)** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
 - **Azure DNS** is a hosting service for domain names:
   + Supports private DNS Zones for name resolution in VNETs
