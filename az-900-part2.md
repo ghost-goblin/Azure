@@ -194,17 +194,17 @@
 - - -
 
 
-+ **[Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview)** (ACI)
++ **[Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview)** (ACI) _(Small scale)_
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
   + Hosting options for Containers:
     1. Local Workstation
     2. On-premises Servers
     3. VMs in Azure
-    4. Azure Container Instances (ACI) [__Small scale__]
-    5. Azure Kubernetes Service (AKS) [__Large scale__]
+    4. Azure Container Instances (ACI) - _Small scale_
+    5. Azure Kubernetes Service (AKS) - _Large scale_
     6. Azure App Service
-+ **[Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes)** (AKS)
++ **[Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes)** (AKS) _(Large scale)_
   + A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications
   + **Pods** are groups of containers with shared storage and network resources
   + Nodes are virtual machines in AKS and can leverage VM scale sets
