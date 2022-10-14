@@ -52,6 +52,7 @@
 + Each subscription has a unique ID
 + Subscriptions have quotas
 + A subscription is the parent of the Resource Group
++ An **[Enterprise Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/ea-portal-get-started)** needs a have a valid Microsoft account on the EA portal: [https://ea.azure.com/](https://ea.azure.com/)
 
 
 - - -
