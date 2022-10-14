@@ -219,7 +219,7 @@ az vm create \
   - Create **alerts** as well in Azure based on the metrics and logs
   - A _Resource blade_ called **Service Health** allows you to monitor the health of deployed resources (VMs, Apps, Containers) and generate alerts based on health
   - **[Log Analytics workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-workspace-overview)** - log data from Azure Monitor and other Azure services
-- **Application Insights** is an extension of Azure Monitor and provides Application Performance Monitoring
+  - **Application Insights** is an extension of Azure Monitor and provides Application Performance Monitoring
 
       
 - - -
