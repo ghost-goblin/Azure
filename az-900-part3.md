@@ -190,7 +190,12 @@ az vm create \
 - - -
 
 2. Describe the functionality and usage of **Azure Advisor**
-- **Azure Advisor** analyzes your account usage and makes recommendations for you based on its set rules
+- **[Azure Advisor](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview)** analyzes your account usage and makes recommendations for you based on its set rules
+  + Reliability _(formerly called High Availability)_
+  + Security
+  + Performance
+  + Cost
+  + Operational Excellence
 
 - - -
 3. Describe the functionality and usage of **Azure Resource Manager** (ARM) templates
