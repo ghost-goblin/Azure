@@ -444,7 +444,8 @@ az storage account update \
   + `azcopy [command] [arguments] --[flag-name]=[flag-value]`
 + **Microsoft Azure Storage Explorer** is a standalone app that makes it easy to work with Azure Storage data on Windows, macOS, and Linux
 + [Azure File Sync](https://learn.microsoft.com/en-us/azure/storage/file-sync/file-sync-deployment-guide?tabs=azure-portal%2Cproactive-portal) to centralize your organization's file shares in Azure Files
-  + The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription
+  + **Cloud Tiering** - most frequestly accessed files are replicated locally, while infrequently accessed files are stored in Azure
+  + **Storage Sync Service** resource into a resource group of your subscription
 
 - - -
 
