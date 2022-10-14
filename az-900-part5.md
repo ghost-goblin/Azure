@@ -169,10 +169,11 @@
   + Azure API Management
 
 + Azure Services that support Azure AD Authentication
-  + Azure Key Vault - _cloud service for securely storing and accessing secrets_
+  + **Azure Key Vault** - _cloud service for securely storing and accessing secrets_
   + Azure SQL
-  + Azure Service Bus
-  + Azure Storage (Blobs & Queues)
+  + **[Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)**
+    - Data is transfer between different applications and services using **messages**
+  + **Azure Storage** (Blobs & Queues)
   + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
   + Azure Analysis Services
 
