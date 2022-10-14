@@ -283,14 +283,14 @@ spec:
 2. 🌐 Describe the benefits and usage of **Virtual Networks**, **VPN Gateway**, **Azure DNS**, **Virtual Network peering**, and **ExpressRoute**
 - A **[Virtual Network](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)** emulates a physical network
   - **System routes** are automatically created and assigned to each subnet
-    - can't be created or removed but can be overriden with _custom routes_
+    - can't be created or removed but can be overridden with _Custom Routes_
   - _Custom Routes:_
-    - **[User-defined routes](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)** changes the way traffic is routed and override default yustem routes
+    - **[User-defined routes](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)** changes the way traffic is routed and override default System Routes
 - A **[VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/design)** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
 - **Azure DNS** is a hosting service for domain names:
   + Supports private DNS Zones for name resolution in VNETs
-  + Anycast Networking to answer the DNS query
-  + Purchase domain names from third-party domain provides _(like [GoDaddy](https://www.godaddy.com/))_
+  + **Anycast Networking** to answer DNS queries
+  + Purchase domain names from third-party domain providers _(like [GoDaddy](https://www.godaddy.com/))_
   + Azure DNS currently does not support DNSSEC
 - **[Point-to-Site VPN](https://learn.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about)** lets you create a secure connection to your virtual network from an **individual** client computer
 - A **Site-to-Site VPN** gateway connection is a connection over IPsec/IKE (IKEv1 or IKEv2) VPN tunnel, connections can be used for cross-premises and hybrid configurations and requires a VPN device located on-premises that has a public IP address assigned to it
