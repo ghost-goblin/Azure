@@ -283,7 +283,7 @@
 + The **Basic Support** plan is the default
 + To have a **Standard** Plan, it needs to be purchased
 
-|       | Basic Request support            | DEVELOPER Purchase support            | STANDARD Purchase support        | PROFESSIONAL DIRECT          |
+|       | Basic                            | DEVELOPER (Purchase support)          | STANDARD (Purchase support)      | PROFESSIONAL DIRECT          |
 |-------|----------------------------------|---------------------------------------|----------------------------------|------------------------------|
 | PRICE | Included for all Azure customers | $29 per month                         | $100 per month                   | $1,000 per month             |
 | SCOPE | Included for all Azure customers | Trial and non-production environments | Production workload environments | Business-critical dependence |
