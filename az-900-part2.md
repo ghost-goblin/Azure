@@ -35,14 +35,13 @@
   + Databases
   + VNETs    
 + A **Resource Group** is a logical container where you are creating your Azure resources
-+ A **Resource Group** created in a specific region can contain the resources created in the other regions
++ A **Resource Group** created in one region can contain the resources created in the other regions
 + If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
 + Resources share the same lifecycle i.e. deploy, update, delete together
 + Resources can only exist in one Resource Group
 + Resource can communicate across Resource Groups
 + Container for security boundaries
 + Can export IAAS using __Resource Manager Templates__
-+ Resources can be in different regions
 
 - - -
 
@@ -188,7 +187,7 @@
 - - -
 
 
-+ **Azure Container Instances** (ACI)
++ **[Azure Container Instances](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview)** (ACI)
   - Containers contain everything the app needs to run in a "container image"
   - Fastest and easiest to deploy
   + Hosting options for Containers:
@@ -198,7 +197,7 @@
     4. Azure Container Instances (ACI) [__Small scale__]
     5. Azure Kubernetes Service (AKS) [__Large scale__]
     6. Azure App Service
-+ **Azure Kubernetes Service** (AKS)
++ **[Azure Kubernetes Service](https://learn.microsoft.com/en-us/azure/aks/intro-kubernetes)** (AKS)
   + A container management system that runs in the cloud, can scale, monitor and deploy your container-based applications
   + **Pods** are groups of containers with shared storage and network resources
   + Nodes are virtual machines in AKS and can leverage VM scale sets
@@ -206,8 +205,12 @@
   + Azure Monitor
     - runs on a cluster of servers _(enterprise-grade)_
   + Deploy a container on AKS
-    - Create an **Azure Kubernetes Service** > `Create a resource`
-    - `Workloads` > `Add with YAML`
+    - The Azure CLI
+    - The Azure portal
+    - Azure PowerShell
+    - Using template-driven deployment options (Azure Resource Manager templates)
+      - Create an **Azure Kubernetes Service** > `Create a resource`
+      - `Workloads` > `Add with YAML`
      
 ```yml
 apiVersion: apps/v1
@@ -249,8 +252,8 @@ spec:
                - containerPort: 80
 ```
 
-  + Create a Load Balancer service for the container
-    - `Services and ingresses` > `Add with YAML`
+    + Create a Load Balancer service for the container
+      - `Services and ingresses` > `Add with YAML`
 
 ```yml
 apiVersion: v1
