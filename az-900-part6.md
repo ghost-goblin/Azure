@@ -66,6 +66,14 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 
 ### Describe Azure Service Level Agreements (SLAs) and service lifecycles
 1. Describe the purpose of an Azure Service Level Agreement (SLA)
+- [Compare support plans](https://azure.microsoft.com/en-us/support/plans/)
++ The **Basic Support** plan is the default
++ To have a **Standard** Plan, it needs to be purchased
+
+|       | Basic                            | DEVELOPER (Purchase support)          | STANDARD (Purchase support)      | PROFESSIONAL DIRECT          |
+|-------|----------------------------------|---------------------------------------|----------------------------------|------------------------------|
+| PRICE | Included for all Azure customers | $29 per month                         | $100 per month                   | $1,000 per month             |
+| SCOPE | Included for all Azure customers | Trial and non-production environments | Production workload environments | Business-critical dependence |
 
 
 - - -
