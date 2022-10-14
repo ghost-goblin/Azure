@@ -63,12 +63,19 @@
   + Delegate administrative permissions
 
 + Manage secure access by using Azure AD
-    + Configure Azure AD Privileged Identity Management (PIM)
-  + Monitor privleged access for Azure AD **Privileged Identity Management** (PIM)
-  + Configure access reviews
-  + Activate and configure PIM - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
   + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
-  + Configure Azure AD Identity Protection
+  + Configure & monitor privleged access for Azure AD **[Privileged Identity Management](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)** (PIM):
+    - Activate and configure PIM
+      - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
+      - with PIM, use MFA to activate any role for users
+  + Configure access reviews
+  + Configure [Azure AD Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection):
+    - Anonymous IP address use
+    - Atypical travel
+    - Malware linked IP address
+    - Unfamiliar sign-in properties
+    - Leaked credentials
+    - Password spray
   + Microsoft recommends ZERO permanently active assignments
   + Know who can manage assignments for other admins in PIM: 
      + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
@@ -105,19 +112,19 @@
 
 4. Describe the functionality and usage of **Conditional Access**, **Multi-Factor Authentication** (MFA), and **Single Sign-On** (SSO)
 + Conditional Access Policies (if [something] => do [something])
- + Conditions
-    - Users & Groups
-    - Cloud Apps
-    - Sign-in Risk
-    - Device Platform & State
-    - Location
-    - Client Apps
-+ Controls
-    - MFA
-    - Compliant Device
-    - Approved Client App
-    - Terms of Use
-    - Custom & Session Controls
+ + _Conditions:_
+    - **Users & Groups**
+    - **Cloud Apps**
+    - **Sign-in Risk**
+    - **Device Platform & State**
+    - **Location**
+    - **Client Apps**
++ _Controls:_
+    - **MFA**
+    - **Compliant Device**
+    - **Approved Client App**
+    - **Terms of Use**
+    - **Custom & Session Controls**
 + Integrate single sign-on (SSO) and identity providers for authentication
   + The **synchronized identity** model is the most common (SSO)
   + Azure AD Connect and **password writeback** facilitate this model
@@ -135,15 +142,13 @@
   + Shared Access Signatures
 
 
- 
 + Managed Identities
-  + Credentials in Code
+  + _Credentials in Code_:
     + Keeping service credentials in application configuartion is not secure
     + Credentials can get checked into source control or the configuration file can get compromised
     + **Azure Key Vault** is more secure but the code still needs to use Azure Active Directory credentials to login to Key Vault
     + Issue with many Azure services such as Azure SQL Database, Storage Account, Key Vault, etc.
-
-> Our goal is to remove Azure service credentials from code without breaking the functionality
+      - Our goal is to remove Azure service credentials from code without breaking the functionality
 
 + Configure Managed Service Identities (MSI) for Microsoft Azure Resources
 + STEP 1
