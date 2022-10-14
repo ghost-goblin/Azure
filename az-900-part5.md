@@ -280,7 +280,7 @@
 - - -
       
 6. [Compare support plans](https://azure.microsoft.com/en-us/support/plans/)
-+ The **Basic Support** plan is the default**
++ The **Basic Support** plan is the default
 + To have a **Standard** Plan, it needs to be purchased
 
 |       | Basic Request support            | DEVELOPER Purchase support            | STANDARD Purchase support        | PROFESSIONAL DIRECT          |
