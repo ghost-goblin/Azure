@@ -68,6 +68,8 @@
     - Activate and configure PIM
       - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
       - with PIM, use MFA to activate any role for users
+  + **Microsoft Defender for Identity** _(formerly Azure Advanced Threat Protection ATP)_
+    - Monitor users, entity behaviour and activities
   + Configure access reviews
   + Configure [Azure AD Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection):
     - Anonymous IP address use
