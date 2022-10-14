@@ -316,6 +316,7 @@ spec:
 - - -
 
 3. 💾 Describe the benefits and usage of **Container (Blob) Storage**, **Disk Storage**, **File Storage**, and **Storage Tiers**
+- Tutorial: [Create a storage account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal) in a **Resource Group**
 - Automated backup & recovery
 - Replication across the world
 - Encryption options
