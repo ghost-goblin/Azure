@@ -343,18 +343,16 @@ spec:
   - Standard SSDs
   - Standard hard disk drives (HDD)
 + **Locally-Redundant Storage** (LRS)
-  - simple,low-cost replication
-  - duplicates your data **3** times inside a single data center
+  - simple,low-cost replication, duplicates your data **3** times inside a _single data center_
 + **Zone-Redundant Storage** (ZRS)
-  - high availability and durability
-  - replicated synchronously across **3** availability zones
+  - high availability & durability, replicated synchronously across **3** availability zones
 + **Geo-Redundant Storage** (GRS)
-  - cross-regional replication to protect against region-side unavailability
-  - replicates your data **3** times synchronously inside a single physical location in the primary region
-+ **GZRS** (Geo-Zone-Redundant storage)
-  - duplicated to a secondary geographic area for disaster recovery and is replicated across three Azure availability zones in the original region
+  - replicates data **3** times synchronously inside a single physical location across **2** regions
++ **Geo-Zone-Redundant storage** (GZRS)
+  - replicated across **3** Azure _availability zones_ & duplicated to a secondary geographic area for disaster recovery
 + **Read-access Geo-Redundant Storage** (RA-GRS)
-  - cross-regional replication with read access only
+  - cross-regional replication with _read access only_
+
 - - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
