@@ -354,6 +354,8 @@ spec:
 + **Read-access Geo-Redundant Storage** (RA-GRS)
   - cross-regional replication with _read access only_
 
+
+
 - - -
 
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
@@ -406,6 +408,9 @@ spec:
       - Mongo DB
       - Gremlin
       - Azure Table Storage
+
++ **[Azure Data Lake](https://learn.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-azure-data-lake-storage-integration)** service is used for storing  data that is infrequently used
++ Use **Azure SQL**, **Azure PostgreSQL**, or **COSMOS DB** for frequently accessed data
 + **Private endpoints** allows your private VNET to access Azure services such as **Storage**, **Cosmos DB**, and **SQL Database** privately by disabling public access
 + A **private endpoint** is a network interface that uses a _private IP Address_ from your virtual network and securely connects you to a service _(powered by Azure Private Link)_
 
