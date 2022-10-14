@@ -58,9 +58,10 @@
 - - -
 
 5. Describe the benefits and usage of **Management Groups**
-+ A logical construct
-+ Organise multiple Azure subscriptions or other Management Groups
-
++ Organise multiple Azure subscriptions or other Management Groups and apply governance policies across subscriptions
++ A **Management Group** tree can support up to **6** levels of depth
++ The root **Management Group**'s display name is Tenant root group and operates itself as a Management Group _(the ID is the same value as the Azure AD tenant ID)_
++ **Azure role-based access control** (RBAC) is used for all _resource access_ & _role definitions_
 
 - - -
 
