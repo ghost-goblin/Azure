@@ -55,7 +55,8 @@
   - They need outbound access to the Internet and access to your Domain Controllers
   - Authenticating the user account locally
   - If channel fails, sign-in fails
-
++ **Identity-as-a-Service** (IDaaS)
+  + **[Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview)** is used for the _authentication_ and _authorisation_ of end users
 
 + Manage **Administrative Units**
   + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
@@ -65,8 +66,10 @@
 + Manage secure access by using Azure AD
   + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
   + Configure & monitor privleged access for Azure AD **[Privileged Identity Management](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)** (PIM):
+    + Who can manage assignments for other admins in PIM: 
+      + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
+      + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
     - Activate and configure PIM
-      - to delegate access to PIM, a **Global Administrator** can assign other users to the Privileged Administrator Role
       - with PIM, use MFA to activate any role for users
   + **Microsoft Defender for Identity** _(formerly Azure Advanced Threat Protection ATP)_
     - Monitor users, entity behaviour and activities
@@ -79,9 +82,6 @@
     - Leaked credentials
     - Password spray
   + Microsoft recommends ZERO permanently active assignments
-  + Know who can manage assignments for other admins in PIM: 
-     + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
-     + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
 
 + Create and manage a managed identity for Azure resources
   + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
