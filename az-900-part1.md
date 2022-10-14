@@ -76,7 +76,7 @@
 - - -
 
 3. Describe **Platform-as-a-Service** (PaaS)
-+ Development framenwork
++ Development framework
   + Azure App Service
   + Azure SQL Managed Instance
   + Azure SQL Database (DBaaS)
