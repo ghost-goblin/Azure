@@ -333,7 +333,9 @@ spec:
 1. **Blob**
       - Text + Binary Data
 2. **File**
-      - SMB/NFS File Shares
+      - Create a [Server Message Block](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows) (SMB) file share
+      - Create a [Network File System](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linuxhttps://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux) (NFS) file share
+      - Azure Files REST API
 3. **Queue**
       - A messaging service for messaging between application components
 4. **Table**
@@ -341,13 +343,12 @@ spec:
       - Highly scalable
 #### Set a [Blob Storage Access Tiers](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage?tabs=azure-portal) at the Blob level
 + **Blob storage** is optimized for storing massive amounts of unstructured data
-1. **Hot**
+1. **🔥 Hot**
     - optimised for frequent access of objects
-2. **Cool**
+2. **❄️ Cool**
     - optimised for frequent storing large amounts of data that is infrequently accessed and stored for at least 30 days
-3. **Archive** 
-    - optimised for frequent data that can tolerate several hours of retrieval latency
-    - 180 days
+3. **🗃️ Archive** 
+    - optimised for frequent data that can tolerate several hours of retrieval latency _(180 days)_
 
 
  ```sh
