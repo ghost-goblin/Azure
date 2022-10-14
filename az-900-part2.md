@@ -321,7 +321,8 @@ spec:
 4. **Table**
       - NoSQL database in the cloud
       - Highly scalable
-#### Set a [Blob Storage Access Tiers](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage?tabs=azure-portal) at the Blob level 
+#### Set a [Blob Storage Access Tiers](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage?tabs=azure-portal) at the Blob level
++ **Blob storage** is optimized for storing massive amounts of unstructured data
 1. **Hot**
     - optimised for frequent access of objects
 2. **Cool**
@@ -329,14 +330,22 @@ spec:
 3. **Archive** 
     - optimised for frequent data that can tolerate several hours of retrieval latency
     - 180 days
-+ **Blob storage** is optimized for storing massive amounts of unstructured data
+
+
+ ```sh
+# Change the storage account tier to Cool
+az storage account update \
+    --resource-group <resource-group> \
+    --name <storage-account> \
+    --access-tier Cool
+```
+      
+  
 1. **Block blobs** store text and binary data
-      + made up of blocks of data that can be managed individually
-      + up to about 190.7 TiB.
+      + made up of blocks of data that can be managed individually, up to about 190.7 TiB
 2. **Append blob** are made up of blocks like block blobs but are optimized for append operations i.e. logging data from virtual machines
-3. **Page blobs** store random access files 
-      + up to 8 TiB in size
-      + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine
+3. **Page blobs** store random access files
+      + store virtual hard drive (VHD) files and serve as disks for Azure virtual machine, up to 8 TiB in size
 
 + Azure managed disks are _block-level_ storage volumes that are managed by Azure and used with Azure Virtual Machine
   - Ultra disks
