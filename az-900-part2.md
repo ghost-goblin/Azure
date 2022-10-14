@@ -315,7 +315,7 @@ spec:
 1. **Blob**
       - Text + Binary Data
 2. **File**
-      - SMB File Shares
+      - SMB/NFS File Shares
 3. **Queue**
       - A messaging service for messaging between application components
 4. **Table**
