@@ -336,6 +336,7 @@ spec:
         1. The Storage Account
           2. A container in the storage account
             3. A blob in a container
+      - **Data Lake Storage** is a set of capabilities dedicated to **big data analytics** built on Azure Blob Storage
 2. **File**
       - Create a [Server Message Block](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-windows) (SMB) file share
       - Create a [Network File System](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-quick-create-use-linux) (NFS) file share
