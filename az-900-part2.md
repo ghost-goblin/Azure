@@ -132,7 +132,7 @@
   - Full control over it, as if it was your machine
   - Over 200 Virtual Machine types to choose from
   - Number of CPU cores, CPU speed, RAM size, temporary disk size, IOPS, etc.
-  - [Tutorial](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal): Create a Windows virtual machine in the Azure portal  
+  - [Tutorial](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal): Create a Windows virtual machine in the Azure portal  
 
 
 + **[VM Scale Sets](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)** (VMSS)
