@@ -55,8 +55,7 @@
   - They need outbound access to the Internet and access to your Domain Controllers
   - Authenticating the user account locally
   - If channel fails, sign-in fails
-+ **Identity-as-a-Service** (IDaaS)
-  + **[Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview)** is used for the _authentication_ and _authorisation_ of end users
+
 
 + Manage **Administrative Units**
   + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
@@ -189,6 +188,7 @@
 
 + Manage Applicaion Access
   + Azure AD IDaaS (Identity as a Service)
+    + **[Azure AD B2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview)** is used for the _authentication_ and _authorisation_ of end users
   + Application types
     - Third-party or internal
     - Pre-integrated or proxied
