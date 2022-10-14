@@ -285,16 +285,4 @@
 5. Describe the purpose of **Azure Sovereign Regions** (Azure Government cloud services and Azure China cloud services)
 + [Azure Government](https://learn.microsoft.com/en-us/azure/azure-government/documentation-government-welcome) -  US federal, state, local, or tribal government entities 
 
-      
-- - -
-      
-6. [Compare support plans](https://azure.microsoft.com/en-us/support/plans/)
-+ The **Basic Support** plan is the default
-+ To have a **Standard** Plan, it needs to be purchased
-
-|       | Basic                            | DEVELOPER (Purchase support)          | STANDARD (Purchase support)      | PROFESSIONAL DIRECT          |
-|-------|----------------------------------|---------------------------------------|----------------------------------|------------------------------|
-| PRICE | Included for all Azure customers | $29 per month                         | $100 per month                   | $1,000 per month             |
-| SCOPE | Included for all Azure customers | Trial and non-production environments | Production workload environments | Business-critical dependence |
-
-+ An **[Enterprise Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/ea-portal-get-started)** needs a have a valid Microsoft account on the EA portal: [https://ea.azure.com/](https://ea.azure.com/)
+   
