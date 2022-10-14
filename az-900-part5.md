@@ -292,3 +292,5 @@
 |-------|----------------------------------|---------------------------------------|----------------------------------|------------------------------|
 | PRICE | Included for all Azure customers | $29 per month                         | $100 per month                   | $1,000 per month             |
 | SCOPE | Included for all Azure customers | Trial and non-production environments | Production workload environments | Business-critical dependence |
+
++ An **[Enterprise Azure Subscription](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/ea-portal-get-started)** needs a have a valid Microsoft account on the EA portal: [https://ea.azure.com/](https://ea.azure.com/)
