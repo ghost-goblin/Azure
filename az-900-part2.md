@@ -321,7 +321,7 @@ spec:
 4. **Table**
       - NoSQL database in the cloud
       - Highly scalable
-#### Blob Storage Access Tiers      
+#### Set a [Blob Storage Access Tiers](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage?tabs=azure-portal) at the Blob level 
 1. **Hot**
     - optimised for frequent access of objects
 2. **Cool**
