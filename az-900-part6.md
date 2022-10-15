@@ -71,11 +71,11 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 + To have a **Standard** Plan, it needs to be purchased
 
       
-|                                                  | **Basic**           | **DEVELOPER**       | **STANDARD**          | **PROFESSIONAL DIRECT**   |
-|--------------------------------------------------|---------------------|---------------------|-----------------------|---------------------------|
-|                                                  | Request support     | Purchase support    | Purchase support      | Purchase support          |
-| PRICE                                            |
-| SCOPE                                            |
+|                                                  | **Basic**       | **DEVELOPER**                     | **STANDARD**          | **PROFESSIONAL DIRECT**      |
+|--------------------------------------------------|-----------------|-----------------------------------|-----------------------|------------------------------|
+|                                                  | Request support | Purchase support                  | Purchase support      | Purchase support             |
+| PRICE                                            | Included        | $29 per month	               | $100 per month        | $1,000 per month             |
+| SCOPE                                            | Included        | Trial+non-production environments | Production workloads  | Business-critical dependence |
 | 24/7 SELF-HELP RESOURCES                         |
 | SUBMIT SUPPORT TICKETS                           |
 | AZURE ADVISOR                                    |
