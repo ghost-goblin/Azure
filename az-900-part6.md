@@ -76,10 +76,10 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 |                                                  | Request support | Purchase support                  | Purchase support      | Purchase support             |
 | PRICE                                            | Included        | $29 per month	               | $100 per month        | $1,000 per month             |
 | SCOPE                                            | Included        | Trial+non-production environments | Production workloads  | Business-critical dependence |
-| 24/7 SELF-HELP RESOURCES                         |
-| SUBMIT SUPPORT TICKETS                           |
-| AZURE ADVISOR                                    |
-| AZURE HEALTH STATUS & NOTIFICATIONS              |
+| 24/7 SELF-HELP RESOURCES                         | ✔️             | ✔️                                | ✔️                    | ✔️                          |
+| SUBMIT SUPPORT TICKETS                           | ✔️             | ✔️                                | ✔️                    | ✔️                          |
+| AZURE ADVISOR                                    | ✔️             | ✔️                                | ✔️                    | ✔️                          |
+| AZURE HEALTH STATUS & NOTIFICATIONS              | ✔️             | ✔️                                | ✔️                    | ✔️                          |
 | THIRD-PARTY SOFTWARE SUPPORT                     |
 | 4/7 ACCESS TO TECHNICAL SUPPORT (PHONE & EMAIL)  |
 | CASE SEVERITY & RESPONSE TIME                    |
