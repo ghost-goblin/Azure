@@ -10,8 +10,10 @@
 
 ### Describe Azure security features
 1. Describe basic features of **Microsoft Defender** for **Cloud**, including policy compliance, security alerts, secure score, and resource hygiene
-+ **[Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)** is a Cloud Security Posture Management (CSPM) and Cloud Workload Protection Platform (CWPP) for all of your Azure, on-premises, and multicloud (Amazon AWS and Google GCP) resources
-
++ **[Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-cloud-introduction)** is a Cloud Security service
+  - Detect threats targeting Azure services including Azure App Service, Azure SQL and Azure Storage Account
+  - Classify your data in Azure SQL and get assessments for potential vulnerabilities
+  - Limit exposure to brute force attacks
 
 - - -
 
@@ -93,8 +95,14 @@ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from "
   - Managed network security service that protects your Azure network resources
   - Full stateful
   - High Availability & unrescrticted scalability
-    - Prioritise security rules using 5-tuple information
-    - Configure NAT rules and application rules
+  - Configure **NAT** rules and application rules for applications that can be accessed over the internet (HTTP)
+    - Prioritise security rules using 5-tuple information:
+      1. Source Address
+      2. Source Port
+      3. Destination Address
+      4. Destination Port
+      5. Protocol
+
 
 
 - - -
