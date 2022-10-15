@@ -173,7 +173,6 @@
   + **[Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)**
     - Data is transferred between different applications and services using **messages**
   + **Azure Storage** (Blobs & Queues)
-  + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
   + Azure Analysis Services
 
 
