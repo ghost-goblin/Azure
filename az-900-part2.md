@@ -400,27 +400,27 @@ az storage account update \
 4. Describe the benefits and usage of **Cosmos DB**, **Azure SQL Database**, **Azure Database** for **MySQL**, **Azure Database** for **PostgreSQL**, and **Azure SQL Managed Instance**
 + Types of Data:
   + **Structured/Relational Data**
-    + Azure SQL Database
+    1. Azure SQL Database
       + Host SQL Server on Virtual Machines
       + Full control over the SQL Server
       + Can provision from the Azure Marketplace
       + Flexible pricing oprions
       + Automated updated scheduling
       + Managed Backup to Azure
-      + Azure Database for MySQL
-          + Always running the latest version of SQL Server
-          + Flexible pricing model
-            - Vcores
-            - DTU's
-          + Single database or Elastic Pool
+    2. Azure Database for MySQL
+        + Always running the latest version of SQL Server
+        + Flexible pricing model
+          - Vcores
+          - DTU's
+        + Single database or Elastic Pool
           + Automatic scaling
-          + Service tiers for different workloads
-      + Azure Database for PostgreSQL
-      + **Azure SQL Managed Instance** 
-          + Broadset of SQL Server capabilities
-          + Benefits of managed platform
-          + Deploy VM onto your own VNET
-          + Lift-and-shift with minimal changes
+        + Service tiers for different workloads
+    3. Azure Database for PostgreSQL
+    4. **Azure SQL Managed Instance** 
+        + Broadset of SQL Server capabilities
+        + Benefits of managed platform
+        + Deploy VM onto your own VNET
+        + Lift-and-shift with minimal changes
   + **Unstructured Data** 
     + Azure Blob Storage
     + Azure File Storage (supports SMB protocol)
