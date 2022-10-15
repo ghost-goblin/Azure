@@ -472,7 +472,15 @@ az storage account update \
 
 7. Describe migration options, including **Azure Migrate** and **Azure Data Box**
 + **Azure Migrate** is a unified migration platform to start, run, and track your migration to Azure
-+ **Azure Data Box** for **offline** data transfer when you are limited by time, network, or cost
++ **[Azure Data Box](https://learn.microsoft.com/en-us/azure/databox/data-box-overview)** for **offline** data transfer when you are limited by time, network, or cost
+  - _Use cases:_
+    - Onetime migration
+    - Initial bulk transfer
+    - Periodic uploads
+  - _Export data:_
+    - Disaster recovery
+    - Security requirement
+    - Migrate back to on-premises or to another cloud service provider
       
 - - -
 
