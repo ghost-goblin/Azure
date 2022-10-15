@@ -327,6 +327,8 @@ spec:
   - `http://mystorageaccount.blob.core.windows.net`
 + A single subscription can have up to **250** storage accounts per region
 + Each storage account can store up to **5 Petabytes**
++ [Manage storage account access keys](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)
+  - Use **Azure Key Vault** to manage your access keys
 + Create a storage account in the Azure Portal and the CLI
 1. **Standard** Performance Tier
       + storing blobs, files, tables, queues and Azure VMs
