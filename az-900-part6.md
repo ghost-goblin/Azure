@@ -72,7 +72,8 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 
       
 |                                                  | **Basic**           | **DEVELOPER**       | **STANDARD**          | **PROFESSIONAL DIRECT**   |
-|                                                  | Request support     | Purchase support    |Purchase support       | Purchase support          |
+|--------------------------------------------------|---------------------|---------------------|-----------------------|---------------------------|
+|                                                  | Request support     | Purchase support    | Purchase support      | Purchase support          |
 |--------------------------------------------------|---------------------|---------------------|-----------------------|---------------------------|
 | PRICE                                            |
 | SCOPE                                            |
