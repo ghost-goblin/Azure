@@ -68,7 +68,6 @@
 + The ability to remote into the VM is usually reserved for IaaS services
 + The most popular IaaS service in Azure is called **Azure Virtual Machines**
   + SQL Server on Azure VM
-  + Web Apps
   + Test and development
   + Storage, backup, and recovery
   + High-performance computing
@@ -76,11 +75,22 @@
 - - -
 
 3. Describe **Platform-as-a-Service** (PaaS)
++ Analytics and business intelligence
 + Development framework
   + Azure App Service
   + Azure SQL Managed Instance
   + Azure SQL Database (DBaaS)
-+ Analytics and business intelligence
+  + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about) (PaaS)
+    - Data sent to an event hub can be transformed and stored by using any real-time analytics provider or batching/storage adapters
+      - Anomaly detection (fraud/outliers)
+       - Application logging
+       - Analytics pipelines (clickstreams)
+       - Live dashboards
+       - Archiving data
+       - Transaction processing
+       - User telemetry processing
+       - Device telemetry streaming
+
 
 - - -
 
@@ -97,6 +107,7 @@
 
 5. Describe **Software-as-a-Service** (SaaS)
 + **Software as a service** allows users to connect to and use cloud-based apps over the Internet
+  - Outlook 365
 
 - - -
 
@@ -127,5 +138,3 @@
 
 5. Compare and contrast the three types of cloud computing
 + IaaS vs. PaaS vs. SaaS
-+ Cloud pricing is complicated
-+ Usually any service is priced by 2 or 3 metrics combined
