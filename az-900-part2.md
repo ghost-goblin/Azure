@@ -423,7 +423,7 @@ az storage account update \
         + Lift-and-shift with minimal changes
   + **Unstructured Data** 
     + Azure Blob Storage
-    + Azure File Storage (supports SMB protocol)
+    + Azure File Storage _(supports SMB/NFS protocols)_
     + Azure Disk Storage
   + **Semi-structured Data** (_Non-Relational/NoSQL_)
     + **Cosmos DB**
