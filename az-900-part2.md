@@ -401,12 +401,12 @@ az storage account update \
 + Types of Data:
   + **Structured/Relational Data**
     1. Azure SQL Database
-      + Host SQL Server on Virtual Machines
-      + Full control over the SQL Server
-      + Can provision from the Azure Marketplace
-      + Flexible pricing oprions
-      + Automated updated scheduling
-      + Managed Backup to Azure
+        + Host SQL Server on Virtual Machines
+        + Full control over the SQL Server
+        + Can provision from the Azure Marketplace
+        + Flexible pricing oprions
+        + Automated updated scheduling
+        + Managed Backup to Azure
     2. Azure Database for MySQL
         + Always running the latest version of SQL Server
         + Flexible pricing model
