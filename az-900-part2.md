@@ -304,6 +304,8 @@ spec:
   + Azure DNS currently does not support DNSSEC
 - **[Point-to-Site VPN](https://learn.microsoft.com/en-us/azure/vpn-gateway/point-to-site-about)** lets you create a secure connection to your virtual network from an **individual** client computer
 - A **Site-to-Site VPN** gateway connection is a connection over IPsec/IKE (IKEv1 or IKEv2) VPN tunnel, connections can be used for cross-premises and hybrid configurations and requires a VPN device located on-premises that has a public IP address assigned to it
+  - The **Local Network Gateway** represents your local (on-premises) network
+  - The **Virtual Network Gateway** is directly connected to the Azure VNET gateway to create a VPN connection
 - **[Virtual Network peering](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)** connects 2 or more Virtual Networks in Azure 
   - Traffic between virtual machines in peered virtual networks uses the **Microsoft backbone infrastructure**
 - **ExpressRoute** is _a high speed private connection to Azure_
