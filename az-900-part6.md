@@ -81,7 +81,7 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 | AZURE ADVISOR                                    | ✔️             | ✔️                                | ✔️                    | ✔️                          |
 | AZURE HEALTH STATUS & NOTIFICATIONS              | ✔️             | ✔️                                | ✔️                    | ✔️                          |
 | THIRD-PARTY SOFTWARE SUPPORT                     |                | ✔️                                | ✔️                    | ✔️                          |
-| 4/7 ACCESS TO TECHNICAL SUPPORT (PHONE & EMAIL)  |                | ✔️                                | ✔️                    | ✔️                          |
+| 24/7 ACCESS TO TECHNICAL SUPPORT (PHONE & EMAIL) |                | ✔️                                | ✔️                    | ✔️                          |
 | CASE SEVERITY & RESPONSE TIME                    |                | ✔️                                | ✔️                    | ✔️                          |
 | ARCHITECTURE SUPPORT                             |                | ✔️                                | ✔️                    | ✔️                          |
 | SUPPORT API                                      |                |                                    |                       | ✔️                          |
