@@ -14,7 +14,7 @@
 + **Ingress** bandwidth is _free_; you pay for **egress** (outbound)
 + If you don't want to spend over a certain amount, implement a spending limit in the account center
 + Using up the free credits causes all your resources to be stopped until you decide to get a paid account
-+ Cloud pricing is complicated, usually any service is priced by 2 or 3 metrics combined, more information about Azure Pricing can be found [here](https://azure.microsoft.com/en-in/pricing/#product-pricing)
++ Cloud pricing is complicated, usually any service is priced by 2 or 3 metrics combined, more information about [Azure Pricing](https://azure.microsoft.com/en-in/pricing/#product-pricing)
   + [Using business metrics to design resilient Azure applications](https://learn.microsoft.com/en-us/azure/architecture/framework/resiliency/business-metrics#understand-service-levelagreements)
 + [App Service Pricing](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/):
     - **Free**
