@@ -51,11 +51,11 @@
   + Delegate administrative permissions
 
 + Manage secure access by using Azure AD
-  + 1. **Password Hash Synchronization** (PHS)
-  - TCP 443 traffic (no VPN)
-  - Hash of a hash passwords in the cloud
-  - If channel fails, sign-in works
-  + 2. **Pass-through Authentication** (PTA)
+  1. **Password Hash Synchronization** (PHS)
+    - TCP 443 traffic (no VPN)
+    - Hash of a hash passwords in the cloud
+    - If channel fails, sign-in works
+  2. **Pass-through Authentication** (PTA)
     - Does not store any password hashes
     - Password validation requests are sent to Windows Server Active Directory via pass-through authentication
     - Need one or more (3 is recommended) **lightweight agents** installed on existing servers
