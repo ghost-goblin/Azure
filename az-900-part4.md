@@ -14,6 +14,11 @@
   - Detect threats targeting Azure services including Azure App Service, Azure SQL and Azure Storage Account
   - Classify your data in Azure SQL and get assessments for potential vulnerabilities
   - Limit exposure to brute force attacks
+  - Assess resources, subscriptions, and organization for security issues and shows your security posture in **Secure Score**
+  - **Security Alerts** that are powered by _Microsoft Threat Intelligence_
+  - Enforce **Security Policies** from the top down
+    - Set your policies to run on management groups, across subscriptions, and even for a whole tenant
+    - Apply secure configuration standards across your resources.
 
 - - -
 
