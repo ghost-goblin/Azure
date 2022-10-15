@@ -36,6 +36,7 @@
 - - -
 
 3. Describe the functionality and usage of **Azure Active Directory**
+
 + Manage external identities by using Azure AD
   + Azure AD Domain Services Intergration
     + Azure AD Hybrid Join
@@ -43,19 +44,6 @@
       + Access to external URLs
       + Configure SCP (Service Connection Point) internally
       + Configure Active Directory Federation Service (ADFS) if required
-+ 1. **Password Hash Synchronization** (PHS)
-  - TCP 443 traffic (no VPN)
-  - Hash of a hash passwords in the cloud
-  - If channel fails, sign-in works
-+ 2. **Pass-through Authentication** (PTA)
-  - Does not store any password hashes
-  - Password validation requests are sent to Windows Server Active Directory via pass-through authentication
-  - Need one or more (3 is recommended) **lightweight agents** installed on existing servers
-  - Agents have acces to on-premises Active Directory Domain Services
-  - They need outbound access to the Internet and access to your Domain Controllers
-  - Authenticating the user account locally
-  - If channel fails, sign-in fails
-
 
 + Manage **Administrative Units**
   + Azure AD user and group container analogous to organizational units (OU) in local Active Directory
@@ -63,7 +51,23 @@
   + Delegate administrative permissions
 
 + Manage secure access by using Azure AD
+  + 1. **Password Hash Synchronization** (PHS)
+  - TCP 443 traffic (no VPN)
+  - Hash of a hash passwords in the cloud
+  - If channel fails, sign-in works
+  + 2. **Pass-through Authentication** (PTA)
+    - Does not store any password hashes
+    - Password validation requests are sent to Windows Server Active Directory via pass-through authentication
+    - Need one or more (3 is recommended) **lightweight agents** installed on existing servers
+    - Agents have acces to on-premises Active Directory Domain Services
+    - They need outbound access to the Internet and access to your Domain Controllers
+    - Authenticating the user account locally
+    - If channel fails, sign-in fails
   + Implemention conditional access policies _including_ Multi-Factor Autentication (MFA)
+  + Enable [passwordless authentication](https://learn.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-passwordless):
+    - Windows Hello for Business (Biometric)
+    - Microsoft Authenticator - _generate an OATH verification code_
+    - FIDO2 security keys
   + Configure & monitor privleged access for Azure AD **[Privileged Identity Management](https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure)** (PIM):
     + Who can manage assignments for other admins in PIM: 
       + Azure AD roles: Only **Privileged Role Administrators** and **Global Administrator**
