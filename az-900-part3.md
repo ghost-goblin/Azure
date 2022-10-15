@@ -13,7 +13,8 @@
 1. Describe the benefits and usage of **Internet of Things** (IoT) **Hub**, **IoT Central**, and **Azure Sphere**
 + [Azure IoT Hub](https://azure.microsoft.com/en-gb/services/iot-hub/#overview) provides a cloud-hosted solution back-end to connect any device virtually
 + **Azure IoT Central** is a ready-made UX and API surface for connecting and managing devices at scale, delivering reliable data for business insights
-+ **Azure Sphere** is a secured IoT platform for building solutions that start in silicon and extend through the OS and the cloud. Securely connect, manage, and protect new and existing intelligent devices
++ **[Azure Sphere](https://learn.microsoft.com/en-us/azure-sphere/product-overview/what-is-azure-sphere)** is a secured IoT platform for building solutions that start in silicon and extend through the OS and the cloud
+  - Securely connect, manage, and protect new and existing intelligent devices
 
 - - -
 
