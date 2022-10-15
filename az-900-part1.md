@@ -78,6 +78,11 @@
 + Analytics and business intelligence
 + Development framework
   + Azure App Service
+    - Web Apps
+    - Mobile Apps
+    - Logic Apps
+    - Azure Functions
+    - WebJobs _(background tasks)_
   + Azure SQL Managed Instance
   + Azure SQL Database (DBaaS)
   + [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about) (PaaS)
