@@ -47,6 +47,17 @@
 - - -
 
 4. Describe the benefits and usage of **Subscriptions**
+
++ Azure provides 4 levels of hierarchical scope:
+
+| Scope             | Level           |
+| :---------------- |:---------------:|
+| Management Groups | 1               |
+| Subscriptions     | 2               |
+| Resource Groups   | 3               |
+| Resources         | 4               |
+
+      
 + To use Azure's cloud-based services, you must first purchase a subscription
 + There's **no limit** to the number of subscriptions a single user can be included on
 + Highest level Azure resource
@@ -80,16 +91,6 @@
   - Azure PowerShell
   - Azure CLI
   - REST interface (an architectural style or design pattern for APIs)
-+ Azure provides 4 levels of hierarchical scope:
-
-| Scope             | Level           |
-| :---------------- |:---------------:|
-| Management Groups | 1               |
-| Subscriptions     | 2               |
-| Resource Groups   | 3               |
-| Resources         | 4               |
-
-      
 + [ARM Templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax) __(JSON format)__
 
 ```json
