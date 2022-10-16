@@ -279,6 +279,8 @@
   3. PowerShell
   4. Azure Portal
   5. ARM Template
++ **[Azure Policy initiatives](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/initiative-definition-structure)** enable you to group several related policy definitions
+
 
 - - -
 
