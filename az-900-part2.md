@@ -41,18 +41,7 @@
 
 - - -
 
-4. Describe the benefits and usage of **Subscriptions**
-
-+ Azure provides 4 levels of hierarchical scope:
-
-| Scope             | Level           |
-| :---------------- |:---------------:|
-| Management Groups | 1               |
-| Subscriptions     | 2               |
-| Resource Groups   | 3               |
-| Resources         | 4               |
-
-      
+4. Describe the benefits and usage of **Subscriptions**    
 + To use Azure's cloud-based services, you must first purchase a subscription
 + There's **no limit** to the number of subscriptions a single user can be included on
 + Highest level Azure resource
