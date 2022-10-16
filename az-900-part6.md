@@ -60,6 +60,7 @@ costs of Azure services and features. It simply calculates the cost of Azure Ser
 - - -
 
 4. Describe the functionality and usage of **Azure Cost Management**
++ Reports on _costs incurred by resource_
 + [Monitor, allocate and optimise cloud costs](https://learn.microsoft.com/en-us/training/modules/analyze-costs-create-budgets-azure-cost-management/?WT.mc_id=AZ-MVP-5003556)
 
 - - -
