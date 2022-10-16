@@ -211,16 +211,23 @@
 1. Describe the functionality and usage of **Role-Based Access Control** (RBAC)
 + Principle of Least Privilege - user is given the minimum levels of access – or permissions – needed to perform their job functions
 + Security Principals - a security ID for applications or services
-+ **[Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)**
+
++ **[Administrator Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)**
+  - **Account Administrator** _(1 per account)_
+  - **Service Administrator** _(1 per subscription)_
+  - **Co-Administrator** _(200 per subscription)_
+
++ **[Azure Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)**
   - **Owner** has full access to all resources and grant access
   - **Contributor** can create/manage all resource, cannot grant access
   - **Reader** can view existing resources
   - **User Access Administrator** lets you mange user access
-+ **Scope**
-  - Adding the _Owner_ role at the _management group scope_ allows users in group to manage everything within all subscriptions
-  - Adding the _Reader_ role at the _subscription scope_ allows users in that group to view all resource groups and resources in that subscription
-  - Assigning the _Contributor_ role to an app at the _resource group_ scope allows it to manage resources within that group
-+ [Built-in Azure Roles](https://learn.microsoft.com/en-us/azure/active-directory/roles/permissions-reference)
+
++ **[Azure AD Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)**
+  - **Global Administrator**
+  - **User Administrator**
+  - **Billing Administrator**
+
 + _**[Azure Information Protection](https://learn.microsoft.com/en-us/previous-versions/azure/information-protection/configure-policy)** Administrator Roles:_
   + Azure Information Protection administrator
   + Compliance administrator
@@ -229,6 +236,12 @@
     + Security reader
     + Global reader
   + Global administrator
+
++ **Scope**
+  - Adding the _Owner_ role at the _management group scope_ allows users in group to manage everything within all subscriptions
+  - Adding the _Reader_ role at the _subscription scope_ allows users in that group to view all resource groups and resources in that subscription
+  - Assigning the _Contributor_ role to an app at the _resource group_ scope allows it to manage resources within that group
+
 
 - - -
 
