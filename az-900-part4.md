@@ -25,7 +25,7 @@
 2. Describe the functionality and usage of **Azure Key Vault**
 + **[Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts)** is a cloud service for securely storing and accessing secrets
 + Hardware Security Module (HSM)
-+ Use **Azure Resource Graph Explorer** to count of Key Vaults accross multiple Azure subscriptions
++ Use **Azure Resource Graph Explorer** to count the number of Key Vaults accross multiple Azure subscriptions
   - Secrets Management
   - Key Management
   - TLS Certificate management
