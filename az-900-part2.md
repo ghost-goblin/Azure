@@ -14,6 +14,7 @@
 + An **Azure Region** is a set of Datacenters that are connected through a dedicated low-latency network
 + A region could be made up of one or multiple datacenters
 + A **Region Pair** is a relationship between 2 Azure Regions within the sane geographic region for disaster recovery purposes
+  - It is not possible to create your own Region Pairs
 
 - - -
 
