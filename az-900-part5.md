@@ -237,6 +237,7 @@
 
 3. Describe the functionality and usage of **tags**
 + Metadata elements with key-value pairs can be applied to Azure resources
++ _Clarify your organization's billing by viewing costs for a group of resources sharing the same tag_
 + **Resource Group** _tags_ are not inherited to resources within the group
 
 - - -
