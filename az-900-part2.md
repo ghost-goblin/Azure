@@ -297,6 +297,7 @@ spec:
     - can't be created or removed but can be overridden with _Custom Routes_
   - _Custom Routes:_
     - **[User-defined routes](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-udr-overview)** changes the way traffic is routed and override default System Routes
+        - A UDR can be be created with a subnet but it needs a subnet to function
 - A **[VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/design)** sends encrypted traffic between an Azure virtual network and an on-premises location over the public Internet
 - **[Azure DNS](https://learn.microsoft.com/en-us/azure/dns/dns-overview)** is a hosting service for domain names:
   + Supports private DNS Zones for name resolution in VNETs
