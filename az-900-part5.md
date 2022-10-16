@@ -85,6 +85,7 @@
     - Leaked credentials
     - Password spray
   + Microsoft recommends ZERO permanently active assignments
+  + The **[Azure Security Center](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score?branch=pr-en-us-52761)** in Azure AD assesses the environment and workloads and provides recommendations for threat protections
 
 + Create and manage a managed identity for Azure resources
   + Managed identity types are **system assigned** (lowest effort on tems of lifecycle management) and **user assigned** (can be shared across multiple resources)
