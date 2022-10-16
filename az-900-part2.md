@@ -33,7 +33,8 @@
   + Storage Accounts
   + Web Apps
   + Databases
-  + VNETs    
+  + VNETs
++ If you delete a **Resource Group**, all underlying resources get deleted 
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in one region can contain the resources created in the other regions
 + If you go to the `Access Control (IAM)` section of the resource, you will see that the _permissions_ are inherited from the Resource Group
