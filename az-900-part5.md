@@ -267,6 +267,11 @@
   2. Resource Groups
   3. Azure RBAC
   4. Azure policies
++ _Create Lock assignments:_
+  - **Don't Lock**
+  - **Do Not Delete**
+  - **Read Only**
+
 
 - - -
 
