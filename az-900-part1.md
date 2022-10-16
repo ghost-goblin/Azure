@@ -75,8 +75,9 @@
 - - -
 
 3. Describe **Platform-as-a-Service** (PaaS)
-+ Analytics and business intelligence
++ Analytics & business intelligence
 + Development framework
++ Content Delivery
   + Azure App Service
     - Web Apps
     - Mobile Apps
