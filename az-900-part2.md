@@ -28,12 +28,7 @@
 - - -
 
 3. Describe the benefits and usage of **Resource Groups**
-+ A resource is just a managable item in the cloud:
-  + Virtual Machines
-  + Storage Accounts
-  + Web Apps
-  + Databases
-  + VNETs
++ A **Resource Group** is a container that hold related resources
 + If you delete a **Resource Group**, all underlying resources get deleted 
 + A **Resource Group** is a logical container where you are creating your Azure resources
 + A **Resource Group** created in one region can contain the resources created in the other regions
@@ -108,14 +103,19 @@
 - - -
 
 
-7. Explain Azure resources
-+ A **Resource Group** is a container that hold related resources.
-  + Resources share the same lifecycle i.e. deploy, update, delete together
-  + Resources can only exist in one Resource Group
-  + Resource can communicate across Resource Groups
-  + Container for security boundaries
-  + Can export IAAS using __Resource Manager Templates__
-  + Resources can be in different regions
+7. Explain Azure **resources**
++ A resource is just a managable item in the cloud:
+  + Virtual Machines
+  + Storage Accounts
+  + Web Apps
+  + Databases
+  + VNETs
++ Container for security boundaries
++ Resources share the same lifecycle i.e. deploy, update, delete together
++ Resources can only exist in one Resource Group
++ Resource can communicate across Resource Groups
++ Can export IAAS using __Resource Manager Templates__
++ Resources can be in different regions
 
 - - -
 
