@@ -180,6 +180,10 @@ az vm create \
 + **Cloud Shell** is a cloud hosted shell environment
   - access through **Azure Portal**
   - mount storage (Storage Account)
+  - Azure Cloud Shell needs the following to operate:
+    1. A resource group
+    2. A storage account
+    3. A file share
 
 
 + **Azure Mobile App** is designed to work with **Azure App Service**:
