@@ -180,6 +180,9 @@
   + Azure Analysis Services
 
 
+ > Assigning or removing role assignments can take up to _**30 minutes** for changes to take effect_     
+ 
+     
 + Implement Azure AD Identity Protection
   +  Azure AD Security Options
     + 1. Self-Service Password Reset (SSPR)
