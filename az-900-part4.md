@@ -102,10 +102,9 @@ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from "
 3. Describe the functionality and usage of **Azure Firewall**
 - [Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview) is a cloud-native and intelligent network firewall security service
   - Part of the **perimeter** security
-  - Managed network security service that protects your Azure network resources
-  - Full stateful
-  - High Availability & unrescrticted scalability
-  - Configure **NAT** rules and application rules for applications that can be accessed over the internet (HTTP)
+  - **Full stateful** Managed network security service that protects your Azure network resources
+  - Parent [policies](https://learn.microsoft.com/en-us/azure/firewall-manager/policy-overview) can be overridden from inheritance with stricter settings
+  - Configure **NAT** ruless, **Application Rules** _(for that can be accessed over the internet (HTTP))_, custom **DNS**, DNS proxy
     - Prioritise security rules using 5-tuple information:
       1. Source Address
       2. Source Port
