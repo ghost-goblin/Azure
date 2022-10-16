@@ -238,6 +238,17 @@
   + Global administrator
 
 + **Scope**
+
++ Azure provides 4 levels of hierarchical scope:
+
+| Scope             | Level           |
+| :---------------- |:---------------:|
+| Management Groups | 1               |
+| Subscriptions     | 2               |
+| Resource Groups   | 3               |
+| Resources         | 4               |
+
+
   - Adding the _Owner_ role at the _management group scope_ allows users in group to manage everything within all subscriptions
   - Adding the _Reader_ role at the _subscription scope_ allows users in that group to view all resource groups and resources in that subscription
   - Assigning the _Contributor_ role to an app at the _resource group_ scope allows it to manage resources within that group
