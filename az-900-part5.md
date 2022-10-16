@@ -241,6 +241,12 @@
 + [Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/overview) helps to enforce organizational standards and to assess compliance at-scale
 + Can add restrictions on storage account SKUs, virtual machine instance types, and rules relating to tagging of resources and groups
 + If a policy is applied to a non-compliant resource, it will remain as is, and will no longer be compliant
++ [Create a policy](https://learn.microsoft.com/en-us/azure/governance/policy/assign-policy-portal) assignment to identify non-compliant resources
+  1. REST (Python, JavaScript)
+  2. Azure CLI
+  3. PowerShell
+  4. Azure Portal
+  5. ARM Template
 
 - - -
 
