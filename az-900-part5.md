@@ -74,8 +74,9 @@
       + Azure resource roles: Only **subscription admin**, **resource Owner**, **resource User Access Administrators**
     - Activate and configure PIM
       - with PIM, use MFA to activate any role for users
-  + **Microsoft Defender for Identity** _(formerly Azure Advanced Threat Protection ATP)_
+  + **[Microsoft Defender for Identity](https://learn.microsoft.com/en-us/defender-for-identity/what-is)** _(formerly Azure Advanced Threat Protection ATP)_
     - Monitor users, entity behaviour and activities
+    - Protect user identities and credentials stored in Active Directory
   + Configure access reviews
   + Configure [Azure AD Identity Protection](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection):
     - Anonymous IP address use
