@@ -62,7 +62,7 @@
 | Devices                                   |
 | Data                                      |
 
-
+      
 - - -
 
 2. Describe the functionality and usage of **Network Security Group** (NSG)
