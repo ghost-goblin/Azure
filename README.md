@@ -12,7 +12,7 @@
 
 </div>
 
-
+- - -
 
 - Azure has the most regions of any major cloud provider - 60+ global regions
 - _So, what do you need to create an account?_
