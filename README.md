@@ -6,6 +6,7 @@
 
 
 ### [Microsoft AZ-900](az-900-index.md): 🧱 Microsoft Azure Fundamentals
+### [Microsoft AZ-104](az-104-index.md): 🏢 Microsoft Azure Administrator
 
 
 
