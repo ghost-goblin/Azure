@@ -5,4 +5,4 @@
 1. 🧑‍🤝‍🧑 Implement and manage identity and access (35—40%)
 2. 🗡️ Implement and manage threat protection (25—30%)
 3. 🐉 Implement and manage information protection (10—15%)
-4. 📒 Manage governance and compliance features in Microsoft 365 (20—25%)
+4. 📝 Manage governance and compliance features in Microsoft 365 (20—25%)
