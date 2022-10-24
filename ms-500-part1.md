@@ -6,7 +6,7 @@
       
 </div>
 
-## ☁️ Implement and manage identity and access
+## 🧑‍ Implement and manage identity and access
 ### Secure Microsoft 365 hybrid environments
 
 1. Plan Azure AD authentication options
