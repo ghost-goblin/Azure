@@ -6,8 +6,12 @@
       
 </div>
 
-## ☁️ Create, configure, and manage identities
-      
+## ☁️ Implement and manage identity and access
+### Secure Microsoft 365 hybrid environments
+
+1. Plan Azure AD authentication options
+2. Plan Azure AD synchronization options
+3. Monitor and troubleshoot Azure AD Connect events
       
       
  - - -
