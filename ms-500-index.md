@@ -1,4 +1,4 @@
-# 🏢 Microsoft MS-500: Microsoft 365 Security Administration
+# 🛡️ Microsoft MS-500: Microsoft 365 Security Administration
 
 ✏️ Download the [MS-500 study guide](https://learn.microsoft.com/en-us/certifications/exams/ms-500) to help you prepare for the exam
 
