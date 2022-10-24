@@ -2,13 +2,13 @@
 
 # 🧱 Microsoft AZ-900: Microsoft Azure Fundamentals
 
-### [🏠 HOME](README.md)
+### 🏠 [HOME](README.md)
 ### ✏️ Download the [AZ-900 study guide](https://docs.microsoft.com/en-us/certifications/exams/az-900) to help you prepare for the exam
 
   
 </div>
 
-
+- - -
 
 1. ☁️ [Describe Cloud Concepts](az-900-part1.md) (25–30%)
 2. 🚒 [Describe core Azure Services](az-900-part2.md) (15-20%)
