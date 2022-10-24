@@ -6,7 +6,7 @@
 
 
 ### [Microsoft AZ-900](az-900-index.md): 🧱 Microsoft Azure Fundamentals
-### [Microsoft MS-500](https://learn.microsoft.com/en-us/certifications/exams/ms-500)
+### [Microsoft MS-500](https://learn.microsoft.com/en-us/certifications/exams/ms-500): Microsoft 365 Security Administration
 ### [Microsoft AZ-104](az-104-index.md): 🏢 Microsoft Azure Administrator
 
 
