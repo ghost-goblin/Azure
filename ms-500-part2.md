@@ -36,7 +36,7 @@
 - Configure playbooks in Microsoft Sentinel
 - Manage and monitor with Microsoft Sentinel
 - Respond to threats using built-in playbooks in Microsoft Sentinel
-- ## Implement and manage Microsoft Defender for Cloud Apps
+### Implement and manage Microsoft Defender for Cloud Apps
 - Plan Microsoft Defender for Cloud Apps implementation
 -  Configure Microsoft Defender for Cloud Apps
 -  Manage cloud app discovery
