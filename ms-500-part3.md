@@ -2,7 +2,7 @@
 
 # 🛡️ [Microsoft MS-500](ms-500-index.md): Microsoft 365 Security Administration
 ### 🏠 [HOME](README.md)
-### ✏️ Go through the [IImplement and manage information protection](https://learn.microsoft.com/en-gb/training/paths/implement-manage-information-protection/) learning path
+### ✏️ Go through the [Implement and manage information protection](https://learn.microsoft.com/en-gb/training/paths/implement-manage-information-protection/) learning path
 
 [<<<](ms-500-part2.md) | [>>>](ms-500-part4.md)
       
