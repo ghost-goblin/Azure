@@ -35,6 +35,6 @@
 + Helps secure yur data
 + Component-focused, no code design environments
 
-1. Modeling bsiness data
+1. Modeling business data
 2. Define workflow processes
 3. Compose the app
