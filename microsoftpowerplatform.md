@@ -25,6 +25,6 @@
   - Embedded capabilities
 
 ### Model driven App
-  - Low-code based, generate quicky
+  - Modeling business data
   - Process focussed
   - Back-end by Dataverse
