@@ -28,3 +28,6 @@
   - Modeling business data
   - Process focussed
   - Back-end by Dataverse
+
+###(Microsoft Dataverse)[https://learn.microsoft.com/en-gb/training/modules/introduction-common-data-service/2-overview]
++ Table-based data structures
