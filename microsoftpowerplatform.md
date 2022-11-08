@@ -1,4 +1,4 @@
-# Microsoft Power Platform
+# 🚀 Microsoft Power Platform
 
 ## Data Connectors
 - Power Auotomate
