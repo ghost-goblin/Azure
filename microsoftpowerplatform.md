@@ -31,3 +31,10 @@
 
 ###[Microsoft Dataverse](https://learn.microsoft.com/en-gb/training/modules/introduction-common-data-service/2-overview)
 + Table-based data structures
++ simple to manage
++ Helps secure yur data
++ Component-focused, no code design environments
+
+1. Modeling bsiness data
+2. Define wprkflow processes
+3. Compose the app
