@@ -10,6 +10,10 @@
 
 ## 🧑‍ Implement and manage identity and access
 
+      
+- - -      
+      
+      
 ### Secure Microsoft 365 hybrid environments
 - Plan Azure AD authentication options
 - Plan Azure AD synchronization options
