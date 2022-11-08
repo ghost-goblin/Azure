@@ -1,5 +1,8 @@
+# Microsoft Power Platform
 
 ## Data Connectors
 - Power Auotomate
-- power Apps
+- Power Apps
 - Logic Apps
+
++ Triggers and actions
