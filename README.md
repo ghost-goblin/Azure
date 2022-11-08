@@ -7,7 +7,7 @@
 
 ### [Microsoft AZ-900](az-900-index.md): 🧱 Microsoft Azure Fundamentals
 ### [Microsoft MS-500](ms-500-index.md): 🛡️ Microsoft 365 Security Administration
-### [Microsoft Power Platform](microsoftpowerplatform.md)on
+### [Microsoft Power Platform](microsoftpowerplatform.md)
 
 
 
