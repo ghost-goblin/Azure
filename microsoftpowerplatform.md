@@ -36,5 +36,5 @@
 + Component-focused, no code design environments
 
 1. Modeling bsiness data
-2. Define wprkflow processes
+2. Define workflow processes
 3. Compose the app
