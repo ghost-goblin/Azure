@@ -19,12 +19,12 @@
 + Triggers and actions
   - Once you have established a data source and configured your connector
 
-### Canvas App 
+### [Canvas App](https://learn.microsoft.com/en-gb/training/modules/build-app-solution/)
   - 3rd party Datatbases
   - Customised UI
   - Embedded capabilities
 
-### Model driven App
+### [Model driven App](https://learn.microsoft.com/en-gb/training/modules/how-build-model-driven-app/)
   - Modeling business data
   - Process focussed
   - Back-end by Dataverse
