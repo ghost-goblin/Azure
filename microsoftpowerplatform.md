@@ -10,7 +10,7 @@
 - - -
 
 ### [https://make.powerapps.com](https://make.powerapps.com)
-## Data Connectors
+## [Data Connectors](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/3-data-connectors?ns-enrollment-type=learningpath&ns-enrollment-id=learn-bizapps.wwl.power-plat-fundamentals)
 + Connectors are the bridges from your data source to your app, workflow, or dashboard
 - Power Auotomate
 - Power Apps
