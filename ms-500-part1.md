@@ -12,9 +12,19 @@
 ## 🧑‍ Implement and manage identity and access
 
 ### Create, configure, and manage identities
+
+#### Types of AD users:
 1. Cloud identities
 2. Directory-synchronized identities
 3. Guest users
+
+      
+### Create, configure, and manage groups
+
+#### Types of AD Groups:
+1. Security groups
+2. Microsoft 365 groups
+
 
 
 - - -      
