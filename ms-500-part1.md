@@ -40,14 +40,22 @@
 | SAML, OAuth, WS-Federation for authentication | Kerberos for authentication |
 | Administrative Units                          | OUs & Group Policy          |
 
+
+
+- - -      
+
       
 ### Create, configure, and manage groups
 
 #### Types of AD Groups:
 1. Security groups
 2. Microsoft 365 groups
+#### Group Membership Types:
+1. **Assigned** 
+  - Members are added and maintained manually
+2. **Dynamic**
+  - Members are added based on rules
 
 
 
-- - -      
       
