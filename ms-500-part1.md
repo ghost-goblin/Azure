@@ -9,7 +9,7 @@
 </div>
 
 
-|          Azure AD Components           |
+|        | Azure AD Components |         |
 |--------|---------------------|---------|
 | Tenant | Domains             | Users   |
 | Groups | Apps                | Devices |
