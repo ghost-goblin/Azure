@@ -52,10 +52,14 @@
 2. Microsoft 365 groups
 #### Group Membership Types:
 1. **Assigned** 
-  - Members are added and maintained manually
+    - Members are added and maintained manually
 2. **Dynamic**
-  - Members are added based on rules
+    - Members are added based on rules
 
+- - -
+  
 
+    
+### Configure and manage device registration
 
       
