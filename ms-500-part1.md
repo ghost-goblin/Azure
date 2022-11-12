@@ -65,3 +65,10 @@
 1. **Cloud-only**
 2. **Directory synchronization with Pass-Through authentication** (PTA)
 3. **Single Sign-On** (SSO) **with AD FS**
+
+
+- - -
+
+## 🤖 Implement and manage hybrid identity
+
+### Plan, design, and implement Azure Active Directory Connect
