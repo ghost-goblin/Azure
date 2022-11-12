@@ -42,7 +42,7 @@
 
 
 
-- - -      
+
 
       
 ### Create, configure, and manage groups
@@ -56,10 +56,15 @@
 2. **Dynamic**
     - Members are added based on rules
 
-- - -
+
   
 
     
 ### Configure and manage device registration
 
       
+- - -
+
+
+
+# Explore identity synchronization
