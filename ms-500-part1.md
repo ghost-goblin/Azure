@@ -38,6 +38,7 @@
 | DNS based domains                             | DNS for objects             |
 | MS Graph API for queries                      | LDAP for queries            |
 | SAML, OAuth, WS-Federation for authentication | Kerberos for authentication |
+| Administrative Units                          | OUs & Group Policy          |
 
       
 ### Create, configure, and manage groups
