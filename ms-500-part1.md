@@ -11,22 +11,6 @@
 ## 🧑‍ Create, configure, and manage identities
 
 
-| Azure AD Components |
-|---------------------|
-| Tenant              |
-| Domains             |
-| Users               |
-| Groups              |
-| Apps                |
-| Devices             |
-
-
-#### Types of AD users:
-1. Cloud identities
-2. Directory-synchronized identities
-3. Guest users
-
-
 | Azure Active Directory                        | Local Active Directory      |
 |-----------------------------------------------|-----------------------------|
 | Multi-tenant                                  | Single-tenant               |
@@ -37,12 +21,31 @@
 | SAML, OAuth, WS-Federation for authentication | Kerberos for authentication |
 | Administrative Units                          | OUs & Group Policy          |
 
+
+
+#### Types of AD users:
+1. Cloud identities
+2. Directory-synchronized identities
+3. Guest users
+
+
+| Azure AD Components |
+|---------------------|
+| Tenant              |
+| Domains             |
+| Users               |
+| Groups              |
+| Apps                |
+| Devices             |
+
+
       
 ### Create, configure, and manage groups
 
 #### Types of AD Groups:
 1. Security groups
 2. Microsoft 365 groups
+
 #### Group Membership Types:
 1. **Assigned** 
     - Members are added and maintained manually
