@@ -29,6 +29,16 @@
 2. Directory-synchronized identities
 3. Guest users
 
+
+| Azure Active Directory                        | Local Active Directory      |
+|-----------------------------------------------|-----------------------------|
+| Multi-tenant                                  | Single-tenant               |
+| Perimeter-free                                | Perimeter-based             |
+| Flat structure                                | X.500 structure             |
+| DNS based domains                             | DNS for objects             |
+| MS Graph API for queries                      | LDAP for queries            |
+| SAML, OAuth, WS-Federation for authentication | Kerberos for authentication |
+
       
 ### Create, configure, and manage groups
 
