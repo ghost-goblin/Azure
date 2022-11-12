@@ -8,7 +8,7 @@
       
 </div>
 
-## 🧑‍ Implement and manage identity and access
+## 🧑‍ Create, configure, and manage identities
 
 
 | Azure AD Components |
@@ -20,9 +20,6 @@
 | Apps                |
 | Devices             |
 
-
-
-### Create, configure, and manage identities
 
 #### Types of AD users:
 1. Cloud identities
@@ -40,10 +37,6 @@
 | SAML, OAuth, WS-Federation for authentication | Kerberos for authentication |
 | Administrative Units                          | OUs & Group Policy          |
 
-
-
-
-
       
 ### Create, configure, and manage groups
 
@@ -56,9 +49,6 @@
 2. **Dynamic**
     - Members are added based on rules
 
-
-  
-
     
 ### Configure and manage device registration
 
@@ -66,5 +56,4 @@
 - - -
 
 
-
-# Explore identity synchronization
+## ✨ Explore Identity Synchronization
