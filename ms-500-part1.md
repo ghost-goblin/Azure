@@ -9,11 +9,15 @@
 </div>
 
 
-|        | **Azure AD Components** |         |
-|--------|-------------------------|---------|
-| Tenant | Domains                 | Users   |
-| Groups | Apps                    | Devices |
- 
+| Azure AD Components |
+|---------------------|
+| Tenant              |
+| Domains             |
+| Users               |
+| Groups              |
+| Apps                |
+| Devices             |
+
 
      
 ## 🧑‍ Implement and manage identity and access
