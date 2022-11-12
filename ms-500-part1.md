@@ -60,3 +60,8 @@
 
 
 ## ✨ Explore Identity Synchronization
+
+### Types of Authentication in Microsoft 365:
+1. **Cloud-only**
+2. **Directory synchronization with Pass-Through authentication** (PTA)
+3. **Single Sign-On** (SSO) **with AD FS**
