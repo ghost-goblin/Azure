@@ -77,22 +77,22 @@
 
 
 
-### **Synchronization**
+# **Synchronization**
 
-### **Password hash synchronization**
+# **Password hash synchronization**
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 + When you install **Azure AD Connect** by using the `Express Settings` option, **Password Hash Synchronization** is automatically enabled
 
-### **Pass-through authentication**
+# **Pass-through authentication**
 
-### **Federation integration**
+# **Federation integration**
 [![Azure AD Connect to connect to an AD FS farm](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/sc300-federation-setup-dialog-f995542d.png)](https://learn.microsoft.com/)
 + Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
 + Specify the servers where you want to install AD FS
 + Specify the Web Application Proxy servers
     -  The **Web Application Proxy server** is deployed in your perimeter extranet network and supports authentication requests from the extranet
 
-### **Health monitoring**
+# **Health monitoring**
 
 ### Azure AD Connect design concepts
 #### `sourceAnchor`
