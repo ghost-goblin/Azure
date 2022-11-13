@@ -8,7 +8,7 @@
       
 </div>
 
-## 🧑‍ Create, configure, and manage identities
+## 🧑‍👨‍ Create, configure, and manage identities
 
 
 | Azure Active Directory                        | Local Active Directory      |
