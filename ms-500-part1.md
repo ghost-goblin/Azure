@@ -162,6 +162,12 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ## 👨‍👩‍👧 Manage secure user access in Microsoft 365
+### Enable multifactor authentication
++ Something the user knows (Password)
++ Something the user owns (Device)
++ Something the user is (Biometrics)
+
+
 
 
 - - -
