@@ -109,7 +109,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 # **Health monitoring**
 + How to fix `InvalidSoftMatch` error?
     - 2 objects with different SourceAnchor `immutableId` have the same value for the `ProxyAddresses` and/or `UserPrincipalName` attributes
-+ Generate a report by (Azure AD Connect Health)[https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-health-sync] for sync
++ Generate a report by [Azure AD Connect Health](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-health-sync) for sync
 
 ### Azure AD Connect design concepts
 #### `sourceAnchor`
