@@ -77,4 +77,5 @@
     - **Password hash synchronization**
     - **Pass-through authentication**
     - **Federation integration**
+      - Azure AD hands off the authentication process to a separate trusted authentication system such as Active Directory Federation Services (AD FS)
     - **Health monitoring**
