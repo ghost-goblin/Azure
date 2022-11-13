@@ -80,10 +80,10 @@
 
 - **Synchronization**
 - **Password hash synchronization**
-[![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
+    - [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 - **Pass-through authentication**
 - **Federation integration**
-[![Set up your federation using Azure AD Connect to connect to an AD FS farm](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/sc300-federation-setup-dialog-f995542d.png)](https://learn.microsoft.com/)
+    - [![Set up your federation using Azure AD Connect to connect to an AD FS farm](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/sc300-federation-setup-dialog-f995542d.png)](https://learn.microsoft.com/)
     - Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
 - **Health monitoring**
 
