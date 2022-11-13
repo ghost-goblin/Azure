@@ -135,8 +135,6 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 
 
-- - -
-
 ### 🚑 Implement Azure Active Directory Connect Health
 [![Verify agent was installed](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/install-5-01ef9e2e.png)](https://learn.microsoft.com/)
 + **Azure AD Premium**
