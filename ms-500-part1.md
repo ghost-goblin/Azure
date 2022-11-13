@@ -24,9 +24,9 @@
 
 
 #### Types of AD users:
-1. Cloud identities
-2. Directory-synchronized identities
-3. Guest users
+1. ☁️ Cloud identities
+2. 🗂️ Directory-synchronized identities
+3. 👺 Guest users
 
 
 | Azure AD Components |
