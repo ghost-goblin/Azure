@@ -91,3 +91,16 @@
 
 #### Azure AD sign-in
 + Azure AD uses `userPrincipalName` (UPN) to authenticate the user
+
+
+| Azure AD Connect provisioning engine |
+|--------------------------------------|
+| SQL Database on SSD                  |
+| (⬅ import) Active Directory forest (export ➡)  |
+| Connector Space (CS)                 |
+| Metaverse (MV)                       |
+| Connector Space (CS)                 |
+| (⬅ import) Azure AD (export ➡)      |
+
+
+
