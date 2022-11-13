@@ -71,7 +71,7 @@
 
 ## 🤖 Implement and manage hybrid identity
 
-### Plan, design, and implement Azure Active Directory Connect
+### 🌉 Plan, design, and implement Azure Active Directory Connect
 + **Azure AD Connect** bridges an organizations on-premises Active Directory with your cloud-based Azure Active Directory
     - **Synchronization**
     - **Password hash synchronization**
@@ -79,3 +79,8 @@
     - **Federation integration**
       - Azure AD hands off the authentication process to a separate trusted authentication system such as Active Directory Federation Services (AD FS)
     - **Health monitoring**
+
+### Azure AD Connect design concepts
+#### sourceAnchor
++ The `sourceAnchor` attribute, also called `immutableId`, is defined as an attribute immutable during the lifetime of an object
++ Uniquely identifies an object as being the same object on-premises and in Azure AD
