@@ -135,3 +135,4 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 
 
+### 🚑 Implement Azure Active Directory Connect Health
