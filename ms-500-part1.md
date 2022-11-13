@@ -170,7 +170,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 ### Implement **Azure AD Smart Lockout**
 + Edit the group policy that includes the organization's account lockout policy
     - Browse to Group Policy Management tool > Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy
-
++ **Azure Active Directory** > Authentication methods > Password protection
 
 - - -
 
