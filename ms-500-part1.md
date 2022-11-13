@@ -135,24 +135,42 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 
 
+- - -
+
 ### 🚑 Implement Azure Active Directory Connect Health
 
-
+- - -
 
 ## 👺 Implement and manage external identities
 
-
+- - -
 
 ## 👨‍👩‍👧 Manage secure user access in Microsoft 365
 
 
+- - -
+
 ## 👨‍💻 Manage user authentication
 
 
+
+- - -
+
 ## 🔒 Plan, implement, and administer Conditional Access
+
+
+- - -
 
 ## 🕵 Plan and implement privileged access
 
+
+- - -
+
+
 ## 😎 Plan and implement entitlement management
+
+
+
+- - -
 
 ## 👀 Manage Azure AD Identity Protection
