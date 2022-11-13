@@ -87,3 +87,7 @@
 #### `objectGuid`
 + The attribute `objectGuid` is used for a single forest on-premises
 + Used to express settings in **Azure AD Connect**
+
+
+#### Azure AD sign-in
++ Azure AD uses `userPrincipalName` (UPN) to authenticate the user
