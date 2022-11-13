@@ -155,6 +155,9 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ## 👺 Implement and manage external identities
+[![Manage external collaboration](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-external-identities/media/external-user-state-diagram.png)](https://learn.microsoft.com/)
++ **B2B collaboration** is a capability of Azure AD External Identities that lets you collaborate with users and partners outside of your organization.
+
 
 - - -
 
