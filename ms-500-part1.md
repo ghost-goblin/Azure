@@ -81,6 +81,9 @@
     - **Health monitoring**
 
 ### Azure AD Connect design concepts
-#### sourceAnchor
+#### `sourceAnchor`
 + The `sourceAnchor` attribute, also called `immutableId`, is defined as an attribute immutable during the lifetime of an object
 + Uniquely identifies an object as being the same object on-premises and in Azure AD
+#### `objectGuid`
++ The attribute `objectGuid` is used for a single forest on-premises
++ Used to express settings in **Azure AD Connect**
