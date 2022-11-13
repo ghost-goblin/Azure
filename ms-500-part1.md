@@ -77,12 +77,12 @@
 
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 
-    - **Synchronization**
-    - **Password hash synchronization**
-    - **Pass-through authentication**
-    - **Federation integration**
-      - Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
-    - **Health monitoring**
+- **Synchronization**
+- **Password hash synchronization**
+- **Pass-through authentication**
+- **Federation integration**
+- Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
+- **Health monitoring**
 
 ### Azure AD Connect design concepts
 #### `sourceAnchor`
