@@ -74,6 +74,7 @@
 ### 🌉 Plan, design, and implement Azure Active Directory Connect
 + **Azure AD Connect** bridges an organizations on-premises Active Directory with your cloud-based Azure Active Directory
 + When you install **Azure AD Connect** by using the `Express Settings` option, password hash synchronization is automatically enabled
++ If you're installing Azure AD Connect for the first time, [choose the custom installation path](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)
 
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 
