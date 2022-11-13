@@ -138,6 +138,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ### 🚑 Implement Azure Active Directory Connect Health
+[![Install the agent](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/install-5-01ef9e2e.png)](https://learn.microsoft.com/)
 + Azure AD Premium
 + Global Administrator in Azure AD
 + The Azure AD Connect Health agent is installed on each targeted server
