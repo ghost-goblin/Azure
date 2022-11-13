@@ -72,3 +72,9 @@
 ## 🤖 Implement and manage hybrid identity
 
 ### Plan, design, and implement Azure Active Directory Connect
++ **Azure AD Connect** bridges an organizations on-premises Active Directory with your cloud-based Azure Active Directory
+    - **Synchronization**
+    - **Password hash synchronization**
+    - **Pass-through authentication**
+    - **Federation integration**
+    - **Health monitoring**
