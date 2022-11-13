@@ -73,7 +73,7 @@
 
 ### 🌉 Plan, design, and implement Azure Active Directory Connect
 + **Azure AD Connect** bridges an organizations on-premises Active Directory with your cloud-based Azure Active Directory
-+ If you're installing **Azure AD Connect** for the first time, [choose the custom installation path](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)
+    - If you're installing **Azure AD Connect** for the first time, [choose the custom installation path](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-custom)
 
 
 
