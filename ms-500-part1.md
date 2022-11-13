@@ -138,6 +138,20 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ### 🚑 Implement Azure Active Directory Connect Health
++ Azure AD Premium
++ Global Administrator in Azure AD
++ The Azure AD Connect Health agent is installed on each targeted server
++ The Azure service endpoints have outbound connectivity
++ Outbound connectivity is based on IP addresses
++ TLS inspection for outbound traffic is filtered or disabled
++ Firewall ports on the server are running the agent
++ The agent requires the following firewall ports to be open so that it can communicate with the Azure AD Connect Health service endpoints:
+    + TCP port 443
+    + TCP port 5671 _(the latest version of the agent doesn't require port 5671, ppgrade to the latest version so that only port 443 is required)_
++ PowerShell version 4.0 or newer is installed
++ FIPS (Federal Information Processing Standard) is disabled
+
+
 
 - - -
 
