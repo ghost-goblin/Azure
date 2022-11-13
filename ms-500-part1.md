@@ -104,7 +104,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 + Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
 + Specify the servers where you want to install AD FS
 + Specify the Web Application Proxy servers
-    -  The **Web Application Proxy server** is deployed in your perimeter extranet network and supports authentication requests from the extranet
+    -  The **Web Application Proxy server** is deployed in your perimeter extranet network and supports external authentication requests
 
 # **Health monitoring**
 ### `InvalidSoftMatch` error
