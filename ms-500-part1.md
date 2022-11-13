@@ -79,6 +79,15 @@
 
 # **Synchronization**
 
+```ps1
+Import-Module ADSync
+Get-ADSyncScheduler
+Start-ADSyncSyncCycle -PolicyType Delta
+# Run the following command to force a complete sync but note that the length of sync time would be greatly increased
+Start-ADSyncSyncCycle -PolicyType Initial
+````
+      
+      
 # **Password hash synchronization**
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 + When you install **Azure AD Connect** by using the `Express Settings` option, **Password Hash Synchronization** is automatically enabled
