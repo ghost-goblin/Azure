@@ -175,8 +175,14 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ## 👨‍💻 Manage user authentication
+### Passwordless authentication methods
+1. Windows Hello
+2. FIDO2 security keys
+3. Microsoft Authenticator app
 
-
+### Enable FIDO2 security key method
++ Azure Active Directory > Security > Authentication methods > Authentication method policy
++ 
 
 - - -
 
