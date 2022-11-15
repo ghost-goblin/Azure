@@ -224,17 +224,17 @@ Start-ADSyncSyncCycle -PolicyType Initial
 [![Sign-in risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/identity-protection-security-overview.png)](https://learn.microsoft.com/)
 
 
-| Capability       | Details       | Azure AD Free / Microsoft 365 Apps     | Azure AD Premium P1              | Azure AD Premium P2  |
-|------------------|---------------|----------------------------------------|----------------------------------|----------------------|
-| Risk policies    | User risk policy (via Identity Protection)       | No              | No                | Yes             |
-| Risk policies    | Sign-in risk policy (via Identity Protection or Conditional Access) | No         | No                         | Yes                 |
-| Security reports | Overview   | No                | No                | Yes                 |
-| Security reports | Risky users   | Limited information | Limited information | Full access                      |
-| Security reports | Risky sign ins     | Limited information                  | Limited information                                                      |
-| Security reports | Risk detections  | No                                                                              | Limited information  | Full access |
-| Notifications    | Users at risk detected alerts  | No    | No                                  | Yes                                                       |
-| Notifications    | Weekly digest                                                       | No                             | No         | Yes                 |
-|                  | MFA registration policy | No       | No   | Yes                 |
+| Capability       | Details                                     | Azure AD Free / Microsoft 365 Apps     | Azure AD Premium P1              | Azure AD Premium P2  |
+|------------------|---------------------------------------------|----------------------------------------|----------------------------------|----------------------|
+| Risk policies    | User risk policy (via Identity Protection)                            | No                   | No                       | Yes                 |
+| Risk policies    | Sign-in risk policy (via Identity Protection / Conditional Access)    | No                   | No                       | Yes                 |
+| Security reports | Overview                                         | No                 | No                   | Yes                      |                    |
+| Security reports | Risky users                                     | Limited information | Limited information  | Full access              |                    |
+| Security reports | Risky sign ins                                  | Limited information | Limited information  |                          |                 |
+| Security reports | Risk detections                                 | No                  | Limited information  | Full access              |                 |
+| Notifications    | Users at risk detected alerts                   | No                  | No                   | Yes                      |                 |
+| Notifications    | Weekly digest                                   | No                  | No                   | Yes                      |                 |
+|                  | MFA registration policy                          | No                 | No                   | Yes                      |                 |
 
 
       
