@@ -220,4 +220,5 @@ Start-ADSyncSyncCycle -PolicyType Initial
 | Activity from anonymous IP address | This detection is discovered by MDCA.                                                                        |
 
 
-
+### Implement and manage user risk policy
+[![Sign-in risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/identity-protection-security-overview.png)](https://learn.microsoft.com/)
