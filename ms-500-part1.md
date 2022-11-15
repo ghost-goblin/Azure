@@ -227,14 +227,14 @@ Start-ADSyncSyncCycle -PolicyType Initial
 | Capability       | Details       | Azure AD Free / Microsoft 365 Apps     | Azure AD Premium P1              | Azure AD Premium P2  |
 |------------------|---------------|----------------------------------------|----------------------------------|----------------------|
 | Risk policies    | User risk policy (via Identity Protection)       | No              | No                | Yes             |
-| Risk policies    | Sign-in risk policy (via Identity Protection or Conditional Access) | No                                                                                | No                                                                                                      | Yes                 |
-| Security reports | Overview                                                            | No                                                                                                      | No                                                                                                      | Yes                 |
-| Security reports | Risky users                                                         | Limited information. Only users with medium and high risk are shown. No details drawer or risk history. | Limited information. Only users with medium and high risk are shown. No details drawer or risk history. | Full access         |
-| Security reports | Risky sign ins                                                      | Limited information. No risk detail or risk level is shown.                                             | Limited information. No risk detail or risk level is shown.                                             | Full access         |
-| Security reports | Risk detections                                                     | No                                                                                                      | Limited information. No details drawer.                                                                 | Full access         |
-| Notifications    | Users at risk detected alerts                                       | No                                                                                                      | No                                                                                                      | Yes                 |
-| Notifications    | Weekly digest                                                       | No                                                                                                      | No                                                                                                      | Yes                 |
-|                  | MFA registration policy                                             | No                                                                                                      | No                                                                                                      | Yes                 |
+| Risk policies    | Sign-in risk policy (via Identity Protection or Conditional Access) | No         | No                         | Yes                 |
+| Security reports | Overview   | No                | No                | Yes                 |
+| Security reports | Risky users   | Limited information | Limited information | Full access                      |
+| Security reports | Risky sign ins     | Limited information                  | Limited information                                                      |
+| Security reports | Risk detections  | No                                                                              | Limited information  | Full access |
+| Notifications    | Users at risk detected alerts  | No    | No                                  | Yes                                                       |
+| Notifications    | Weekly digest                                                       | No                             | No         | Yes                 |
+|                  | MFA registration policy | No       | No   | Yes                 |
 
 
       
