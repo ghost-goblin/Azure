@@ -206,3 +206,18 @@ Start-ADSyncSyncCycle -PolicyType Initial
 - - -
 
 ## 👀 [Manage Azure AD Identity Protection](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identity-protection/)
+
+| Risk detection type                | Description                                                                                                  |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Anonymous IP address               | Sign in from an anonymous IP address (for example: Tor browser, anonymizer VPNs).                            |
+| Atypical travel                    | Sign in from an atypical location based on the user's recent sign ins.                                       |
+| Malware-linked IP address          | Sign in from a malware-linked IP address.                                                                    |
+| Unfamiliar sign in properties      | Sign in with properties we've not seen recently for the given user.                                          |
+| Leaked credentials                 | Indicates that the user's valid credentials have been leaked.                                                |
+| Password spray                     | Indicates that multiple usernames are being attacked using common passwords in a unified brute-force manner. |
+| Azure AD threat intelligence       | Microsoft's internal and external threat intelligence sources have identified a known attack pattern.        |
+| New country                        | This detection is discovered by Microsoft Defender for Cloud Apps (MDCA).                                    |
+| Activity from anonymous IP address | This detection is discovered by MDCA.                                                                        |
+
+
+
