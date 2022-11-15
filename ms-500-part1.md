@@ -182,7 +182,9 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 ### Enable FIDO2 security key method
 + Azure Active Directory > Security > Authentication methods > Authentication method policy
-+ 
++ Under the method **FIDO2 Security Key**, choose the following options:
+    - Enable - Yes or No
+    - Target - All users or Select users
 
 - - -
 
