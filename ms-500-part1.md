@@ -236,3 +236,11 @@ Start-ADSyncSyncCycle -PolicyType Initial
 | Notifications    | Weekly digest                                                       | No                                                                                                      | No                                                                                                      | Yes                 |
 |                  | MFA registration policy                                             | No                                                                                                      | No                                                                                                      | Yes                 |
 
+
+      
+### Exercise enable sign-in risk policy
++ Sign in to the [Azure portal](https://portal.azure.com/) using a **Global administrator account**
+    + On the **Azure Active Directory** blade > Manage > select Security
+    + On the **Security** blade, in the left navigation, select **Identity protection**
+    + In the **Identity protection blade**, in the left navigation, select **User risk policy**
+
