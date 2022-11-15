@@ -198,6 +198,9 @@ Start-ADSyncSyncCycle -PolicyType Initial
 1. A subscription to **Azure Active Directory Premium**
 2. A federated **Azure Active Directory tenant**
 
+### Named locations
++ Azure Active Directory > Security > conditional Access > Named locations
+
 
 - - -
 
