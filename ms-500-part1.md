@@ -8,7 +8,7 @@
       
 </div>
 
-## 🧑👨‍ Create, configure, and manage identities 🧑‍👩
+## 🧑👨‍ [Create, configure, and manage identities](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/) 🧑‍👩
 
 
 | Azure Active Directory                        | Local Active Directory      |
@@ -59,7 +59,7 @@
 - - -
 
 
-## ✨ Explore Identity Synchronization
+## ✨ [Explore Identity Synchronization](https://learn.microsoft.com/en-us/training/modules/introduction-to-identity-synchronization/)
 
 ### Types of Authentication in Microsoft 365:
 1. **Cloud-only**
@@ -69,7 +69,7 @@
 
 - - -
 
-## 🤖 Implement and manage hybrid identity
+## 🤖 [Implement and manage hybrid identity](https://learn.microsoft.com/en-us/training/modules/implement-manage-hybrid-identity/)
 
 ### 🌉 Plan, design, and implement Azure Active Directory Connect
 + **Azure AD Connect** bridges an organizations on-premises Active Directory with your cloud-based Azure Active Directory
@@ -154,14 +154,14 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 - - -
 
-## 👺 Implement and manage external identities
+## 👺 [Implement and manage external identities](https://learn.microsoft.com/en-us/training/modules/implement-manage-external-identities/)
 [![Manage external collaboration](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-external-identities/media/external-user-state-diagram.png)](https://learn.microsoft.com/)
 + **B2B collaboration** is a capability of Azure AD External Identities that lets you collaborate with users and partners outside of your organization.
 
 
 - - -
 
-## 👨‍👩‍👧 Manage secure user access in Microsoft 365
+## 👨‍👩‍👧 [Manage secure user access in Microsoft 365](https://learn.microsoft.com/en-us/training/modules/manage-secure-user-access-microsoft-365/)
 ### Enable multifactor authentication
 + Something the user knows (Password)
 + Something the user owns (Device)
@@ -174,7 +174,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 - - -
 
-## 👨‍💻 Manage user authentication
+## 👨‍💻 [Manage user authentication](https://learn.microsoft.com/en-us/training/modules/manage-user-authentication/)
 ### Passwordless authentication methods
 1. Windows Hello
 2. FIDO2 security keys
@@ -188,21 +188,21 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 - - -
 
-## 🔒 Plan, implement, and administer Conditional Access
+## 🔒 [Plan, implement, and administer Conditional Access](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/)
 
 
 - - -
 
-## 🕵 Plan and implement privileged access
+## 🕵 [Plan and implement privileged access](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/)
 
 
 - - -
 
 
-## 😎 Plan and implement entitlement management
+## 😎 [Plan and implement entitlement management](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/)
 
 
 
 - - -
 
-## 👀 Manage Azure AD Identity Protection
+## 👀 [Manage Azure AD Identity Protection](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identity-protection/)
