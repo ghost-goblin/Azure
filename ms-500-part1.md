@@ -191,6 +191,11 @@ Start-ADSyncSyncCycle -PolicyType Initial
 ## 🔒 [Plan, implement, and administer Conditional Access](https://learn.microsoft.com/en-us/training/modules/plan-implement-administer-conditional-access/)
 + Azure AD Conditional Access (CA) analyzes signals such as user, device, and location, to automate decisions and enforce organizational access policies for resource
 
+### Block access by location with Azure AD Conditional Access
+1. A subscription to **Azure Active Directory Premium**
+2. A federated **Azure Active Directory tenant**
+
+
 - - -
 
 ## 🕵 [Plan and implement privileged access](https://learn.microsoft.com/en-us/training/modules/plan-implement-privileged-access/)
@@ -223,10 +228,6 @@ Start-ADSyncSyncCycle -PolicyType Initial
 ### Implement and manage user risk policy
 [![Sign-in risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/identity-protection-security-overview.png)](https://learn.microsoft.com/)
 
-
-### Block access by location with Azure AD Conditional Access
-1. A subscription to **Azure Active Directory Premium**
-2. A federated **Azure Active Directory tenant**
       
 ### Exercise enable sign-in risk policy
 [![User risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/browse-identity-protection.png)](https://learn.microsoft.com/)
