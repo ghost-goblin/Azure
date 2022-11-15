@@ -239,6 +239,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
       
 ### Exercise enable sign-in risk policy
+[![User risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/browse-identity-protection.png)](https://learn.microsoft.com/)
 + Sign in to the [Azure portal](https://portal.azure.com/) using a **Global administrator account**
     + On the **Azure Active Directory** blade > Manage > select Security
     + On the **Security** blade, in the left navigation, select **Identity protection**
