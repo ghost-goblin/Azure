@@ -10,7 +10,7 @@
 
 
 ### 🗡️ [Protect against threats with Microsoft Defender for Endpoint](https://learn.microsoft.com/en-gb/training/modules/m365-security-threat-protect/)
-####  Microsoft 365 Defender portal: [https://security.microsoft.com/)](https://security.microsoft.com/)
+####  Microsoft 365 Defender portal: [https://security.microsoft.com](https://security.microsoft.com)
 + Threat and vulnerability management
 + Attack surface reduction
 + Advanced protection uses machine learning and deep analysis to protect against file-based malware
