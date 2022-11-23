@@ -10,9 +10,13 @@
 
 
 ### 🗡️ [Protect against threats with Microsoft Defender for Endpoint](https://learn.microsoft.com/en-gb/training/modules/m365-security-threat-protect/)
-- Plan a Microsoft Defender for Identity solution
-- Install and configure Microsoft Defender for Identity
-- Monitor and manage Microsoft Defender for Identity
++ Threat and vulnerability management
++ Attack surface reduction
++ Advanced protection uses machine learning and deep analysis to protect against file-based malware
++ Endpoint detection and response monitors behaviors and attacker techniques
+    1. Endpoint behavioral sensors
+    2. Cloud security analytics
+    3. Threat intelligence
 
       
 - - -
