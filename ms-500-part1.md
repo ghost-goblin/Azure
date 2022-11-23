@@ -184,10 +184,10 @@ Start-ADSyncSyncCycle -PolicyType Initial
 6. Temporary Access Pass
 
 ### Enable FIDO2 security key method
-+ Azure Active Directory > Security > Authentication methods > Authentication method policy
++ `Azure Active Directory` > `Security` > `Authentication methods` > `Authentication method policy`
 + Under the method **FIDO2 Security Key**, choose the following options:
-    - Enable - Yes or No
-    - Target - All users or Select users
+    - `Enable` - Yes or No
+    - `Target` - All users or Select users
 
 - - -
 
@@ -199,7 +199,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 2. A federated **Azure Active Directory tenant**
 
 ### Named locations
-+ Azure Active Directory > Security > conditional Access > Named locations
++ `Azure Active Directory` > `Security` > `Conditional Access` > `Named locations`
 
 
 - - -
