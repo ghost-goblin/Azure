@@ -24,3 +24,13 @@
 
 
 ### ⚔️ [Deploy the Microsoft Defender for Endpoint environment](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-defender-for-endpoints-environment/)
+#### Network configuration
++ The Microsoft Defender for Endpoint sensor requires Microsoft Windows HTTP (WinHTTP) to report sensor data and communicate with the Microsoft Defender for Endpoint service
+#### Onboard devices
++ `Settings` > `Endpoints` > `Device Management` > `Onboarding`
+    + Group Policy
+    + Microsoft Endpoint Configuration Manager current branch and later
+    + Mobile Device Management (including Microsoft Intune)
+    + Local script (for up to 10 devices)
+    + VDI onboarding script for non-persistent devices
+    + System Center Configuration Manager 2012 / 2012 R2 / 1511 /1602
