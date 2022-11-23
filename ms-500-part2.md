@@ -14,6 +14,11 @@
 - Plan a Microsoft Defender for Identity solution
 - Install and configure Microsoft Defender for Identity
 - Monitor and manage Microsoft Defender for Identity
+
+      
+- - -
+
+
 ### Implement device threat protection
 - Plan a Microsoft Defender for Endpoint solution
 - Implement Microsoft Defender for Endpoint
