@@ -44,23 +44,23 @@
 
 - - -
 
-### [Understand Microsoft 365 encryption](https://learn.microsoft.com/en-gb/training/modules/audit-encryption/)
+### 🔐 [Understand Microsoft 365 encryption](https://learn.microsoft.com/en-gb/training/modules/audit-encryption/)
 
 - - -
 
-### [Understand app management using Microsoft Endpoint Manager](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/)
-
-- - -
-      
-
-### [Manage device compliance](https://learn.microsoft.com/en-gb/training/modules/manage-device-compliance/)
-
-- - -
-
-
-### [Remediate risks with Microsoft Defender for Office 365](https://learn.microsoft.com/en-gb/training/modules/m365-threat-remediate/)
+### 🧑‍💼 [Understand app management using Microsoft Endpoint Manager](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/)
 
 - - -
       
-### [Query, visualize, and monitor data in Microsoft Sentinel](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/)
+
+### 📱 [Manage device compliance](https://learn.microsoft.com/en-gb/training/modules/manage-device-compliance/)
+
+- - -
+
+
+### 🗡️ [Remediate risks with Microsoft Defender for Office 365](https://learn.microsoft.com/en-gb/training/modules/m365-threat-remediate/)
+
+- - -
+      
+### 📈 [Query, visualize, and monitor data in Microsoft Sentinel](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/)
       
