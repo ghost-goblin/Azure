@@ -8,32 +8,32 @@
       
 </div>
 
-### 🐉 [Create and manage sensitive information types](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/)
+### 💾 [Create and manage sensitive information types](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/)
 
 - - -
 
 
-### [Apply and manage sensitivity labels](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/)
+### 🏷️ [Apply and manage sensitivity labels](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/)
 
 - - -
      
-### [Prevent data loss in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-prevent-data-loss/)
+### 🗑️ [Prevent data loss in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-prevent-data-loss/)
 
 - - -
       
-### [Manage data loss prevention policies and reports in Microsoft 365](https://learn.microsoft.com/en-us/training/modules/manage-data-loss-prevention-polices/)
+### 🚯 [Manage data loss prevention policies and reports in Microsoft 365](https://learn.microsoft.com/en-us/training/modules/manage-data-loss-prevention-polices/)
 
 - - -
       
-### [Manage the data lifecycle in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-govern-information/)
+### 👶 [Manage the data lifecycle in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-govern-information/)
 
 
 - - -
       
-### [Manage data retention in Microsoft 365 workloads](https://learn.microsoft.com/en-us/training/modules/manage-data-retention-microsoft-365/)
+### 🎒 [Manage data retention in Microsoft 365 workloads](https://learn.microsoft.com/en-us/training/modules/manage-data-retention-microsoft-365/)
 
 - - -
       
-### [Manage records in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-manage-records/)
+### 📝 [Manage records in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-manage-records/)
 
 
