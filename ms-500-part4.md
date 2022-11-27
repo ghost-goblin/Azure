@@ -9,16 +9,59 @@
 </div>
 
            
-## 📝 Manage governance and compliance features in Microsoft 365
+### 📝 [Manage compliance in Microsoft 365 and Exchange Online](https://learn.microsoft.com/en-gb/training/modules/m365-messaging-manage-compliance/)
+      
+      
+- - -
+      
+      
+      
+
+### [Manage Microsoft Purview eDiscovery (Premium)](https://learn.microsoft.com/en-gb/training/modules/manage-microsoft-purview-ediscovery-premium/)
+      
+      
+      
+- - -
 
       
-### Configure and analyze security reporting
-- Monitor and manage device security status using Microsoft Endpoint Manager admin center
-- Manage and monitor security reports and dashboards using Microsoft 365 Defender portal
-- Plan for custom security reporting with Graph Security API
-- Use secure score dashboards to review actions and recommendations
-### Manage and analyze audit logs and reports
-- Plan for auditing and reporting
-- Perform audit log search
-- Review and interpret compliance reports and dashboards
-- Configure alert policies
+      
+
+### [Manage regulatory and privacy requirements with Microsoft Priva](https://learn.microsoft.com/en-gb/training/modules/manage-regulatory-privacy-requirements-microsoft-priva/)
+      
+      
+      
+- - -
+
+      
+      
+
+### [Prepare Microsoft Purview Communication Compliance](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-prepare-communication-compliance/)
+      
+      
+      
+- - -
+
+
+
+### [Manage insider risk in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-manage-insider-risk/)
+      
+      
+      
+- - -
+
+
+### [Plan information barriers](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-plan-information-barriers/)
+      
+      
+      
+- - -
+
+### [Implement privileged access management](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-implement-privileged-access-management/)
+      
+      
+      
+- - -
+
+
+### [Manage Customer Lockbox](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-manage-customer-lockbox/)
+      
