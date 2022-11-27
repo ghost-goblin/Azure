@@ -37,4 +37,4 @@
 
 - - -
 
-###🌎 [Protect against malicious attacks and unauthorized access with Microsoft Edge](https://learn.microsoft.com/en-gb/training/modules/protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge/)
+### 🌎 [Protect against malicious attacks and unauthorized access with Microsoft Edge](https://learn.microsoft.com/en-gb/training/modules/protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge/)
