@@ -39,7 +39,13 @@
 
 ### 🌎 [Protect against malicious attacks and unauthorized access with Microsoft Edge](https://learn.microsoft.com/en-gb/training/modules/protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge/)
 
-
+#### Microsoft Defender SmartScreen
++ Anti-phishing and anti-malware support
++ Reputation-based URL and app protection
++ Operating system integration
++ Improved heuristics and diagnostic data
++ Management through Group Policy and Microsoft Intune
++ Blocking URLs associated with potentially unwanted applications (PUAs)
 
 
 - - -
