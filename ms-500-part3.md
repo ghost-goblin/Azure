@@ -8,26 +8,32 @@
       
 </div>
 
+### 🐉 [Create and manage sensitive information types](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/)
 
-## 🐉 Implement and manage information protection
+- - -
 
-### Manage sensitive information
-- Plan a sensitivity label solution
-- Create and manage sensitive information types
-- Configure sensitivity labels and policies
-- Configure and use Activity Explorer
-- Use sensitivity labels with Teams, SharePoint, OneDrive, and Office apps
-### Manage Data Loss Prevention (DLP)
-- Plan a DLP solution
-- Create and manage DLP policies for Microsoft 365 workloads
-- Create and manage sensitive information types
-- Monitor DLP reports
-- Manage DLP notifications
-- Implement Endpoint DLP
-### Manage data governance and retention
-- Plan for data governance and retention
-- Review and interpret data governance reports and dashboards
-- Configure retention labels and policies
-- Configure retention in Microsoft 365 workloads
-- Find and recover deleted Office 365 data
-- Configure and use Microsoft 365 Records Management
+
+### [Apply and manage sensitivity labels](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/)
+
+- - -
+     
+### [Prevent data loss in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-prevent-data-loss/)
+
+- - -
+      
+### [Manage data loss prevention policies and reports in Microsoft 365](https://learn.microsoft.com/en-us/training/modules/manage-data-loss-prevention-polices/)
+
+- - -
+      
+### [Manage the data lifecycle in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-govern-information/)
+
+
+- - -
+      
+### [Manage data retention in Microsoft 365 workloads](https://learn.microsoft.com/en-us/training/modules/manage-data-retention-microsoft-365/)
+
+- - -
+      
+### [Manage records in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-manage-records/)
+
+
