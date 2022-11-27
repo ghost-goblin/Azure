@@ -34,3 +34,7 @@
     + Local script (for up to 10 devices)
     + VDI onboarding script for non-persistent devices
     + System Center Configuration Manager 2012 / 2012 R2 / 1511 /1602
+
+- - -
+
+###🌎 [Protect against malicious attacks and unauthorized access with Microsoft Edge](https://learn.microsoft.com/en-gb/training/modules/protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge/)
