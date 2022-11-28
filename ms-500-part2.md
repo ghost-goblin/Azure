@@ -51,6 +51,19 @@
 - - -
 
 ### 🔐 [Understand Microsoft 365 encryption](https://learn.microsoft.com/en-gb/training/modules/audit-encryption/)
+1. Data-at-rest
+    + Files uploaded to a SharePoint library
+    + Teams chat messages
+2. Data-in-transit
+    + Email messages
+
+
+#### FIPS 140-2 compatible encryption algorithms and technologies
++ BitLocker
++ Service encryption
++ Transport Layer Security (TLS)
++ Internet Protocol Security (IPSec)
++ Advanced Encryption Standard (AES) algorithm
 
 - - -
 
