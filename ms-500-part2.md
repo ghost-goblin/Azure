@@ -87,6 +87,9 @@
 
 ### 🗡️ [Remediate risks with Microsoft Defender for Office 365](https://learn.microsoft.com/en-gb/training/modules/m365-threat-remediate/)
 
++ Automate, investigate, and remediate
+    - 
+
 - - -
       
 ### 📈 [Query, visualize, and monitor data in Microsoft Sentinel](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/)
