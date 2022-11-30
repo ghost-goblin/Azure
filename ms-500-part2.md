@@ -71,6 +71,11 @@
 - - -
 
 ### 🧑‍💼 [Understand app management using Microsoft Endpoint Manager](https://learn.microsoft.com/en-us/training/modules/app-management-using-microsoft-endpoint-manager/)
+#### Microsoft Endpoint Manager supports two MAM configurations
++ Intune MDM + MAM
++ MAM without device enrollment
+
+
 
 - - -
       
