@@ -13,6 +13,12 @@
 1. Exact Data Match (EDM)-based classification
 2. Document Fingerprinting
 3. Keyword dictionaries
+
+#### Create a custom sensitive information type
++ `Compliance Center` > `Data classification` > `Sensitive info types` > `Create sensitive info type`
+
+
+
 - - -
 
 
