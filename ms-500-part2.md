@@ -87,7 +87,6 @@
 
 ### 🗡️ [Remediate risks with Microsoft Defender for Office 365](https://learn.microsoft.com/en-gb/training/modules/m365-threat-remediate/)
 
-+ Automate, investigate, and remediate
 [![Microsoft Defender for O365](https://learn.microsoft.com/en-gb/training/wwl/m365-threat-remediate/media/defender-365-alerts.png)](https://learn.microsoft.com/)
 
 - - -
