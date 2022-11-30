@@ -89,6 +89,11 @@
 
 [![Microsoft Defender for O365](https://learn.microsoft.com/en-gb/training/wwl/m365-threat-remediate/media/defender-365-alerts.png)](https://learn.microsoft.com/)
 
+
+#### Safe Attachments
++ Create a Safe Attachments policy
+    - `Action for unknown malware` in Attachments
+
 - - -
       
 ### 📈 [Query, visualize, and monitor data in Microsoft Sentinel](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/)
