@@ -10,6 +10,9 @@
 
 ### 💾 [Create and manage sensitive information types](https://learn.microsoft.com/en-us/training/modules/create-manage-sensitive-information-types/)
 
+1. Exact Data Match (EDM)-based classification
+2. Document Fingerprinting
+3. Keyword dictionaries
 - - -
 
 
