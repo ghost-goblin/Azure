@@ -65,3 +65,12 @@
 
 ### [Manage Customer Lockbox](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-insider-manage-customer-lockbox/)
       
+
+
+- - -
+
+<div align="center">
+
+[<<<](ms-500-part3.md) | [>>>](ms-500-part1.md)
+      
+</div>
