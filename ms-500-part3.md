@@ -58,3 +58,12 @@
 ### 📝 [Manage records in Microsoft Purview](https://learn.microsoft.com/en-gb/training/modules/m365-compliance-information-manage-records/)
 
 
+
+- - -
+
+
+<div align="center">
+
+[<<<](ms-500-part2.md) | [>>>](ms-500-part4.md)
+      
+</div>
