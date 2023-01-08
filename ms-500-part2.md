@@ -97,4 +97,15 @@
 - - -
       
 ### 📈 [Query, visualize, and monitor data in Microsoft Sentinel](https://learn.microsoft.com/en-us/training/modules/query-data-sentinel/)
+   
+
+
+   
+- - -
+
+
+<div align="center">
+
+[<<<](ms-500-part1.md) | [>>>](ms-500-part3.md)
       
+</div>
