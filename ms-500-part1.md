@@ -242,3 +242,12 @@ Start-ADSyncSyncCycle -PolicyType Initial
     + On the **Security** blade, in the left navigation, select **Identity protection**
     + In the **Identity protection blade**, in the left navigation, select **User risk policy**
 
+
+
+- - -
+      
+<div align="center">
+
+[<<<](ms-500-part4.md) | [>>>](ms-500-part2.md)
+      
+</div>
