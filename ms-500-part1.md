@@ -213,8 +213,13 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 
 ## 😎 [Plan and implement entitlement management](https://learn.microsoft.com/en-us/training/modules/plan-implement-entitlement-management/)
++ Privileged identity management (PIM) is a service in Azure AD for managing access to privileged resources
+   + Time-based role activation
+   + Approval-based role activation
+1. Open `Azure AD Privileged Identity Management`
 
 
+> To use PIM, you need EMS E5 or Azure AD Premium P2      
 
 - - -
 
