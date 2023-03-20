@@ -4,6 +4,7 @@
 
 ### 🏠 [HOME](README.md)
 ### ✏️ Download the [MS-500 study guide](https://learn.microsoft.com/en-us/certifications/exams/ms-500) to help you prepare for the exam
+### Check out [the labs](https://microsoftlearning.github.io/MS-500-Microsoft-365-Security/)
 
 </div>
 
