@@ -79,7 +79,7 @@
 
 
 
-# **Synchronization**
+### **Synchronization**
 
 ```ps1
 Import-Module ADSync
@@ -91,26 +91,26 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
       
       
-# **Password hash synchronization**
+### **Password hash synchronization**
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 + When you install **Azure AD Connect** by using the `Express Settings` option, **Password Hash Synchronization** is automatically enabled
 
-# **Pass-through authentication**
+### **Pass-through authentication**
 [![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/change-user-sign-in-60b54bee.png)](https://learn.microsoft.com/)
 + Validates passwords directly against on-premises **Active Directory**
 + Sign in to both on-premises and cloud-based apps using the same password
 + A Pass-through authentication agent is installed on the same server as Azure AD Connect and the feature is enabled on your tenant
 
 
-# **Federation integration**
+### **Federation integration**
 [![Azure AD Connect to connect to an AD FS farm](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/sc300-federation-setup-dialog-f995542d.png)](https://learn.microsoft.com/)
 + Azure AD hands off the authentication process to a separate trusted authentication system such as **Active Directory Federation Services** (AD FS)
 + Specify the servers where you want to install AD FS
 + Specify the Web Application Proxy servers
     -  The **Web Application Proxy server** is deployed in your perimeter extranet network and supports external authentication requests
 
-# **Health monitoring**
-### `InvalidSoftMatch` error
+### **Health monitoring**
+#### `InvalidSoftMatch` error
 + 2 objects with different SourceAnchor `immutableId` have the same value for the `ProxyAddresses` and/or `UserPrincipalName` attributes
 + Generate a report by [Azure AD Connect Health](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-health-sync) for sync
 
