@@ -100,7 +100,6 @@ Start-ADSyncSyncCycle -PolicyType Initial
 + When you install **Azure AD Connect** by using the `Express Settings` option, **Password Hash Synchronization** is automatically enabled
 
 3. **Pass-through authentication**
-[![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/change-user-sign-in-60b54bee.png)](https://learn.microsoft.com/)
 + Validates passwords directly against on-premises **Active Directory**
 + Sign in to both on-premises and cloud-based apps using the same password
 + A Pass-through authentication agent is installed on the same server as Azure AD Connect and the feature is enabled on your tenant
