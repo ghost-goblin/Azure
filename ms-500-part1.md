@@ -203,6 +203,9 @@ Start-ADSyncSyncCycle -PolicyType Initial
 ### Named locations
 + `Azure Active Directory` > `Security` > `Conditional Access` > `Named locations`
 
+### [Troubleshooting sign-in problems with Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/troubleshoot-conditional-access)
++ `Azure Active Directory` > `Sign-ins`
+
 
 - - -
 
