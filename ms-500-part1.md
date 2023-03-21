@@ -256,7 +256,11 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 ### Implement and manage user risk policy
 [![Sign-in risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/identity-protection-security-overview.png)](https://learn.microsoft.com/)
-
++ [Configure and enable risk policies](https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies)
+1. Sign-in risk policy
+   + Require a secure password change when user risk level is **High**
+2. User risk policy
+   + Require Azure AD MFA when sign-in risk level is **Medium** or **High**
       
 ### Exercise enable sign-in risk policy
 [![User risk policy](https://learn.microsoft.com/en-us/training/wwl-sci/manage-azure-active-directory-identity-protection/media/browse-identity-protection.png)](https://learn.microsoft.com/)
