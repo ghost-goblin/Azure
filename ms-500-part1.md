@@ -195,6 +195,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
 1. Windows Hello
 2. FIDO2 security keys
 3. Microsoft Authenticator
+   + Open Authentication (OATH) tokens
 4. SMS
 5. Certificate-based authrentication
 6. Temporary Access Pass
