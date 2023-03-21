@@ -54,10 +54,16 @@
 2. **[Dynamic](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-membership)**
     - Members are added based on rules
 
-    
++ After you delete a user, the account remains in a suspended state for **30 days**
+   + The account and it's properties can be restored
+     
+   
 ### Configure and manage device registration
++ MDM like Intune
 
       
+### Create custom security attributes and assign to Azure AD objects
+
 - - -
 
 
