@@ -160,8 +160,10 @@ Start-ADSyncSyncCycle -PolicyType Initial
     + TCP port 5671 _(the latest version of the agent doesn't require port 5671, ppgrade to the latest version so that only port 443 is required)_
 + PowerShell version 4.0 or newer is installed
 + FIPS (Federal Information Processing Standard) is disabled
-
-
+ 
+#### [How to troubleshoot an AD Connect Instance](https://support.pingidentity.com/s/article/PingOne-How-to-troubleshoot-an-AD-Connect-Instance)
++ `Event Viewer` in Administrative Tools > `Windows Logs` > `Application`
++ `https://{insert host name or IP address of AD Connect Server}/ADConnect/config.aspx`
 
 - - -
 
