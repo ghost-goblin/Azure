@@ -51,7 +51,7 @@
 #### Group Membership Types:
 1. **Assigned** 
     - Members are added and maintained manually
-2. **Dynamic**
+2. **[Dynamic](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-membership)**
     - Members are added based on rules
 
     
