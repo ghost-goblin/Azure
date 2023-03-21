@@ -88,6 +88,7 @@ Start-ADSyncSyncCycle -PolicyType Delta
 # Run the following command to force a complete sync but note that the length of sync time would be greatly increased
 Start-ADSyncSyncCycle -PolicyType Initial
 ````
+
       
       
 # **Password hash synchronization**
@@ -121,7 +122,15 @@ Start-ADSyncSyncCycle -PolicyType Initial
 + The attribute `objectGuid` is used for a single forest on-premises
 + Used to express settings in **Azure AD Connect**
 
-
+### [Azure AD Connect: Enabling device writeback](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)
+1. Install Azure AD Connect
+2. Enable device writeback in Azure AD Connect
+3. Verify Devices are synchronized to Active Directory
+4. Enable Conditional Access
++ If you reset a password in Azure AD of a synced user, the password will be overwritten
++ If you join a computer to Azure AD, an object will be provisioned in the `RegisteredDevices` container
+      
+      
 #### Azure AD sign-in
 + Azure AD uses `userPrincipalName` (UPN) to authenticate the user
 
@@ -206,6 +215,10 @@ Start-ADSyncSyncCycle -PolicyType Initial
 ### [Troubleshooting sign-in problems with Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/troubleshoot-conditional-access)
 + `Azure Active Directory` > `Sign-ins`
 
+### [Conditional access for VPN connectivity using Azure AD](https://learn.microsoft.com/en-us/Windows-server/remote//remote-access/how-to-aovpn-conditional-access)
++ From the Azure Active Directory Admin center, create a new certificate
++ An EAP-TLS client cannot connect unless the NPS (Network Policy Server i.e. RADIUS) server completes a revocation check of the certificate chain
+   + Add the reg keys
 
 - - -
 
@@ -228,17 +241,17 @@ Start-ADSyncSyncCycle -PolicyType Initial
 
 ## 👀 [Manage Azure AD Identity Protection](https://learn.microsoft.com/en-us/training/modules/manage-azure-active-directory-identity-protection/)
 
-| Risk detection type                | Description                                                                                                  |
-|------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Anonymous IP address               | Sign in from an anonymous IP address (for example: Tor browser, anonymizer VPNs).                            |
-| Atypical travel                    | Sign in from an atypical location based on the user's recent sign ins.                                       |
-| Malware-linked IP address          | Sign in from a malware-linked IP address.                                                                    |
-| Unfamiliar sign in properties      | Sign in with properties we've not seen recently for the given user.                                          |
-| Leaked credentials                 | Indicates that the user's valid credentials have been leaked.                                                |
-| Password spray                     | Indicates that multiple usernames are being attacked using common passwords in a unified brute-force manner. |
-| Azure AD threat intelligence       | Microsoft's internal and external threat intelligence sources have identified a known attack pattern.        |
-| New country                        | This detection is discovered by Microsoft Defender for Cloud Apps (MDCA).                                    |
-| Activity from anonymous IP address | This detection is discovered by MDCA.                                                                        |
+| Risk detection type                | Description                                                                                                 |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Anonymous IP address               | Sign in from an anonymous IP address (for example: Tor browser, anonymizer VPNs)                            |
+| Atypical travel                    | Sign in from an atypical location based on the user's recent sign ins                                       |
+| Malware-linked IP address          | Sign in from a malware-linked IP address                                                                    |
+| Unfamiliar sign in properties      | Sign in with properties we've not seen recently for the given user                                          |
+| Leaked credentials                 | Indicates that the user's valid credentials have been leaked                                                |
+| Password spray                     | Indicates that multiple usernames are being attacked using common passwords in a unified brute-force manner |
+| Azure AD threat intelligence       | Microsoft's internal and external threat intelligence sources have identified a known attack pattern        |
+| New country                        | This detection is discovered by Microsoft Defender for Cloud Apps (MDCA)                                    |
+| Activity from anonymous IP address | This detection is discovered by MDCA                                                                        |
 
 
 ### Implement and manage user risk policy
