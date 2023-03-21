@@ -96,7 +96,7 @@ Start-ADSyncSyncCycle -PolicyType Initial
       
       
 2. **Password hash synchronization**
-[![Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
++ [!Enable password hash synchronization](https://learn.microsoft.com/en-us/training/wwl-sci/implement-manage-hybrid-identity/media/single-sign-on-fd559a4b.png)](https://learn.microsoft.com/)
 + When you install **Azure AD Connect** by using the `Express Settings` option, **Password Hash Synchronization** is automatically enabled
 
 3. **Pass-through authentication**
